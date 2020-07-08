@@ -1,10 +1,14 @@
 import React from 'react';
+import NavBar from '../components/NavBar';
 
 class Apply extends React.Component {
   render() {
     document.title = 'Apply to NIB';
     return (
-      <div>Apply Page</div>
+      <div>
+        <NavBar />
+        <p>Apply Page</p>
+      </div>
     );
   }
 }

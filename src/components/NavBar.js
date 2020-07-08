@@ -33,7 +33,7 @@ class NavBar extends React.Component {
             <li><NavLink to={'/'} className="tab" activeClassName="selected">HOME</NavLink></li>
             <li><NavLink to={'/about'} className="tab" activeClassName="selected">ABOUT</NavLink></li>
             <li><NavLink to={'/members'} className="tab" activeClassName="selected">MEMBERS</NavLink></li>
-            <li><NavLink to={'/project'} className="tab" activeClassName="selected">PROJECT</NavLink></li>
+            <li><NavLink to={'/projects'} className="tab" activeClassName="selected">PROJECTS</NavLink></li>
             <li><NavLink to={'/apply'} className="tab" activeClassName="selected">APPLY</NavLink></li>
           </div>
         </ul>
