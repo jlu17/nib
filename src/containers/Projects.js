@@ -5,10 +5,12 @@ class Projects extends React.Component {
   render() {
     document.title = 'Projects of NIB';
     return (
-      <div>
+      <section>
         <NavBar />
-        <p>Projects Page</p>
-      </div>
+        <section class="container">
+            <p>Projects Page</p>
+        </section>
+      </section>
     );
   }
 }

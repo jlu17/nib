@@ -5,10 +5,12 @@ class Members extends React.Component {
   render() {
     document.title = 'Members of NIB';
     return (
-      <div>
+      <section>
         <NavBar />
-        <p>Members Page</p>
-      </div>
+        <section class="container">
+            <p>Members Page</p>
+        </section>
+      </section>
     );
   }
 }
