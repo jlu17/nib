@@ -1,7 +1,9 @@
 .button {
+  font-weight: 600;
   background: #1579BC;
   border-radius: 5px;
-  padding: 10px 15px;
+  padding: 20px 25px;
+  color: white;
   text-decoration: none;
   display: inline-block;
 }
