@@ -7,6 +7,7 @@ import Apply from './containers/Apply';
 import Projects from './containers/Projects';
 import Members from './containers/Members';
 import NotFound from './containers/NotFound';
+import Footer from './components/Footer';
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
@@ -22,6 +23,7 @@ function App() {
           <Route path="/members" component={Members} />
           <Route component={NotFound} />
         </Switch>
+        <Footer />
       </div>
     </Router>
   );

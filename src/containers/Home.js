@@ -5,7 +5,6 @@ import '../App.css';
 import Button from '../components/Button';
 import NavBar from '../components/NavBar';
 
-
 class Home extends React.Component {
   render() {
     document.title = 'NIB | Home';
