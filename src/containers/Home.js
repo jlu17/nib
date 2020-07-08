@@ -13,11 +13,17 @@ class Home extends React.Component {
         <NavBar />
     
         <section class="hero container"> 
-            <h1>Strategy consulting meets social good</h1>
-            <Button
-                link="/apply"
-                buttonText="Apply now"
-            />
+            <span id="left">
+                <h1>Strategy consulting meets social good</h1>
+                <Button
+                    link="/apply"
+                    buttonText="Apply now"
+                />
+            </span>
+            <span id="right">
+                <p>images and stuff</p>
+            </span>
+            
         </section>
       </div>
     );
