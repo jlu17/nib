@@ -5,10 +5,12 @@ class Apply extends React.Component {
   render() {
     document.title = 'Apply to NIB';
     return (
-      <div>
+      <section>
         <NavBar />
-        <p>Apply Page</p>
-      </div>
+        <section class="container">
+            <p>Apply Page</p>
+        </section>
+      </section>
     );
   }
 }

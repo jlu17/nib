@@ -4,11 +4,15 @@ import NavBar from '../components/NavBar';
 class About extends React.Component {
   render() {
     document.title = 'About NIB';
+    
+    
     return (
-      <div>
+      <section>
         <NavBar />
-        <p>About Page</p>
-      </div>
+        <section class="container">
+            <p>About Page</p>
+        </section>
+      </section>
     );
   }
 }
