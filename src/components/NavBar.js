@@ -3,6 +3,7 @@ import { NavLink, Link } from 'react-router-dom';
 import HamburgerMenu from 'react-hamburger-menu';
 
 import css from '../css/NavBar.css';
+import logo from '../img/nib-full-logo.png';
 
 class NavBar extends React.Component {
 
@@ -25,15 +26,11 @@ class NavBar extends React.Component {
         <ul>
           <li>
             <Link to="/" className="logo">
-              <img
-                src='../img/nib-full-logo.png'
-                alt="NIB logo"
-                height="20"
-                />
+              <img src={logo} alt="NIB logo" height="20" />
             </Link>
           </li>
           <div className="right">
-            <li><NavLink to={'/'} className="tab" activeClassName="selected">Home</NavLink></li>
+            <li><NavLink to={'/'} className="tab" activeClassName="selected">HOME</NavLink></li>
             <li><NavLink to={'/about'} className="tab" activeClassName="selected">ABOUT</NavLink></li>
             <li><NavLink to={'/members'} className="tab" activeClassName="selected">MEMBERS</NavLink></li>
             <li><NavLink to={'/project'} className="tab" activeClassName="selected">PROJECT</NavLink></li>
