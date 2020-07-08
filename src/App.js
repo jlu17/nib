@@ -1,4 +1,5 @@
 import React from 'react';
+import './App.css';
 
 import About from './containers/About';
 import Home from './containers/Home';

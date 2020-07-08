@@ -1,28 +1,24 @@
 import React from 'react';
 import logo from '../img/logo.svg';
+import nibLogo from '../img/nib-full-logo.png';
 import '../App.css';
+import Button from '../components/Button';
+import NavBar from '../components/NavBar';
+
 
 class Home extends React.Component {
   render() {
     document.title = 'NIB | Home';
     return (
-      <div className="App">
+      <div>
+        <NavBar />
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          <img src={nibLogo} className="App-logo" alt="logo" />
           <p>
-            Edit <code>src/App.js</code> and save to reload.
+            nib <code>Pranav</code> chowder
           </p>
-          <p>
-            Also Ivan is a booty
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+          <Button text="Chowder sucks" />
+          <Button text="hehe jk" />
         </header>
       </div>
     );
