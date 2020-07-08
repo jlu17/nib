@@ -7,9 +7,9 @@ class Members extends React.Component {
   render() {
     document.title = 'Members of NIB';
     return (
-      <div>
+      <section>
         <NavBar />
-        <section>
+        <section class="container">
           <h1>Meet Us</h1>
         </section>
         <section>
@@ -75,7 +75,7 @@ class Members extends React.Component {
            <a href = 'https://www.cam.ac.uk//' target = "_blank"> <img src={require('../img/careers/cambridge.png')} /></a>
            </div>
         </section>
-      </div>
+      </section>
     );
   }
 }
