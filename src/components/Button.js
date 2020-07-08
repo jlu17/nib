@@ -3,11 +3,9 @@ import ButtonStyle from '../css/button.css';
 
 function Button(props) {
   return (
-    <div class="button">
-      <a href={props.link} >
-        <p>{props.buttonText}</p>
+      <a href={props.link} class="button">
+        {props.buttonText}
       </a>
-    </div>
   );
 
 }
