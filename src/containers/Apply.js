@@ -10,19 +10,19 @@ class Apply extends React.Component {
     return (
       <section class="applyPage">
         <NavBar />
-        <section class="container">
-          <span id="left">
+        <section class="hero container">
+          <div class="left">
+            <h3>APPLY</h3>
             <h1>Apply to Net Impact</h1>
-            <h3>Put your email down to be notified when we open up applications</h3>
+            <p>Put your email down to be notified when we open up applications</p>
             <Button
               link="/Apply"
               buttonText="Apply Here"
               />
-          </span>
-          <span id="right">
+          </div>
+          <div class="right">
             <img src= {nibGroup} />
-            <p>images and stuff</p>
-          </span>
+          </div>
         </section>
       </section>
 
