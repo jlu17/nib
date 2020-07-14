@@ -2,6 +2,7 @@ import React from 'react';
 import NavBar from '../components/NavBar';
 import Button from '../components/Button';
 import nibGroup from '../img/nib-group.png';
+import '../css/Apply.scss';
 
 class Apply extends React.Component {
   render() {
