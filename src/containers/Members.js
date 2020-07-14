@@ -1,6 +1,6 @@
 import React from 'react';
 import NavBar from '../components/NavBar';
-import fang from '../img/fang.png';
+import fang from '../img/members/fang.png';
 import imageLeft from '../img/images-left.png';
 import imageRight from '../img/images-right.png';
 import '../css/Members.scss';
