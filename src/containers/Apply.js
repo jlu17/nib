@@ -2,14 +2,12 @@ import React from 'react';
 import NavBar from '../components/NavBar';
 import Button from '../components/Button';
 import nibGroup from '../img/nib-group.png';
-import '../css/Home.css'
-
 
 class Apply extends React.Component {
   render() {
     document.title = 'Apply to NIB';
     return (
-      <section>
+      <section class="applyPage">
         <NavBar />
         <section class="container">
           <span id="left">

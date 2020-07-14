@@ -1,7 +1,7 @@
 import React from 'react';
 import NavBar from '../components/NavBar';
 import fang from '../img/fang.png';
-import '../css/Members.css';
+import '../css/Members.scss';
 import imageLeft from '../img/images-left.png';
 import imageRight from '../img/images-right.png';
 
@@ -9,7 +9,7 @@ class Members extends React.Component {
   render() {
     document.title = 'Members of NIB';
     return (
-      <section>
+      <section class="membersPage">
         <NavBar />
         <section class="blueBackground">
           <section class="container membersHero">

@@ -35,3 +35,11 @@ p {
 section {
   margin: 0 auto;
 }
+
+.hero {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 3fr 2.3fr;
+  grid-column-gap: 40px;
+  padding: 0 0 100px 0;
+}

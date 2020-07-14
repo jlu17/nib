@@ -5,10 +5,10 @@ class NotFound extends React.Component {
   render() {
     document.title = 'NIB | 404';
     return (
-      <div>
+      <section class="notFoundPage">
         <NavBar />
         <p>404 Page</p>
-      </div>
+      </section>
     );
   }
 }

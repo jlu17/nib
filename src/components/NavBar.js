@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import HamburgerMenu from 'react-hamburger-menu';
 
-import css from '../css/NavBar.css';
+import css from '../css/NavBar.scss';
 import logo from '../img/nib-full-logo.png';
 
 class NavBar extends React.Component {

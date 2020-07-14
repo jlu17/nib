@@ -3,22 +3,21 @@ import logo from '../img/logo.svg';
 import nibLogo from '../img/nib-full-logo.png';
 import Button from '../components/Button';
 import NavBar from '../components/NavBar';
-import '../css/Home.css'
+import '../css/Home.scss'
 
 class Home extends React.Component {
   render() {
     document.title = 'NIB | Home';
     return (
-      <div>
+      <section class="homePage">
         <NavBar />
         <section class="hero container">
             <span id="left">
-                <h1>Strategy consulting meets social good also mahesh has a good bum</h1>
+                <h1>Strategy consulting meets social good</h1>
                 <Button
                     link="/apply"
                     buttonText="Apply now"
                 />
-                <h1>Blah</h1>
             </span>
             <span id="right">
                 <p>images and stuff</p>
@@ -71,9 +70,7 @@ class Home extends React.Component {
                 />
             </div>
         </section>
-
-
-      </div>
+      </section>
     );
   }
 }

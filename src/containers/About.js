@@ -7,7 +7,7 @@ class About extends React.Component {
     
     
     return (
-      <section>
+      <section class="aboutPage">
         <NavBar />
         <section class="container">
             <p>About Page</p>

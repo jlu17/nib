@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/Footer.css';
+import '../css/Footer.scss';
 import logo from '../img/nib-full-logo.png'
 
 const FooterLink = ({ link, name }) => {
