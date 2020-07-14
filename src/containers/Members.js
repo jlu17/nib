@@ -11,63 +11,63 @@ const AlumniCompany = ({name, href, fileName}) => {
 }
 
 class Members extends React.Component {
-
-  render() {
-    document.title = 'Members of NIB';
-    return (
-      <section className="membersPage">
-        <NavBar />
-        <section className="blueBackground">
-          <section className="container membersHero">
-            <img src={imageLeft} />
-            <h1>Meet Us</h1>
-            <img src={imageRight} />
-          </section>
+    render() {
+        document.title = 'Members of NIB';
+        
+        return (
+        <section className="membersPage">
+            <NavBar />
+            <section className="blueBackground">
+            <section className="container membersHero">
+                <img src={imageLeft} />
+                <h1>Meet Us</h1>
+                <img src={imageRight} />
+            </section>
+            </section>
+            <section>
+            <section className="container">
+                <h2>Inspired by our mission.</h2>
+                <p>We are great members. We are great members. We are great members.
+                We are great members. We are great members. We are great members. We are great members.</p>
+                <h2>Executive Board</h2>
+                <img src={fang} className="memberImage" />
+                <img src={fang} className="memberImage" />
+                <img src={fang} className="memberImage" />
+                <img src={fang} className="memberImage" />
+                <img src={fang} className="memberImage" />
+                <h2>Members</h2>
+                <img src={fang} className="memberImage" />
+                <img src={fang} className="memberImage" />
+                <img src={fang} className="memberImage" />
+                <img src={fang} className="memberImage" />
+                <img src={fang} className="memberImage" />
+                <img src={fang} className="memberImage" />
+                <img src={fang} className="memberImage" />
+                <img src={fang} className="memberImage" />
+                <img src={fang} className="memberImage" />
+                <img src={fang} className="memberImage" />
+            </section>
+            </section>
+            <section>
+            <section className="container">
+                <h2>Alumni</h2>
+                <p>After our Net Impact Berkeley careers, we create our impact across a
+                diverse spectrum of careers, from graduate school to consulting to software
+                engineering, and everything in-between.</p>
+            </section>
+            </section>
+            <section>
+            <section className="container">
+                <h2>Where do our alumni go?</h2>
+                <div id = "company-logos">
+                    {AlumniCompanies.map((company, i) => 
+                        <AlumniCompany key={i} name={company.name} href={company.href} fileName={company.fileName} />)}
+            </div>
+            </section>
+            </section>
         </section>
-        <section>
-          <section className="container">
-            <h2>Inspired by our mission.</h2>
-            <p>We are great members. We are great members. We are great members.
-            We are great members. We are great members. We are great members. We are great members.</p>
-            <h2>Executive Board</h2>
-            <img src={fang} className="memberImage" />
-            <img src={fang} className="memberImage" />
-            <img src={fang} className="memberImage" />
-            <img src={fang} className="memberImage" />
-            <img src={fang} className="memberImage" />
-            <h2>Members</h2>
-            <img src={fang} className="memberImage" />
-            <img src={fang} className="memberImage" />
-            <img src={fang} className="memberImage" />
-            <img src={fang} className="memberImage" />
-            <img src={fang} className="memberImage" />
-            <img src={fang} className="memberImage" />
-            <img src={fang} className="memberImage" />
-            <img src={fang} className="memberImage" />
-            <img src={fang} className="memberImage" />
-            <img src={fang} className="memberImage" />
-          </section>
-        </section>
-        <section>
-          <section className="container">
-            <h2>Alumni</h2>
-            <p>After our Net Impact Berkeley careers, we create our impact across a
-            diverse spectrum of careers, from graduate school to consulting to software
-            engineering, and everything in-between.</p>
-          </section>
-        </section>
-        <section>
-          <section className="container">
-            <h2>Where do our alumni go?</h2>
-            <div id = "company-logos">
-                {AlumniCompanies.map((company, i) => 
-                    <AlumniCompany key={i} name={company.name} href={company.href} fileName={company.fileName} />)}
-           </div>
-          </section>
-        </section>
-      </section>
-    );
-  }
+        );
+    }
 }
 
 export default Members;
