@@ -23,7 +23,7 @@ class NavBar extends React.Component {
   render() {
     return (
       <div className="nav">
-        <div class="container">
+        <div className="container">
           <ul>
             <li>
               <Link to="/" className="logo">
