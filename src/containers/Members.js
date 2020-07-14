@@ -6,8 +6,11 @@ import imageRight from '../img/images-right.png';
 import '../css/Members.scss';
 
 class Members extends React.Component {
+
+
   render() {
     document.title = 'Members of NIB';
+    
     return (
       <section class="membersPage">
         <NavBar />
