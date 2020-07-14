@@ -4,7 +4,9 @@ import fang from '../img/members/fang.png';
 import imageLeft from '../img/images-left.png';
 import imageRight from '../img/images-right.png';
 import AlumniCompanies from '../data/AlumniCompanies';
+import Member from './../components/Member.js';
 import '../css/Members.scss';
+import memberInfo from '../data/memberInfo'
 
 const AlumniCompany = ({name, href, fileName}) => {
     return <a href={href} target="_blank"><img src={require(`../img/careers/${fileName}`)} alt={name} /></a>;
@@ -13,7 +15,28 @@ const AlumniCompany = ({name, href, fileName}) => {
 class Members extends React.Component {
     render() {
         document.title = 'Members of NIB';
-        
+
+        let execList = memberInfo.execList.map((person) => {
+            return <Member 
+                      name={person.name}
+                      title={person.title}
+                      year={person.year}
+                      linkedin={person.linkedin}
+                      image={person.image}
+                  />
+          }
+        )
+
+        let memberList = memberInfo.memberList.map((person) => {
+            return <Member 
+                        name={person.name}
+                        title={person.title}
+                        year={person.year}
+                        linkedin={person.linkedin}
+                        image={person.image}
+                    />
+        })
+                
         return (
         <section className="membersPage">
             <NavBar />
@@ -30,22 +53,9 @@ class Members extends React.Component {
                 <p>We are great members. We are great members. We are great members.
                 We are great members. We are great members. We are great members. We are great members.</p>
                 <h2>Executive Board</h2>
-                <img src={fang} className="memberImage" />
-                <img src={fang} className="memberImage" />
-                <img src={fang} className="memberImage" />
-                <img src={fang} className="memberImage" />
-                <img src={fang} className="memberImage" />
+                  {execList}
                 <h2>Members</h2>
-                <img src={fang} className="memberImage" />
-                <img src={fang} className="memberImage" />
-                <img src={fang} className="memberImage" />
-                <img src={fang} className="memberImage" />
-                <img src={fang} className="memberImage" />
-                <img src={fang} className="memberImage" />
-                <img src={fang} className="memberImage" />
-                <img src={fang} className="memberImage" />
-                <img src={fang} className="memberImage" />
-                <img src={fang} className="memberImage" />
+                  {memberList}
             </section>
             </section>
             <section>
