@@ -16,6 +16,7 @@ class Footer extends React.Component {
         <footer>
             <div className="footerLeft">
                 <img alt="NIB logo" src={logo} className="footerImage" />
+                <p className="copyrightText">Copyright Net Impact Berkeley, 2020.</p>
             </div>
             <div className="footerRight">
                 <div className="footerSection">
@@ -28,11 +29,17 @@ class Footer extends React.Component {
                 <div className="footerSection">
                     <FooterTitle text="Students" />
                     <FooterLink link="/apply" name="Apply" />
-                    <FooterLink link="/apply" name="FAQs" />
+                    <FooterLink link="/faq" name="FAQs" />
                 </div>
                 <div className="footerSection">
                     <FooterTitle text="Companies" />
                     <FooterLink link="/home" name="Our Value" />
+                </div>
+                <div className="socialSection">
+                    <img src={require("../img/social/facebook.png")} className="socialIcon" />
+                    <img src={require("../img/social/medium.png")} className="socialIcon" />
+                    <img src={require("../img/social/linkedin.png")} className="socialIcon" />
+                    <img src={require("../img/social/instagram.png")} className="socialIcon" />
                 </div>
             </div>
         </footer>

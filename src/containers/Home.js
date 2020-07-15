@@ -3,6 +3,7 @@ import logo from '../img/logo.svg';
 import nibLogo from '../img/nib-full-logo.png';
 import Button from '../components/Button';
 import NavBar from '../components/NavBar';
+import CallToAction from '../components/CallToAction';
 import '../css/Home.scss'
 
 class Home extends React.Component {
@@ -70,6 +71,8 @@ class Home extends React.Component {
                 />
             </div>
         </section>
+
+        <CallToAction />
       </section>
     );
   }
