@@ -4,10 +4,15 @@ import nibLogo from '../img/nib-full-logo.png';
 import Button from '../components/Button';
 import NavBar from '../components/NavBar';
 import '../css/Home.scss'
+import spectrumInfo from '../data/spectrum'
+
 
 class Home extends React.Component {
   render() {
     document.title = 'NIB | Home';
+
+    let spectrum = spectrumInfo[0]
+
     return (
       <section class="homePage">
         <NavBar />
@@ -36,6 +41,93 @@ class Home extends React.Component {
         </section>
 
         <section class="spectrums">
+            <div class="spectrumBoxes">
+                <div class="row">
+                    <div class="projectType">
+                        <img src={spectrum.icon} />
+                        <p>{spectrum.name}</p>
+                    </div>
+                    <div class="projectType">
+                        <img src={spectrum.icon} />
+                        <p>{spectrum.name}</p>
+                    </div>
+                    <div class="projectType">
+                        <img src={spectrum.icon} />
+                        <p>{spectrum.name}</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="projectType">
+                        <img src={spectrum.icon} />
+                        <p>{spectrum.name}</p>
+                    </div>
+                    <div class="projectType">
+                        <img src={spectrum.icon} />
+                        <p>{spectrum.name}</p>
+                    </div>
+                    <div class="projectType">
+                        <img src={spectrum.icon} />
+                        <p>{spectrum.name}</p>
+                    </div>
+                    <div class="projectType">
+                        <img src={spectrum.icon} />
+                        <p>{spectrum.name}</p>
+                    </div>
+                    <div class="projectType">
+                        <img src={spectrum.icon} />
+                        <p>{spectrum.name}</p>
+                    </div>
+                    <div class="projectType">
+                        <img src={spectrum.icon} />
+                        <p>{spectrum.name}</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="projectType">
+                        <img src={spectrum.icon} />
+                        <p>{spectrum.name}</p>
+                    </div>
+                    <div class="projectType">
+                        <img src={spectrum.icon} />
+                        <p>{spectrum.name}</p>
+                    </div>
+                    <div class="projectType">
+                        <img src={spectrum.icon} />
+                        <p>{spectrum.name}</p>
+                    </div>
+                    <div class="projectType">
+                        <img src={spectrum.icon} />
+                        <p>{spectrum.name}</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="projectType">
+                        <img src={spectrum.icon} />
+                        <p>{spectrum.name}</p>
+                    </div>
+                    <div class="projectType">
+                        <img src={spectrum.icon} />
+                        <p>{spectrum.name}</p>
+                    </div>
+                    <div class="projectType">
+                        <img src={spectrum.icon} />
+                        <p>{spectrum.name}</p>
+                    </div>
+                    <div class="projectType">
+                        <img src={spectrum.icon} />
+                        <p>{spectrum.name}</p>
+                    </div>
+                    <div class="projectType">
+                        <img src={spectrum.icon} />
+                        <p>{spectrum.name}</p>
+                    </div>
+                    <div class="projectType">
+                        <img src={spectrum.icon} />
+                        <p>{spectrum.name}</p>
+                    </div>
+                </div>
+                <div class="row"></div>
+            </div>
             <div class="container">
                 <h2>Impact across all spectrums</h2>
                 <p>There’s no limit to the types of projects that our members seek out. We strive to continue searching for new ways to make an impact.</p>
