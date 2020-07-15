@@ -3,8 +3,15 @@ import logo from '../img/logo.svg';
 import nibLogo from '../img/nib-full-logo.png';
 import Button from '../components/Button';
 import NavBar from '../components/NavBar';
+import CallToAction from '../components/CallToAction';
 import '../css/Home.scss'
 import spectrumInfo from '../data/spectrum'
+import godaddy from '../img/home/GoDaddy.png';
+import imperfect from '../img/home/ImperfectFoods.png';
+import kuli from '../img/home/KuliKuli.png';
+import larkin from '../img/home/LarkinStreet.png';
+import marin from '../img/home/MarinFoodBank.png';
+import sierra from '../img/home/SierraNevada.png';
 
 
 class Home extends React.Component {
@@ -37,118 +44,130 @@ class Home extends React.Component {
             <div class="container">
                 <h2>Inspired to make a difference</h2>
                 <p>We are a student-run consulting group on campus. We consult for social enterprises, non-profits, and sustainable businesses.</p>
+                <Button
+                    link="/projects"
+                    buttonText="Learn about us"
+                />
             </div>
         </section>
 
+        {/* WORK IN PROGRESS*/}
+
         <section class="spectrums">
-            <div class="spectrumBoxes">
-                <div class="row">
-                    <div class="projectType">
-                        <img src={spectrum.icon} />
-                        <p>{spectrum.name}</p>
-                    </div>
-                    <div class="projectType">
-                        <img src={spectrum.icon} />
-                        <p>{spectrum.name}</p>
-                    </div>
-                    <div class="projectType">
-                        <img src={spectrum.icon} />
-                        <p>{spectrum.name}</p>
-                    </div>
+            <div class="row">
+                <div class="projectType">
+                    <img src={spectrum.icon} />
+                    <p>{spectrum.name}</p>
                 </div>
-                <div class="row">
-                    <div class="projectType">
-                        <img src={spectrum.icon} />
-                        <p>{spectrum.name}</p>
-                    </div>
-                    <div class="projectType">
-                        <img src={spectrum.icon} />
-                        <p>{spectrum.name}</p>
-                    </div>
-                    <div class="projectType">
-                        <img src={spectrum.icon} />
-                        <p>{spectrum.name}</p>
-                    </div>
-                    <div class="projectType">
-                        <img src={spectrum.icon} />
-                        <p>{spectrum.name}</p>
-                    </div>
-                    <div class="projectType">
-                        <img src={spectrum.icon} />
-                        <p>{spectrum.name}</p>
-                    </div>
-                    <div class="projectType">
-                        <img src={spectrum.icon} />
-                        <p>{spectrum.name}</p>
-                    </div>
+                <div class="projectType">
+                    <img src={spectrum.icon} />
+                    <p>{spectrum.name}</p>
                 </div>
-                <div class="row">
-                    <div class="projectType">
-                        <img src={spectrum.icon} />
-                        <p>{spectrum.name}</p>
-                    </div>
-                    <div class="projectType">
-                        <img src={spectrum.icon} />
-                        <p>{spectrum.name}</p>
-                    </div>
-                    <div class="projectType">
-                        <img src={spectrum.icon} />
-                        <p>{spectrum.name}</p>
-                    </div>
-                    <div class="projectType">
-                        <img src={spectrum.icon} />
-                        <p>{spectrum.name}</p>
-                    </div>
+                <div class="projectType">
+                    <img src={spectrum.icon} />
+                    <p>{spectrum.name}</p>
                 </div>
-                <div class="row">
-                    <div class="projectType">
-                        <img src={spectrum.icon} />
-                        <p>{spectrum.name}</p>
-                    </div>
-                    <div class="projectType">
-                        <img src={spectrum.icon} />
-                        <p>{spectrum.name}</p>
-                    </div>
-                    <div class="projectType">
-                        <img src={spectrum.icon} />
-                        <p>{spectrum.name}</p>
-                    </div>
-                    <div class="projectType">
-                        <img src={spectrum.icon} />
-                        <p>{spectrum.name}</p>
-                    </div>
-                    <div class="projectType">
-                        <img src={spectrum.icon} />
-                        <p>{spectrum.name}</p>
-                    </div>
-                    <div class="projectType">
-                        <img src={spectrum.icon} />
-                        <p>{spectrum.name}</p>
-                    </div>
-                </div>
-                <div class="row"></div>
             </div>
+            <div class="row">
+                <div class="projectType">
+                    <img src={spectrum.icon} />
+                    <p>{spectrum.name}</p>
+                </div>
+                <div class="projectType">
+                    <img src={spectrum.icon} />
+                    <p>{spectrum.name}</p>
+                </div>
+                <div class="projectType">
+                    <img src={spectrum.icon} />
+                    <p>{spectrum.name}</p>
+                </div>
+                <div class="projectType">
+                    <img src={spectrum.icon} />
+                    <p>{spectrum.name}</p>
+                </div>
+                <div class="projectType">
+                    <img src={spectrum.icon} />
+                    <p>{spectrum.name}</p>
+                </div>
+                <div class="projectType">
+                    <img src={spectrum.icon} />
+                    <p>{spectrum.name}</p>
+                </div>
+            </div>
+
             <div class="container">
-                <h2>Impact across all spectrums</h2>
+                <h1>Impact across all spectrums</h1>
                 <p>There’s no limit to the types of projects that our members seek out. We strive to continue searching for new ways to make an impact.</p>
                 <Button
                     link="/projects"
                     buttonText="Learn about our projects"
                 />
             </div>
+
+            <div class="row">
+                <div class="projectType">
+                    <img src={spectrum.icon} />
+                    <p>{spectrum.name}</p>
+                </div>
+                <div class="projectType">
+                    <img src={spectrum.icon} />
+                    <p>{spectrum.name}</p>
+                </div>
+                <div class="projectType">
+                    <img src={spectrum.icon} />
+                    <p>{spectrum.name}</p>
+                </div>
+                <div class="projectType">
+                    <img src={spectrum.icon} />
+                    <p>{spectrum.name}</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="projectType">
+                    <img src={spectrum.icon} />
+                    <p>{spectrum.name}</p>
+                </div>
+                <div class="projectType">
+                    <img src={spectrum.icon} />
+                    <p>{spectrum.name}</p>
+                </div>
+                <div class="projectType">
+                    <img src={spectrum.icon} />
+                    <p>{spectrum.name}</p>
+                </div>
+                <div class="projectType">
+                    <img src={spectrum.icon} />
+                    <p>{spectrum.name}</p>
+                </div>
+                <div class="projectType">
+                    <img src={spectrum.icon} />
+                    <p>{spectrum.name}</p>
+                </div>
+                <div class="projectType">
+                    <img src={spectrum.icon} />
+                    <p>{spectrum.name}</p>
+                </div>
+            </div>
+            
         </section>
 
         <svg width="1440" height="195" className="wave" viewBox="0 0 1440 195" fill="#F0FCFE" xmlns="http://www.w3.org/2000/svg">
         <path d="M-24 101.603L57.6667 81.0547C139.333 60.1201 302.667 0.789418 466 0.5C629.333 0.789418 792.667 90.9914 956 101.603C1119.33 112.215 1282.67 60.1201 1364.33 50.1834L1446 39.8609V194.217H1364.33C1282.67 194.217 1119.33 194.217 956 194.217C792.667 194.217 629.333 194.217 466 194.217C302.667 194.217 139.333 194.217 57.6667 194.217H-24V101.603Z" fill="#F0FCFE"/>
         </svg>
 
-        <section class="partners">
+        <section class="partners ">
             <div class="container">
-                <h2>150+ international partners</h2>
-                <Button
-                    link="/projects"
-                    buttonText="Learn about our projects"
-                />
+                <h1>150+ international partners</h1>
+
+                <img src= {larkin} height= "80px"/>
+                <img src= {marin} height= "140px"/>
+                <img src= {godaddy} height= "90px"/>
+                <img src= {imperfect} height= "90px"/>
+                <img src= {kuli} height= "110px"/>
+                <img src= {sierra} height= "90px"/>
+
+
+
             </div>
         </section>
 
@@ -158,10 +177,12 @@ class Home extends React.Component {
                 <p>We are cool people. We like to hang out. But most of all, we like to make Slack reacts. We are cool people. We like to hang out. But most of all, we like to make Slack reacts. We are cool people. We like to hang out. </p>
                 <Button
                     link="/projects"
-                    buttonText="Learn about our projects"
+                    buttonText="Learn about our members"
                 />
             </div>
         </section>
+
+        <CallToAction />
       </section>
     );
   }

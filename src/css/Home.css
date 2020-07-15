@@ -1,0 +1,73 @@
+.hero {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 3fr 2.3fr;
+    grid-column-gap: 40px;
+    padding: 0 0 100px 0;
+}
+
+.hero h1 {
+    font-size: 64px;
+    line-height: 113.18%;
+    margin: 80px 0;
+}
+
+h2 {
+    font-size: 50px;
+    font-family: 'Source Serif Pro', serif;
+}
+
+p {
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wave {
+position: relative;
+top: 10px;
+z-index: -1
+}
+
+.inspired {
+background-color: #F0FCFE;
+}
+
+.inspired .container {
+    padding: 100px 0 100px 0;
+}
+.inspired h1, p {
+    margin: 0;
+}
+
+.spectrums {
+text-align: center;
+}
+
+.spectrums .container {
+    padding: 100px 0 100px 0;
+    background-color: white;
+}
+
+.partners {
+text-align:center;
+background-color: #F0FCFE;
+}
+
+.partners .container {
+    margin-top: 0;
+    padding: 100px 0 100px 0;
+}
+
+
+.partners .container h2 {
+    margin-top: 0;
+}
+
+.who {
+
+}
+
+.who .container {
+    padding: 100px 0 100px 0;
+    text-align: right;
+}
