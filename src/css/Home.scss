@@ -38,12 +38,12 @@
         padding: 60px 0;
     
         // to make box shadows visible
-        .spectrumBoxes, .row {
+        .row {
             padding: 10px 0;
         }
-    
-        .spectrums .container {
-            padding: 100px 0 100px 0;
+
+        .container p {
+            padding: 0 100px 25px 100px;
         }
 
         .projectType {

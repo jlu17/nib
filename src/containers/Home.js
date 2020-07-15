@@ -51,7 +51,7 @@ class Home extends React.Component {
             </div>
         </section>
 
-        {/* WORK IN PROGRESS*/}
+        {/* WORK IN PROGRESS, to be automated + some positioning work to do - adhiv */}
 
         <section class="spectrums">
             <div class="row">
