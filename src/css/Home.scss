@@ -1,5 +1,5 @@
 .homePage {
-    
+
     h1 {
         font-size: 64px;
         font-family: 'Source Serif Pro', serif;
@@ -15,13 +15,13 @@
 
         color: #212121;
     }
-    
+
     .hero h1 {
         font-size: 64px;
         line-height: 113.18%;
         margin: 80px 0;
     }
-    
+
     .inspired {
         background-color: #F0FCFE;
     }
@@ -36,7 +36,7 @@
     .spectrums {
         text-align: center;
         padding: 60px 0;
-    
+
         // to make box shadows visible
         .row {
             padding: 10px 0;
@@ -53,7 +53,7 @@
             border-radius: 8px;
             box-sizing: border-box;
             box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
-            overflow: visible; 
+            overflow: visible;
             margin: 0 15px;
 
             img {
@@ -72,7 +72,7 @@
         }
 
     }
-    
+
     .partners {
         text-align:center;
         background-color: #F0FCFE;
