@@ -15,12 +15,48 @@
 
         color: #212121;
     }
-    
-    .hero h1 {
-        font-size: 64px;
-        line-height: 113.18%;
-        margin: 80px 0;
+
+    .hero {
+
+        h1 {
+            font-size: 64px;
+            line-height: 113.18%;
+            margin: 80px 0;
+        }
+
+        .right {
+            position: relative;
+        }
+
+        .bigBlob {
+            position: absolute;
+            z-index: -1000;
+            right: -560px;
+        }
+
+        .miniBlob {
+            position: absolute;
+            z-index: -1000;
+            right: 450px;
+            top: 400px;
+        }
+
+        .emgajen {
+            position: absolute;
+            width: 270px;
+            top: 100px;
+            left: 770px;
+        }
+
+        .seniors {
+            position: absolute;
+            width: 270px;
+            top: 350px;
+            left: 900px;
+        }
+
     }
+    
     
     .inspired {
         background-color: #F0FCFE;
