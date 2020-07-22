@@ -18,23 +18,23 @@ class Members extends React.Component {
 
         let execList = memberInfo.execList.map((person) => {
             return <Member 
-                      name={person.name}
-                      title={person.title}
-                      year={person.year}
-                      linkedin={person.linkedin}
-                      image={person.image}
-                  />
+                    name={person.name}
+                    title={person.title}
+                    year={person.year}
+                    linkedin={person.linkedin}
+                    image={person.image}
+                />
           }
         )
 
         let memberList = memberInfo.memberList.map((person) => {
             return <Member 
-                        name={person.name}
-                        title={person.title}
-                        year={person.year}
-                        linkedin={person.linkedin}
-                        image={person.image}
-                    />
+                    name={person.name}
+                    title={person.title}
+                    year={person.year}
+                    linkedin={person.linkedin}
+                    image={person.image}
+                />
         })
                 
         return (
@@ -48,14 +48,14 @@ class Members extends React.Component {
             </section>
             </section>
             <section>
-            <section className="container">
+            <section className="container memberGallery">
                 <h2>Inspired by our mission.</h2>
                 <p>We are great members. We are great members. We are great members.
                 We are great members. We are great members. We are great members. We are great members.</p>
                 <h2>Executive Board</h2>
-                  {execList}
+                <div>{execList}</div>
                 <h2>Members</h2>
-                  {memberList}
+                <div>{memberList}</div>
             </section>
             </section>
             <section>

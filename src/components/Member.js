@@ -1,10 +1,19 @@
 import React from 'react';
+import '../css/Member.scss';
+import linkedInImage from '../img/social/linkedin-white.png';
 
 function Member(props) {
   return (
-    <img src={props.image} className="memberImage" />
+    <div className="memberProfile">
+      <img src={props.image} className="memberImage" />
+      <div className="overlay"></div>
+      <div className="name fade">
+        <h4>{props.name}</h4>
+        <p>{props.title}</p>
+        <p><a href={props.linkedin} target="_blank"><img src={linkedInImage} className="icon"></img></a></p>
+      </div>
+    </div>
   );
-
 }
 
 export default Member;

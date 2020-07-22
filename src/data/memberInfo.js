@@ -3,315 +3,190 @@ import fang from './../img/members/fang.png'
 let memberInfo = {
     execList: [
         {
-            name: 'Fang Shuo Deng',
-            title: 'Senior Advisor',
-            year: 2020,
+            name: 'Edward Yang',
+            title: 'President',
             linkedin: 'https://www.linkedin.com/in/dfangshuo/',
-            image: fang
+            image: require('../img/members/edward.png')
         },
         {
-            name: 'Fang Shuo Deng',
-            title: 'Senior Advisor',
-            year: 2020,
+            name: 'Shalini Haupt',
+            title: 'VP Finance & Operations',
             linkedin: 'https://www.linkedin.com/in/dfangshuo/',
-            image: fang
+            image: require('../img/members/shalini.png')
         },
         {
-            name: 'Fang Shuo Deng',
-            title: 'Senior Advisor',
-            year: 2020,
+            name: 'Alexander Manes',
+            title: 'VP Associate Development',
             linkedin: 'https://www.linkedin.com/in/dfangshuo/',
-            image: fang
+            image: require('../img/members/alex.png')
         },
         {
-            name: 'Fang Shuo Deng',
-            title: 'Senior Advisor',
-            year: 2020,
+            name: 'Jennifer Lu',
+            title: 'VP External',
             linkedin: 'https://www.linkedin.com/in/dfangshuo/',
-            image: fang
+            image: require('../img/members/jen.png')
         },
     ],
     memberList: [
         {
-            name: 'Fang Shuo Deng',
-            title: 'Senior Advisor',
-            year: 2020,
+            name: 'Jasdeep Hundal',
+            title: 'Project Manager',
+            linkedin: 'https://www.linkedin.com/in/dfangshuo/',
+            image: require('../img/members/jasdeep.png')
+        },
+        {
+            name: 'Kelly Han',
+            title: 'Project Manager',
+            linkedin: 'https://www.linkedin.com/in/dfangshuo/',
+            image: require('../img/members/kelly.png')
+        },
+        {
+            name: 'Suyash Jaju',
+            title: 'Project Manager',
+            linkedin: 'https://www.linkedin.com/in/dfangshuo/',
+            image: require('../img/members/suyash.png')
+        },
+        {
+            name: 'Adam Ng',
+            title: 'Project Manager',
+            linkedin: 'https://www.linkedin.com/in/dfangshuo/',
+            image: require('../img/members/adam.png')
+        },
+        {
+            name: 'Arth Vidyarthi',
+            title: 'Project Manager',
+            linkedin: 'https://www.linkedin.com/in/dfangshuo/',
+            image: require('../img/members/arth.png')
+        },
+        {
+            name: 'Emersyn Lyon',
+            title: 'Senior Associate',
+            linkedin: 'https://www.linkedin.com/in/dfangshuo/',
+            image: require('../img/members/emersyn.png')
+        },
+        {
+            name: 'Ivan Penev',
+            title: 'Senior Associate',
+            linkedin: 'https://www.linkedin.com/in/dfangshuo/',
+            image: require('../img/members/ivan.png')
+        },
+        {
+            name: 'Varsha Nekkanti',
+            title: 'Senior Associate',
+            linkedin: 'https://www.linkedin.com/in/dfangshuo/',
+            image: require('../img/members/varsha.png')
+        },
+        {
+            name: 'Emily Chien',
+            title: 'Senior Associate',
+            linkedin: 'https://www.linkedin.com/in/dfangshuo/',
+            image: require('../img/members/emily.png')
+        },
+        {
+            name: 'Basant Apurva',
+            title: 'Senior Associate',
+            linkedin: 'https://www.linkedin.com/in/dfangshuo/',
+            image: require('../img/members/basant.png')
+        },
+        {
+            name: 'Gary Liu',
+            title: 'Associate',
+            linkedin: 'https://www.linkedin.com/in/dfangshuo/',
+            image: require('../img/members/gary.png')
+        },
+        {
+            name: 'Brandon Qin',
+            title: 'Associate',
+            linkedin: 'https://www.linkedin.com/in/dfangshuo/',
+            image: require('../img/members/brandon.png')
+        },
+        {
+            name: 'Mingjie Zhong',
+            title: 'Associate',
             linkedin: 'https://www.linkedin.com/in/dfangshuo/',
             image: fang
         },
         {
-            name: 'Fang Shuo Deng',
-            title: 'Senior Advisor',
-            year: 2020,
+            name: 'Austin Sun',
+            title: 'Associate',
             linkedin: 'https://www.linkedin.com/in/dfangshuo/',
             image: fang
         },
         {
-            name: 'Fang Shuo Deng',
-            title: 'Senior Advisor',
-            year: 2020,
+            name: 'Abi Srikant',
+            title: 'Associate',
             linkedin: 'https://www.linkedin.com/in/dfangshuo/',
             image: fang
         },
         {
-            name: 'Fang Shuo Deng',
-            title: 'Senior Advisor',
-            year: 2020,
+            name: 'Quinn Geunther',
+            title: 'Associate',
             linkedin: 'https://www.linkedin.com/in/dfangshuo/',
             image: fang
         },
         {
-            name: 'Fang Shuo Deng',
-            title: 'Senior Advisor',
-            year: 2020,
+            name: 'Makena Barkus',
+            title: 'Associate',
             linkedin: 'https://www.linkedin.com/in/dfangshuo/',
             image: fang
         },
         {
-            name: 'Fang Shuo Deng',
-            title: 'Senior Advisor',
-            year: 2020,
+            name: 'Evan Mallah',
+            title: 'Associate',
             linkedin: 'https://www.linkedin.com/in/dfangshuo/',
             image: fang
         },
         {
-            name: 'Fang Shuo Deng',
-            title: 'Senior Advisor',
-            year: 2020,
+            name: 'Agrima Sharma',
+            title: 'Associate',
             linkedin: 'https://www.linkedin.com/in/dfangshuo/',
             image: fang
         },
         {
-            name: 'Fang Shuo Deng',
-            title: 'Senior Advisor',
-            year: 2020,
+            name: 'Aanika Shah',
+            title: 'Account Manager',
             linkedin: 'https://www.linkedin.com/in/dfangshuo/',
-            image: fang
+            image: require('../img/members/aanika.png')
         },
         {
-            name: 'Fang Shuo Deng',
+            name: 'Adhiv Dhar',
             title: 'Senior Advisor',
             year: 2020,
             linkedin: 'https://www.linkedin.com/in/dfangshuo/',
-            image: fang
+            image: require('../img/members/adhiv.png')
         },
         {
-            name: 'Fang Shuo Deng',
+            name: 'Ashutosh Bajpai',
             title: 'Senior Advisor',
-            year: 2020,
             linkedin: 'https://www.linkedin.com/in/dfangshuo/',
-            image: fang
+            image: require('../img/members/ashu.png')
         },
         {
-            name: 'Fang Shuo Deng',
+            name: 'Mahesh Murag',
             title: 'Senior Advisor',
-            year: 2020,
             linkedin: 'https://www.linkedin.com/in/dfangshuo/',
-            image: fang
+            image: require('../img/members/mahesh.png')
         },
         {
-            name: 'Fang Shuo Deng',
+            name: 'David Kwon',
             title: 'Senior Advisor',
-            year: 2020,
             linkedin: 'https://www.linkedin.com/in/dfangshuo/',
-            image: fang
+            image: require('../img/members/david.png')
         },
         {
-            name: 'Fang Shuo Deng',
+            name: 'Shikha Patel',
             title: 'Senior Advisor',
             year: 2020,
             linkedin: 'https://www.linkedin.com/in/dfangshuo/',
-            image: fang
+            image: require('../img/members/shikha.png')
         },
         {
-            name: 'Fang Shuo Deng',
+            name: 'Saam Zahedian',
             title: 'Senior Advisor',
             year: 2020,
             linkedin: 'https://www.linkedin.com/in/dfangshuo/',
-            image: fang
-        },
-        {
-            name: 'Fang Shuo Deng',
-            title: 'Senior Advisor',
-            year: 2020,
-            linkedin: 'https://www.linkedin.com/in/dfangshuo/',
-            image: fang
-        },
-        {
-            name: 'Fang Shuo Deng',
-            title: 'Senior Advisor',
-            year: 2020,
-            linkedin: 'https://www.linkedin.com/in/dfangshuo/',
-            image: fang
-        },
-        {
-            name: 'Fang Shuo Deng',
-            title: 'Senior Advisor',
-            year: 2020,
-            linkedin: 'https://www.linkedin.com/in/dfangshuo/',
-            image: fang
-        },
-        {
-            name: 'Fang Shuo Deng',
-            title: 'Senior Advisor',
-            year: 2020,
-            linkedin: 'https://www.linkedin.com/in/dfangshuo/',
-            image: fang
-        },
-        {
-            name: 'Fang Shuo Deng',
-            title: 'Senior Advisor',
-            year: 2020,
-            linkedin: 'https://www.linkedin.com/in/dfangshuo/',
-            image: fang
-        },
-        {
-            name: 'Fang Shuo Deng',
-            title: 'Senior Advisor',
-            year: 2020,
-            linkedin: 'https://www.linkedin.com/in/dfangshuo/',
-            image: fang
-        },
-        {
-            name: 'Fang Shuo Deng',
-            title: 'Senior Advisor',
-            year: 2020,
-            linkedin: 'https://www.linkedin.com/in/dfangshuo/',
-            image: fang
-        },
-        {
-            name: 'Fang Shuo Deng',
-            title: 'Senior Advisor',
-            year: 2020,
-            linkedin: 'https://www.linkedin.com/in/dfangshuo/',
-            image: fang
-        },
-        {
-            name: 'Fang Shuo Deng',
-            title: 'Senior Advisor',
-            year: 2020,
-            linkedin: 'https://www.linkedin.com/in/dfangshuo/',
-            image: fang
-        },
-        {
-            name: 'Fang Shuo Deng',
-            title: 'Senior Advisor',
-            year: 2020,
-            linkedin: 'https://www.linkedin.com/in/dfangshuo/',
-            image: fang
-        },
-        {
-            name: 'Fang Shuo Deng',
-            title: 'Senior Advisor',
-            year: 2020,
-            linkedin: 'https://www.linkedin.com/in/dfangshuo/',
-            image: fang
-        },
-        {
-            name: 'Fang Shuo Deng',
-            title: 'Senior Advisor',
-            year: 2020,
-            linkedin: 'https://www.linkedin.com/in/dfangshuo/',
-            image: fang
-        },
-        {
-            name: 'Fang Shuo Deng',
-            title: 'Senior Advisor',
-            year: 2020,
-            linkedin: 'https://www.linkedin.com/in/dfangshuo/',
-            image: fang
-        },
-        {
-            name: 'Fang Shuo Deng',
-            title: 'Senior Advisor',
-            year: 2020,
-            linkedin: 'https://www.linkedin.com/in/dfangshuo/',
-            image: fang
-        },
-        {
-            name: 'Fang Shuo Deng',
-            title: 'Senior Advisor',
-            year: 2020,
-            linkedin: 'https://www.linkedin.com/in/dfangshuo/',
-            image: fang
-        },
-        {
-            name: 'Fang Shuo Deng',
-            title: 'Senior Advisor',
-            year: 2020,
-            linkedin: 'https://www.linkedin.com/in/dfangshuo/',
-            image: fang
-        },
-        {
-            name: 'Fang Shuo Deng',
-            title: 'Senior Advisor',
-            year: 2020,
-            linkedin: 'https://www.linkedin.com/in/dfangshuo/',
-            image: fang
-        },
-        {
-            name: 'Fang Shuo Deng',
-            title: 'Senior Advisor',
-            year: 2020,
-            linkedin: 'https://www.linkedin.com/in/dfangshuo/',
-            image: fang
-        },
-        {
-            name: 'Fang Shuo Deng',
-            title: 'Senior Advisor',
-            year: 2020,
-            linkedin: 'https://www.linkedin.com/in/dfangshuo/',
-            image: fang
-        },
-        {
-            name: 'Fang Shuo Deng',
-            title: 'Senior Advisor',
-            year: 2020,
-            linkedin: 'https://www.linkedin.com/in/dfangshuo/',
-            image: fang
-        },
-        {
-            name: 'Fang Shuo Deng',
-            title: 'Senior Advisor',
-            year: 2020,
-            linkedin: 'https://www.linkedin.com/in/dfangshuo/',
-            image: fang
-        },
-        {
-            name: 'Fang Shuo Deng',
-            title: 'Senior Advisor',
-            year: 2020,
-            linkedin: 'https://www.linkedin.com/in/dfangshuo/',
-            image: fang
-        },
-        {
-            name: 'Fang Shuo Deng',
-            title: 'Senior Advisor',
-            year: 2020,
-            linkedin: 'https://www.linkedin.com/in/dfangshuo/',
-            image: fang
-        },
-        {
-            name: 'Fang Shuo Deng',
-            title: 'Senior Advisor',
-            year: 2020,
-            linkedin: 'https://www.linkedin.com/in/dfangshuo/',
-            image: fang
-        },
-        {
-            name: 'Fang Shuo Deng',
-            title: 'Senior Advisor',
-            year: 2020,
-            linkedin: 'https://www.linkedin.com/in/dfangshuo/',
-            image: fang
-        },
-        {
-            name: 'Fang Shuo Deng',
-            title: 'Senior Advisor',
-            year: 2020,
-            linkedin: 'https://www.linkedin.com/in/dfangshuo/',
-            image: fang
-        },
+            image: require('../img/members/saam.png')
+        }
     ]
 } 
 
