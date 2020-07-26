@@ -7,6 +7,7 @@ import AlumniCompanies from '../data/AlumniCompanies';
 import Member from './../components/Member.js';
 import '../css/Members.scss';
 import memberInfo from '../data/memberInfo'
+import CallToAction from '../components/CallToAction';
 
 const AlumniCompany = ({name, href, fileName}) => {
     return <a href={href} target="_blank"><img src={require(`../img/careers/${fileName}`)} alt={name} /></a>;
@@ -41,40 +42,41 @@ class Members extends React.Component {
         <section className="membersPage">
             <NavBar />
             <section className="blueBackground">
-            <section className="container membersHero">
-                <img src={imageLeft} />
-                <h1>Meet Us</h1>
-                <img src={imageRight} />
-            </section>
-            </section>
-            <section>
-            <section className="container memberGallery">
-                <h2>Inspired by our mission.</h2>
-                <p>We are great members. We are great members. We are great members.
-                We are great members. We are great members. We are great members. We are great members.</p>
-                <h2>Executive Board</h2>
-                <div>{execList}</div>
-                <h2>Members</h2>
-                <div>{memberList}</div>
-            </section>
+                <section className="container membersHero">
+                    <img src={imageLeft} />
+                    <h1>Meet Us</h1>
+                    <img src={imageRight} />
+                </section>
             </section>
             <section>
-            <section className="container">
-                <h2>Alumni</h2>
-                <p>After our Net Impact Berkeley careers, we create our impact across a
-                diverse spectrum of careers, from graduate school to consulting to software
-                engineering, and everything in-between.</p>
-            </section>
+                <section className="container memberGallery">
+                    <h2>Inspired by our mission.</h2>
+                    <p>We are great members. We are great members. We are great members.
+                    We are great members. We are great members. We are great members. We are great members.</p>
+                    <h2>Executive Board</h2>
+                    <div>{execList}</div>
+                    <h2>Members</h2>
+                    <div>{memberList}</div>
+                </section>
             </section>
             <section>
-            <section className="container">
-                <h2>Where do our alumni go?</h2>
-                <div id = "company-logos">
-                    {AlumniCompanies.map((company, i) => 
-                        <AlumniCompany key={i} name={company.name} href={company.href} fileName={company.fileName} />)}
-            </div>
+                <section className="container">
+                    <h2>Alumni</h2>
+                    <p>After our Net Impact Berkeley careers, we create our impact across a
+                    diverse spectrum of careers, from graduate school to consulting to software
+                    engineering, and everything in-between.</p>
+                </section>
             </section>
+            <section>
+                <section className="container">
+                    <h2>Where do our alumni go?</h2>
+                    <div id = "company-logos">
+                        {AlumniCompanies.map((company, i) => 
+                            <AlumniCompany key={i} name={company.name} href={company.href} fileName={company.fileName} />)}
+                </div>
+                </section>
             </section>
+            <CallToAction />
         </section>
         );
     }

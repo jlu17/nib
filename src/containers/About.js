@@ -2,6 +2,7 @@ import React from 'react';
 import NavBar from '../components/NavBar';
 import '../css/About.scss';
 import aboutPhoto from '../img/about/about-header.png';
+import CallToAction from '../components/CallToAction';
 
 class About extends React.Component {
   render() {
@@ -22,6 +23,7 @@ class About extends React.Component {
             <img src= {aboutPhoto} />
           </div>
         </section>
+        <CallToAction />
       </section>
     );
   }

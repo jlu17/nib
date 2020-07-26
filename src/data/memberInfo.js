@@ -186,7 +186,8 @@ let memberInfo = {
             year: 2020,
             linkedin: 'https://www.linkedin.com/in/dfangshuo/',
             image: require('../img/members/saam.png')
-        }
+        },
+
     ]
 } 
 

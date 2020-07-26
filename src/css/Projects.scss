@@ -1,3 +1,21 @@
 .projectsPage {
+    .projectTypes {
+        flex-wrap: wrap;
+
+        .projectType {
+            display: flex;
+            flex-direction: row;
+            width: 35%;
+            margin-right: 5%;
+            margin-left: 5%;
     
+            .leftImage {
+                width: 20%;
+            }
+
+            .rightProjectDescription {
+                width: 80%;
+            }
+        }
+    }
 }
