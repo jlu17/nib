@@ -161,7 +161,7 @@ class Home extends React.Component {
                     <p>{spectrum.name}</p>
                 </div>
             </div>
-            
+
         </section>
 
         <svg width="1440" height="195" className="wave" viewBox="0 0 1440 195" fill="#F0FCFE" xmlns="http://www.w3.org/2000/svg">
