@@ -26,33 +26,38 @@
 
         .right {
             position: relative;
+
+            .test {
+                overflow: hidden;
+            }
         }
 
         .bigBlob {
             position: absolute;
             z-index: -1000;
-            right: -560px;
+            height: 500px;
+            right: -150px;
         }
 
         .miniBlob {
             position: absolute;
             z-index: -1000;
-            right: 450px;
+            right: 550px;
             top: 400px;
         }
 
         .emgajen {
             position: absolute;
             width: 270px;
-            top: 100px;
-            left: 770px;
+            top: 30px;
+            left: -20px
         }
 
         .seniors {
             position: absolute;
             width: 270px;
-            top: 350px;
-            left: 900px;
+            top: 300px;
+            left: 130px;
         }
 
     }
@@ -60,14 +65,24 @@
 
     .inspired {
         background-color: #F0FCFE;
-    }
+    
 
-        .inspired .container {
+        .container {
             padding: 100px 0 100px 0;
         }
-        .inspired h1, p {
+        
+        h1, p {
             margin: 0;
         }
+
+        .left {
+
+        }
+
+        .right {
+            text-align: right;
+        }
+    }
 
     .spectrums {
         text-align: center;
