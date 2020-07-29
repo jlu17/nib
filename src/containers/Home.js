@@ -16,6 +16,27 @@ import sierra from '../img/home/SierraNevada.png';
 import blob1 from '../img/home/shapes/blob1.png';
 import blob2 from '../img/home/shapes/blob2.png';
 
+import banking from '../img/home/icons/AccessibleBanking.png'
+import literacy from '../img/home/icons/ChildrensLiteracy.png'
+import crowdfunding from '../img/home/icons/Crowdfunding.png'
+import earth from '../img/home/icons/earth.png'
+import education from '../img/home/icons/Education.png'
+import environment from '../img/home/icons/Environment.png'
+import fairtrade from '../img/home/icons/FairTrade.png'
+import female from '../img/home/icons/FemaleEmpowerment.png'
+import foodsecurity from '../img/home/icons/FoodSecurity.png'
+import foodwaste from '../img/home/icons/FoodWaste.png'
+import healthtech from '../img/home/icons/HealthTechnology.png'
+import humanrights from '../img/home/icons/HumanRights.png'
+import impactinvestment from '../img/home/icons/ImpactInvestment.png'
+import lamp from '../img/home/icons/lamp.png'
+import leaf from '../img/home/icons/leaf.png'
+import energy from '../img/home/icons/SustainableEnergy.png'
+import retail from '../img/home/icons/SustainableRetail.png'
+import technnology from '../img/home/icons/Technology.png'
+import volunteering from '../img/home/icons/Volunteering.png'
+import youthservices from '../img/home/icons/YouthServices.png'
+
 
 class Home extends React.Component {
   render() {
@@ -69,30 +90,30 @@ class Home extends React.Component {
         <section class="spectrums">
             <div class="row">
                 <div class="projectType">
-                    <img src={spectrum.icon} />
-                    <p>{spectrum.name}</p>
+                    <img src={banking} />
+                    <p>Accessible Banking</p>
                 </div>
                 <div class="projectType">
-                    <img src={spectrum.icon} />
-                    <p>{spectrum.name}</p>
+                    <img src={literacy} />
+                    <p>Children's Literacy</p>
                 </div>
                 <div class="projectType">
-                    <img src={spectrum.icon} />
-                    <p>{spectrum.name}</p>
+                    <img src={crowdfunding} />
+                    <p>Crowdfunding</p>
                 </div>
             </div>
             <div class="row">
                 <div class="projectType">
-                    <img src={spectrum.icon} />
-                    <p>{spectrum.name}</p>
+                    <img src={earth} />
+                    <p>Earth</p>
                 </div>
                 <div class="projectType">
-                    <img src={spectrum.icon} />
-                    <p>{spectrum.name}</p>
+                    <img src={education} />
+                    <p>Education</p>
                 </div>
                 <div class="projectType">
-                    <img src={spectrum.icon} />
-                    <p>{spectrum.name}</p>
+                    <img src={environment} />
+                    <p>Environment</p>
                 </div>
                 <div class="projectType">
                     <img src={spectrum.icon} />
@@ -119,8 +140,8 @@ class Home extends React.Component {
 
             <div class="row">
                 <div class="projectType">
-                    <img src={spectrum.icon} />
-                    <p>{spectrum.name}</p>
+                    <img src={banking} />
+                    <p>Accessible Banking</p>
                 </div>
                 <div class="projectType">
                     <img src={spectrum.icon} />
