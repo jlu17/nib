@@ -73,6 +73,12 @@ section {
   display: flex;
 }
 
+.verticallyCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 @media (max-width: 1100px) {
   .container {
     margin: 0 50px;
