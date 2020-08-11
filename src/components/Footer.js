@@ -36,10 +36,10 @@ class Footer extends React.Component {
                     <FooterLink link="/home" name="Our Value" />
                 </div>
                 <div className="socialSection">
-                    <img src={require("../img/social/facebook.png")} className="socialIcon" />
-                    <img src={require("../img/social/medium.png")} className="socialIcon" />
-                    <img src={require("../img/social/linkedin.png")} className="socialIcon" />
-                    <img src={require("../img/social/instagram.png")} className="socialIcon" />
+                    <img src={require("../img/social/facebook.png")} className="socialIcon" alt="Facebook icon" />
+                    <img src={require("../img/social/medium.png")} className="socialIcon" alt="Medium icon" />
+                    <img src={require("../img/social/linkedin.png")} className="socialIcon" alt="LinkedIn icon" />
+                    <img src={require("../img/social/instagram.png")} className="socialIcon" alt="Instagram icon" />
                 </div>
             </div>
         </footer>

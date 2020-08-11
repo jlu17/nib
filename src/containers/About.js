@@ -25,7 +25,7 @@ class About extends React.Component {
             <section className="aboutPage">
                 <NavBar />
                 <section className="hero container">
-                    <div id="left">
+                    <div>
                         <h3>ABOUT US</h3>
                         <h1>Inspired by our mission</h1>
                         <p>Through our focus on social and environmental impact,
@@ -33,15 +33,15 @@ class About extends React.Component {
                         bring social responsibility and environmental stewardship
                         to business and innovation.</p>
                     </div>
-                    <div id="right">
-                        <img src= {aboutPhoto} />
+                    <div class="heroImage">
+                        <img src={aboutPhoto} alt="Collage of NIB members" />
                     </div>
                 </section>
 
                 <section className="aboutUsSection">
                     <section className="grid container">
                         <div className="left">
-                            <img src= {aboutRetreat} height= "280"/>
+                            <img src= {aboutRetreat} alt="Group photo of NIB members" />
                         </div>
                         <div className="right">
                             <h1>About Us</h1>
@@ -83,7 +83,7 @@ class About extends React.Component {
                     <div className="valuesOnLeft"> 
                         <h1>Driven by Our Core Values</h1> 
                         <div className="value">
-                            <img src={passion} height = "90"/>
+                            <img src={passion} height = "90" alt="Inspiring Passion icon" />
                             <div>
                                 <h2>Inspiring Passion</h2>
                                 <p>NIB members don't give up when there isn't an easy route to take.
@@ -93,7 +93,7 @@ class About extends React.Component {
                         </div>
 
                         <div className="value">
-                            <img src={growth} height = "100"/>
+                            <img src={growth} height = "100" alt="Growth Mindset icon" />
                             <div>
                                 <h2>Growth Mindset</h2>
                                 <p>Imagine if you could do anything because you believe you can.
@@ -103,7 +103,7 @@ class About extends React.Component {
                         </div>
 
                         <div className="value">
-                            <img src={tenacious} height = "100"/>
+                            <img src={tenacious} height = "100" alt="Tenacious Problem Solvers icon" />
                             <div>
                                 <h2>Tenacious Problem Solvers</h2>
                                 <p>We believe that  all types of impact add value in different ways
@@ -114,7 +114,7 @@ class About extends React.Component {
                         </div>
 
                         <div className="value">
-                            <img src={nibfam} height = "100"/>
+                            <img src={nibfam} height = "100" alt="NIBFam icon"/>
                             <div>
                                 <h2>#NIBfam</h2>
                                 <p>Net Impact is not just a student organization, we're like family.
@@ -125,7 +125,7 @@ class About extends React.Component {
                         </div>
                     </div>
                     <div className="verticallyCenter right">
-                        <img src={values} />
+                        <img src={values} alt="Photo collage of NIB members in various scenarios" />
                     </div>
                 </section>
 
@@ -133,7 +133,7 @@ class About extends React.Component {
                     <h1>Net Impact’s Global Organization</h1>
                     <div className="grid container">
                         <div className="left verticallyCenter">
-                            <img src={NetImpactGlobal} alt="2 NIB members attending a Net Impact conference."/>
+                            <img src={NetImpactGlobal} alt="2 NIB members attending a Net Impact conference"/>
                         </div>
                         <div className="right verticallyCenter">
                             <p>We are the leading Gold Status undergraduate chapter of the global organization of Net Impact, which consists of 
@@ -150,27 +150,27 @@ class About extends React.Component {
                     <h1>Life in nib</h1>
                     <div className="cultureTable">
                         <div className="col">
-                            <img src= {chowderGang} height= "280"/>
+                            <img src= {chowderGang} height= "280" alt="5 NIB members enjoying clam chowder" />
                             <p>A couple of nib fellows enjoying a hearty bowl of clam chowder just off of the Pacific highway.</p>
                         </div>
                         <div className="col">
-                            <img src= {GarySaltBae} height= "280"/>
+                            <img src= {GarySaltBae} height= "280" alt="1 NIB member throwing salt onto his food at a food competition" />
                             <p>Our Fall niblet class participated in the Basic Needs cooking competition. Here Gary is doing his best Salt bae impression.</p>
                         </div>
                         <div className="col">
-                            <img src= {EdAndAdhiv} height= "280"/>
+                            <img src= {EdAndAdhiv} height= "280" alt="1 NIB member showering another NIB member with coins after playing video games" />
                             <p>A good super spash bros session where Edward is congradulating Adhiv on his spectacular victory.</p>
                         </div>
                         <div className="col">
-                            <img src= {WelcomeToNib} height= "280"/>
+                            <img src= {WelcomeToNib} height= "280" alt="4 NIB members posed in front of a whiteboard saying Welcome to NIB during a past infosession" />
                             <p>Nib members at one of the semester’s infosessions. Excited to welcome applicants!</p>
                         </div>
                         <div className="col">
-                            <img src= {GoDaddy} height= "280"/>
+                            <img src= {GoDaddy} height= "280" alt="4 NIB members on a project team enjoying lunch in the woods" />
                             <p>Every semester our project teams have team socials. Here one of our teams went on the fire trails hike and enjoyed a nice brunch</p>
                         </div>
                         <div className="col">
-                            <img src= {BeachDay} height= "280"/>
+                            <img src= {BeachDay} height= "280" alt="NIB members at the beach" />
                             <p>Good times and vibes at the beach!</p>
                         </div>
                     </div>

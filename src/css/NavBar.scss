@@ -1,135 +1,136 @@
 :root {
-  --menu-max-height: 300px;
-  --fade-from-color: transparent;
-  --fade-to-color: black;
-  --timeout: 500ms;
+    --menu-max-height: 300px;
+    --fade-from-color: transparent;
+    --fade-to-color: black;
+    --timeout: 500ms;
 }
 
 .nav {
-  margin: 0;
-  font-family: 'Open Sans', 'Avenir', sans-serif;
-  font-weight: 600;
+    margin: 0;
+    font-family: 'Open Sans', 'Avenir', sans-serif;
+    font-weight: 600;
 
-  font-size: 15px;
-  text-align: left;
-  position: relative;
-  background: #FFFFFF;
-  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
+    font-size: 15px;
+    text-align: left;
+    position: relative;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
+
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 15px;
+        overflow: hidden;
+    }
+
+    li {
+        display: inline;
+        clear: left;
+    }
+
+    .navbar {
+        a {
+            transition: 0.1s all ease;
+        }
+
+        .right {
+            float: right;
+        }
+    }
+
+    .tab, .tab:hover {
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0 10px;
+        text-decoration: none;
+    }
+    
+    .tab, .tab:hover {
+        color: #272727;
+    }
+
+    .tab:before {
+        content: "";
+        display: inline-block;
+        vertical-align: middle;
+        height: 100%;
+    }
+
+    .mobileNav {
+        display: none;
+    }
 }
 
-.nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 15px;
-  overflow: hidden;
-}
-
-.nav li {
-  display: inline;
-  clear: left;
-}
-
-.navbar a {
-  transition: 0.1s all ease;
-}
-
-.right {
-  float: right;
-}
-
-.tab, .tab:hover {
-  display: inline-block;
-  vertical-align: middle;
-  margin: 0 10px;
-  text-decoration: none;
-}
-
-.tab, .tab:hover {
-  color: #272727;
-}
-
-.tab:before {
-  content: "";
-  display: inline-block;
-  vertical-align: middle;
-  height: 100%;
-}
-
-.mobileNav {
-  display: none;
-}
 
 @media (max-width: 1100px) {
-  .navbar {
-    display: none !important;
-    height: 0;
-  }
+    .nav {
+        height: 0;
+        .navbar {
+            display: none !important;
+            height: 0;
+        }
+        .mobileNav {
+            display: inline-block !important;
+            overflow: hidden;
+        } 
 
-  .nav {
-    height: 0;
-  }
+        .tab, .tab:hover {
+            color: #163760;
+            text-decoration: none;
+            font-weight: 500;
+        }
 
-  .mobileNav {
-    display: inline-block !important;
-    overflow: hidden;
-  } 
+        .request-demo, .request-demo:hover {
+            background: #00D7A3;
+            color: #ffffff;
+            padding: 8px 13px;
+            text-decoration: none;
+        }
 
-  .tab, .tab:hover {
-    color: #163760;
-    text-decoration: none;
-    font-weight: 500;
-  }
-
-  .request-demo, .request-demo:hover {
-    background: #00D7A3;
-    color: #ffffff;
-    padding: 8px 13px;
-    text-decoration: none;
-  }
-
-  .mobileList li {
-    margin: 15px;
-  }
+        .mobileList li {
+            margin: 15px;
+        }
+    }
 }
 
 /* Mobile navbar customizations */
 
 .burgerIcon {
-  position: absolute;
-  width: 30px;
-  height: 35px;
-  right: 15px;
-  top: 30px;
-  cursor: pointer;
+    position: absolute;
+    width: 30px;
+    height: 35px;
+    right: 15px;
+    top: 30px;
+    cursor: pointer;
 }
 
 .mobileList {
-  background-color: #EEEEEE;
-  top: 0;
-  width: 100vw;
-  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
+    background-color: #EEEEEE;
+    top: 0;
+    width: 100vw;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
 }
 
 .display-enter {
-  max-height: 0;
+    max-height: 0;
 }
 
 .display-enter-active {
-  max-height: var(--menu-max-height);
-  transition: all var(--timeout);
+    max-height: var(--menu-max-height);
+    transition: all var(--timeout);
 }
 
 .display-exit {
-  max-height: var(--menu-max-height);
+    max-height: var(--menu-max-height);
 }
 
 .display-exit-active {
-  max-height: 0;
-  transition: all var(--timeout);
+    max-height: 0;
+    transition: all var(--timeout);
 }
 
 .display-exit-done {
-  max-height: 0;
-  padding: 0;
-  margin-top: 0;
+    max-height: 0;
+    padding: 0;
+    margin-top: 0;
 }

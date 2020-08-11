@@ -43,9 +43,9 @@ class Members extends React.Component {
             <NavBar />
             <section className="blueBackground">
                 <section className="container membersHero">
-                    <img src={imageLeft} />
+                    <img className="hideOnMobile" src={imageLeft} alt="Collage of individual NIB members on Zoom" />
                     <h1>Meet Us</h1>
-                    <img src={imageRight} />
+                    <img src={imageRight} alt="Collage of individual NIB members on Zoom" />
                 </section>
             </section>
             <section>

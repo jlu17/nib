@@ -4,17 +4,50 @@
 
         .projectType {
             display: flex;
-            flex-direction: row;
-            width: 35%;
-            margin-right: 5%;
-            margin-left: 5%;
-    
-            .leftImage {
-                width: 20%;
-            }
+        }
+    }
+}
 
-            .rightProjectDescription {
-                width: 80%;
+@media (min-width: 1100px) {
+    .projectsPage {
+        .projectTypes {    
+            .projectType {
+                width: 35%;
+                margin-right: 5%;
+                margin-left: 5%;
+                flex-direction: row;
+        
+                .leftImage {
+                    width: 20%;
+                    img {
+                        width: 100%;
+                    }
+                }
+
+                .rightProjectDescription {
+                    width: 80%;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1100px) {
+    .projectsPage {
+        .projectTypes {  
+            text-align: center;
+  
+            .projectType {
+                width: 100%;
+                flex-direction: column;
+                align-items: center;
+        
+                .leftImage {
+                    width: 30%;
+                    img {
+                        width: 100%;
+                    }
+                }
             }
         }
     }

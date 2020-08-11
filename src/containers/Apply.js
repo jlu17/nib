@@ -21,7 +21,7 @@ class Apply extends React.Component {
               />
           </div>
           <div className="right">
-            <img src= {nibGroup} />
+            <img src= {nibGroup} alt="Group of NIB members gathered together" />
           </div>
         </section>
       </section>
