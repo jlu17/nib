@@ -19,9 +19,9 @@ class Projects extends React.Component {
 
         document.title = 'Projects of NIB';
         return (
-        <section class="projectsPage">
+        <section className="projectsPage">
             <NavBar />
-            <section class="hero container">
+            <section className="hero container">
                 <div id="left">
                     <h3>PROJECTS</h3>
                     <h1>We Make Our Impact Through Dedicated Client Work</h1>
@@ -34,14 +34,14 @@ class Projects extends React.Component {
                     blah
                 </div>
             </section>
-            <section class="container">
+            <section className="container">
                 <h1>What Kind of Work We Do</h1>
                 <p>The sky’s the limit. But just as an example of some of the work we’ve done in the past few semesters...</p>
                 <div className="flex projectTypes">
                     {projectTypes}
                 </div>
             </section>
-            <section class="container">
+            <section className="container">
                 <h1>Who Our Clients Are</h1>
                 <p>You can imagine it as a spectrum. Whether it's large for-profit corporations that allow us to deep dive into 
                 one component of their programs, mission-driven corporations that continuously strive for solutions beyond the 

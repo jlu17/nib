@@ -8,10 +8,10 @@ class Apply extends React.Component {
   render() {
     document.title = 'Apply to NIB';
     return (
-      <section class="applyPage">
+      <section className="applyPage">
         <NavBar />
-        <section class="hero container">
-          <div class="left">
+        <section className="hero container">
+          <div className="left">
             <h3>APPLY</h3>
             <h1>Apply to Net Impact</h1>
             <p>Put your email down to be notified when we open up applications</p>
@@ -20,7 +20,7 @@ class Apply extends React.Component {
               buttonText="Apply Here"
               />
           </div>
-          <div class="right">
+          <div className="right">
             <img src= {nibGroup} />
           </div>
         </section>

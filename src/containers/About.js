@@ -56,28 +56,27 @@ class About extends React.Component {
                             to solve problems that promote social good.</p>
                         </div>
                     </section>
-                </section>
+                    <section className="statsSection container">
+                        <div>
+                            <h2>100+</h2>
+                            <p>Consulting Projects Completed</p>
+                        </div>
 
-                <section className="statsSection container">
-                    <div>
-                        <h2>100+</h2>
-                        <p>Consulting Projects Completed</p>
-                    </div>
+                        <div>
+                            <h2>10+</h2>
+                            <p>Years of Experience Since 2008</p>
+                        </div>
 
-                    <div>
-                        <h2>10+</h2>
-                        <p>Years of Experience Since 2008</p>
-                    </div>
+                        <div>
+                            <h2>80+</h2>
+                            <p>Net Impact Berkeley Alumni</p>
+                        </div>
 
-                    <div>
-                        <h2>80+</h2>
-                        <p>Net Impact Berkeley Alumni</p>
-                    </div>
-
-                    <div>
-                        <h2>100,000+</h2>
-                        <p>Net Impact National Network</p>
-                    </div>
+                        <div>
+                            <h2>100,000+</h2>
+                            <p>Net Impact National Network</p>
+                        </div>
+                    </section>
                 </section>
 
                 <section className="container valuesSection">

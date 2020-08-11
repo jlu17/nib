@@ -10,9 +10,9 @@ class FAQ extends React.Component {
   render() {
     document.title = 'NIB | FAQ';
     return (
-      <section class="faqPage">
+      <section className="faqPage">
         <NavBar />
-        <section class="hero container">
+        <section className="hero container">
             <span id="left">
                 <h1>FAQs</h1>
                 <Button
@@ -24,7 +24,7 @@ class FAQ extends React.Component {
                 <p>images and stuff</p>
             </span>
         </section>
-        <section class="questions">
+        <section className="questions">
           <h2> Questions </h2>
           <h3>What is Net Impact Berkeley?</h3>
           <h3>What differentiates NIB from other consulting clubs on campus?</h3>
