@@ -26,4 +26,27 @@
         width: 300px;
     }
   }
+    .col {
+        width: 40%;
+        align-content: center;
+        text-align: center;
+        display: inline-block;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 440px;
+    }
+    .caption {
+        margin: 10%;
+    }
+    .culture {
+        align-content: center;
+        text-align: center;
+    }
+    #table {
+      display: inline-block;
+      width: 100%;
+      margin: auto;
+      align-items: center;
+    }
+    
 }
