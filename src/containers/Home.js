@@ -6,6 +6,8 @@ import NavBar from '../components/NavBar';
 import CallToAction from '../components/CallToAction';
 import ProjectDomain from '../components/ProjectDomain';
 import '../css/Home.scss'
+import '../css/Projects.scss'
+
 import spectrumInfo from '../data/spectrum'
 import godaddy from '../img/home/GoDaddy.png';
 import imperfect from '../img/home/ImperfectFoods.png';
@@ -42,10 +44,21 @@ import technnology from '../img/home/icons/Technology.png'
 import volunteering from '../img/home/icons/Volunteering.png'
 import youthservices from '../img/home/icons/YouthServices.png'
 
+import projects from '../data/projects'
+
+
 
 class Home extends React.Component {
   render() {
     document.title = 'NIB | Home';
+
+    let projectList = projects.projectList.map((project) => {
+        return <ProjectDomain
+                name={project.name}
+                image={project.image}
+            />
+      }
+    )
 
     let spectrum = spectrumInfo[0]
 
@@ -79,7 +92,7 @@ class Home extends React.Component {
         <path d="M-24 101.603L57.6667 81.0547C139.333 60.1201 302.667 0.789418 466 0.5C629.333 0.789418 792.667 90.9914 956 101.603C1119.33 112.215 1282.67 60.1201 1364.33 50.1834L1446 39.8609V194.217H1364.33C1282.67 194.217 1119.33 194.217 956 194.217C792.667 194.217 629.333 194.217 466 194.217C302.667 194.217 139.333 194.217 57.6667 194.217H-24V101.603Z" fill="#F0FCFE"/>
         </svg>
 
-        
+
 
         <section className="inspired">
             <div className="container">
@@ -109,7 +122,7 @@ class Home extends React.Component {
             <br className="clear" />
         </section>
 
-        
+
 
         {/* WORK IN PROGRESS, to be automated + some positioning work to do - adhiv */}
 
@@ -158,55 +171,11 @@ class Home extends React.Component {
             <div className="container">
                 <h1>Impact across all spectrums</h1>
                 <p>There’s no limit to the types of projects that our members seek out. We strive to continue searching for new ways to make an impact.</p>
+                <div className="projectType"> {projectList} </div>
                 <Button
                     link="/projects"
                     buttonText="Learn about our projects"
                 />
-            </div>
-
-            <div className="row">
-                <div className="projectType">
-                    <img src={banking} />
-                    <p>Accessible Banking</p>
-                </div>
-                <div className="projectType">
-                    <img src={spectrum.icon} />
-                    <p>{spectrum.name}</p>
-                </div>
-                <div className="projectType">
-                    <img src={spectrum.icon} />
-                    <p>{spectrum.name}</p>
-                </div>
-                <div className="projectType">
-                    <img src={spectrum.icon} />
-                    <p>{spectrum.name}</p>
-                </div>
-            </div>
-            <div className="row">
-                <div className="projectType">
-                    <img src={spectrum.icon} />
-                    <p>{spectrum.name}</p>
-                </div>
-                <div className="projectType">
-                    <img src={spectrum.icon} />
-                    <p>{spectrum.name}</p>
-                </div>
-                <div className="projectType">
-                    <img src={spectrum.icon} />
-                    <p>{spectrum.name}</p>
-                </div>
-                <div className="projectType">
-                    <img src={spectrum.icon} />
-                    <p>{spectrum.name}</p>
-                </div>
-                <div className="projectType">
-                    <img src={spectrum.icon} />
-                    <p>{spectrum.name}</p>
-                </div>
-                <div className="projectType">
-                    <img src={spectrum.icon} />
-                    <p>{spectrum.name}</p>
-                </div>
             </div>
 
         </section>
