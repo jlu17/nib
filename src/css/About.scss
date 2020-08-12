@@ -163,9 +163,14 @@
                 margin-left: 5%;
                 margin-right: 5%;
                 height: 440px;
+                vertical-align: top;
 
                 p {
-                    margin: 10%;
+                    margin-left: 10%;
+                    margin-right: 10%;
+                }
+                .lifeInNibPics {
+                   text-align: center;
                 }
             }
         }

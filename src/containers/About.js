@@ -5,10 +5,10 @@ import aboutPhoto from '../img/about/about-header.png';
 import aboutRetreat from '../img/about/AboutRetreat.jpg';
 import CallToAction from '../components/CallToAction';
 import chowderGang from '../img/about/chowderGang.png';
-import EdAndAdhiv from '../img/about/Ed&Adhiv.png';
-import GarySaltBae from '../img/about/GarySaltBae.png';
-import GoDaddy from '../img/about/GoDaddy.png';
-import WelcomeToNib from '../img/about/WelcomeToNib.png';
+import EdAndAdhiv from '../img/about/edAndAdhiv.png';
+import GarySaltBae from '../img/about/garySaltBae.png';
+import projectHike from '../img/about/projectHike.png';
+import WelcomeToNib from '../img/about/welcomeToNib.png';
 import BeachDay from '../img/about/beachday.png';
 import growth from '../img/about/GrowthMindset.png';
 import passion from '../img/about/InspiringPassion.png';
@@ -150,11 +150,11 @@ class About extends React.Component {
                     <h1>Life in nib</h1>
                     <div className="cultureTable">
                         <div className="col">
-                            <img src= {chowderGang} height= "280" alt="5 NIB members enjoying clam chowder" />
+                            <img src= {chowderGang} class= "lifeInNibPics" height= "280" alt="5 NIB members enjoying clam chowder" />
                             <p>A couple of nib fellows enjoying a hearty bowl of clam chowder just off of the Pacific highway.</p>
                         </div>
                         <div className="col">
-                            <img src= {GarySaltBae} height= "280" alt="1 NIB member throwing salt onto his food at a food competition" />
+                            <img src= {GarySaltBae} class= "lifeInNibPics" height= "280" alt="1 NIB member throwing salt onto his food at a food competition" />
                             <p>Our Fall niblet class participated in the Basic Needs cooking competition. Here Gary is doing his best Salt bae impression.</p>
                         </div>
                         <div className="col">
@@ -166,7 +166,7 @@ class About extends React.Component {
                             <p>Nib members at one of the semester’s infosessions. Excited to welcome applicants!</p>
                         </div>
                         <div className="col">
-                            <img src= {GoDaddy} height= "280" alt="4 NIB members on a project team enjoying lunch in the woods" />
+                            <img src= {projectHike} height= "280" alt="4 NIB members on a project team enjoying lunch in the woods" />
                             <p>Every semester our project teams have team socials. Here one of our teams went on the fire trails hike and enjoyed a nice brunch</p>
                         </div>
                         <div className="col">
