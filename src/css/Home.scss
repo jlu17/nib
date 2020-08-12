@@ -203,16 +203,18 @@
 
             .right {
                 text-align: right;
-                width: 50%;
-                display: block;
                 margin-bottom: 100px;
             }
         }
 
         .inspired {
+            .container {
+                display: grid;
+                grid-template-columns: 2fr 2fr;
+            }
+
             .right {
                 text-align: right;
-                width: 50%;
                 display: block;
                 margin-bottom: 100px;
             }
