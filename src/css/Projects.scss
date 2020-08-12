@@ -6,11 +6,26 @@
             display: flex;
         }
     }
+
+    .projectSpectrumSection {
+        img {
+            width: 100%;
+        }
+
+        .mobileTimeline {
+            .grid {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-column-gap: 30px;
+            }
+        }
+    }
 }
 
 @media (min-width: 1100px) {
     .projectsPage {
         .projectTypes {    
+            margin-top: 3rem;
             .projectType {
                 width: 35%;
                 margin-right: 5%;
@@ -19,6 +34,7 @@
         
                 .leftImage {
                     width: 20%;
+                    margin-right: 30px;
                     img {
                         width: 100%;
                     }

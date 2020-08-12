@@ -58,6 +58,14 @@ section {
     h3 {
         margin: 0;
     }
+
+    .heroImage {
+        max-width: 500px;
+
+        img {
+            width: 100%;
+        }
+    }
 }
 
 .wave {
@@ -81,6 +89,10 @@ section {
         display: grid;
         grid-template-columns: 3fr 2fr;
         grid-column-gap: 40px;
+    }
+
+    .showOnMobile {
+        display: none;
     }
 }
 
