@@ -36,11 +36,11 @@ class NavBar extends React.Component {
                         </Link>
                     </li>
                     <div className="right">
-                        <li><NavLink to={'/'} className="tab" activeClassName="selected">HOME</NavLink></li>
-                        <li><NavLink to={'/about'} className="tab" activeClassName="selected">ABOUT</NavLink></li>
-                        <li><NavLink to={'/members'} className="tab" activeClassName="selected">MEMBERS</NavLink></li>
-                        <li><NavLink to={'/projects'} className="tab" activeClassName="selected">PROJECTS</NavLink></li>
-                        <li><NavLink to={'/apply'} className="tab" activeClassName="selected">APPLY</NavLink></li>
+                        <li><NavLink to={'/'} className="tab">HOME</NavLink></li>
+                        <li><NavLink to={'/about'} className="tab">ABOUT</NavLink></li>
+                        <li><NavLink to={'/members'} className="tab">MEMBERS</NavLink></li>
+                        <li><NavLink to={'/projects'} className="tab">PROJECTS</NavLink></li>
+                        <li><NavLink to={'/apply'} className="tab">APPLY</NavLink></li>
                     </div>
                 </ul>
                 </div>
