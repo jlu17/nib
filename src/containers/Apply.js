@@ -20,7 +20,6 @@ class Apply extends React.Component {
 
         return (
         <section className="applyPage">
-            <NavBar />
             <section className="hero container">
             <div className="left">
                 <h3>APPLY</h3>

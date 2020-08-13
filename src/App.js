@@ -7,7 +7,10 @@ import Projects from './containers/Projects';
 import Members from './containers/Members';
 import NotFound from './containers/NotFound';
 import FAQ from './containers/FAQ';
+import VirtualSproul from './containers/VirtualSproul';
 import Footer from './components/Footer';
+import NavBar from './components/NavBar';
+
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
@@ -15,6 +18,7 @@ function App() {
   return (
     <Router>
       <div>
+        <NavBar />
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
@@ -22,6 +26,7 @@ function App() {
           <Route path="/projects" component={Projects} />
           <Route path="/members" component={Members} />
           <Route path="/faq" component={FAQ} />
+          <Route path="/virtual-sproul" component={VirtualSproul} />
           <Route component={NotFound} />
         </Switch>
         <Footer />

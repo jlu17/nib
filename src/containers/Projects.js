@@ -1,5 +1,4 @@
 import React from 'react';
-import NavBar from '../components/NavBar';
 import '../css/Projects.scss';
 import CallToAction from '../components/CallToAction';
 import projectTypeInfo from '../data/ProjectTypesText';
@@ -22,7 +21,6 @@ class Projects extends React.Component {
         document.title = 'Projects of NIB';
         return (
         <section className="projectsPage">
-            <NavBar />
             <section className="hero container">
                 <div class="left">
                     <h3>PROJECTS</h3>

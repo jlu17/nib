@@ -51,7 +51,6 @@ class Home extends React.Component {
 
     return (
       <section className="homePage">
-        <NavBar />
         <section className="splash">
             <section className="container">
                 <img src={nibLogo} className="showOnMobile emgajen" alt="3 NIB members posing" />

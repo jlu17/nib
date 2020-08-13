@@ -6,24 +6,21 @@ import aboutRetreat from '../img/about/AboutRetreat.jpg';
 import CallToAction from '../components/CallToAction';
 import chowderGang from '../img/about/chowderGang.png';
 import EdAndAdhiv from '../img/about/edAndAdhiv.png';
-import GarySaltBae from '../img/about/garySaltBae.png';
+import GarySaltBae from '../img/about/GarySaltBae.png';
 import projectHike from '../img/about/projectHike.png';
-import WelcomeToNib from '../img/about/welcomeToNib.png';
+import WelcomeToNib from '../img/about/WelcomeToNib.png';
 import BeachDay from '../img/about/beachday.png';
-import growth from '../img/about/GrowthMindset.png';
-import passion from '../img/about/InspiringPassion.png';
-import tenacious from '../img/about/TenaciousProblemSolvers.png';
-import nibfam from '../img/about/Nibfam.png';
 import values from '../img/about/ValuesPhoto.png';
 import NetImpactGlobal from '../img/about/NetImpactGlobal.png';
 import Button from '../components/Button';
+import Values from '../components/Values';
 
 class About extends React.Component {
+
     render() {
         document.title = 'About NIB';
         return (
             <section className="aboutPage">
-                <NavBar />
                 <section className="hero container">
                     <div>
                         <h3>ABOUT US</h3>
@@ -37,6 +34,10 @@ class About extends React.Component {
                         <img src={aboutPhoto} alt="Collage of NIB members" />
                     </div>
                 </section>
+
+                <svg class="splashWave hideOnMobile" width={window.innerWidth} viewBox="0 0 1440 749" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M713.744 408.887C546.069 469.017 -2 454 -2 454V748.5H1440V0C1282.84 210.195 1071.62 83.1369 975.016 157.385C878.415 231.633 881.418 348.757 713.744 408.887Z" fill="#F0FCFE"/>
+                </svg>
 
                 <section className="aboutUsSection">
                     <section className="grid container">
@@ -80,74 +81,47 @@ class About extends React.Component {
                 </section>
 
                 <section className="container valuesSection">
-                    <div className="valuesOnLeft"> 
-                        <h1>Driven by Our Core Values</h1> 
-                        <div className="value">
-                            <img src={passion} height = "90" alt="Inspiring Passion icon" />
-                            <div>
-                                <h2>Inspiring Passion</h2>
-                                <p>NIB members don't give up when there isn't an easy route to take.
-                                Rather, we seek opportunity to solve challenges, overcome
-                                major obstacles and persevere to test new solutions.</p>
-                            </div>
+                    <h1>Driven by Our Core Values</h1> 
+                    <section className="grid">
+                        <Values />
+                        <div className="verticallyCenter right hideOnMobile">
+                            <img src={values} alt="Photo collage of NIB members in various scenarios" />
                         </div>
-
-                        <div className="value">
-                            <img src={growth} height = "100" alt="Growth Mindset icon" />
-                            <div>
-                                <h2>Growth Mindset</h2>
-                                <p>Imagine if you could do anything because you believe you can.
-                                We do. Net Impact believes in giving our members the space to
-                                stretch ourselves and cultivate the growth mindset...</p>
-                            </div>
-                        </div>
-
-                        <div className="value">
-                            <img src={tenacious} height = "100" alt="Tenacious Problem Solvers icon" />
-                            <div>
-                                <h2>Tenacious Problem Solvers</h2>
-                                <p>We believe that  all types of impact add value in different ways
-                                to making the world a better place. To this end, we work on a broad
-                                variety of projects from environmental sustainability to zero
-                                poverty and financial empowerment. </p>
-                            </div>
-                        </div>
-
-                        <div className="value">
-                            <img src={nibfam} height = "100" alt="NIBFam icon"/>
-                            <div>
-                                <h2>#NIBfam</h2>
-                                <p>Net Impact is not just a student organization, we're like family.
-                                When it comes to assignments that you are having trouble or spending
-                                evenings unwinding over a warm cooked meal, we celebrate the value
-                                that each one of our members brings to our NIBfam.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="verticallyCenter right">
-                        <img src={values} alt="Photo collage of NIB members in various scenarios" />
-                    </div>
+                    </section>
                 </section>
+
+                <svg width={window.innerWidth} className="wave hideOnMobile" viewBox="0 0 1440 150" fill="#F0FCFE" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M-24 101.603L57.6667 81.0547C139.333 60.1201 302.667 0.789418 466 0.5C629.333 0.789418 792.667 90.9914 956 101.603C1119.33 112.215 1282.67 60.1201 1364.33 50.1834L1446 39.8609V194.217H1364.33C1282.67 194.217 1119.33 194.217 956 194.217C792.667 194.217 629.333 194.217 466 194.217C302.667 194.217 139.333 194.217 57.6667 194.217H-24V101.603Z" fill="#F0FCFE"/>
+                </svg>
 
                 <section className="globalSection">
-                    <h1>Net Impact’s Global Organization</h1>
-                    <div className="grid container">
-                        <div className="left verticallyCenter">
+                    <div className="container">
+                        <div className="showOnMobile">
                             <img src={NetImpactGlobal} alt="2 NIB members attending a Net Impact conference"/>
                         </div>
-                        <div className="right verticallyCenter">
-                            <p>We are the leading Gold Status undergraduate chapter of the global organization of Net Impact, which consists of 
-                            100,000+ undergraduates, graduates, and professionals united by the common mission of using business for social good.<br/>
-                            <br/>
-                            As a part of this global community, we are able to leverage the minds of industry experts and professionals in our 
-                            project work, attend national events and collaborate across our 300 chapters. </p>
-                            <Button link="https://www.netimpact.org/home" buttonText="Learn about NI Global"/>
+                        <h1>Net Impact’s Global Organization</h1>
+                        <div className="grid">
+                            <div className="left verticallyCenter hideOnMobile">
+                                <img src={NetImpactGlobal} alt="2 NIB members attending a Net Impact conference"/>
+                            </div>
+                            <div className="right verticallyCenter">
+                                <p>We are the leading Gold Status undergraduate chapter of the global organization of Net Impact, which consists of 
+                                100,000+ undergraduates, graduates, and professionals united by the common mission of using business for social good.<br/>
+                                <br/>
+                                As a part of this global community, we are able to leverage the minds of industry experts and professionals in our 
+                                project work, attend national events and collaborate across our 300 chapters. </p>
+                                <Button link="https://www.netimpact.org/home" buttonText="Learn about NI Global"/>
+                            </div>
                         </div>
                     </div>
                 </section>
 
+                <svg width={window.innerWidth} className="invertedWave hideOnMobile" viewBox="0 0 1440 150" fill="#F0FCFE" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M-24 101.603L57.6667 81.0547C139.333 60.1201 302.667 0.789418 466 0.5C629.333 0.789418 792.667 90.9914 956 101.603C1119.33 112.215 1282.67 60.1201 1364.33 50.1834L1446 39.8609V194.217H1364.33C1282.67 194.217 1119.33 194.217 956 194.217C792.667 194.217 629.333 194.217 466 194.217C302.667 194.217 139.333 194.217 57.6667 194.217H-24V101.603Z" fill="#ffffff"/>
+                </svg>
+
                 <section className="cultureSection container">
-                    <h1>Life in nib</h1>
+                    <h1>Life in NIB</h1>
                     <div className="cultureTable">
                         <div className="col">
                             <img src= {chowderGang} class= "lifeInNibPics" height= "280" alt="5 NIB members enjoying clam chowder" />

@@ -19,6 +19,12 @@ class NavBar extends React.Component {
         });
     }
 
+    close = () => {
+        this.setState({
+            open: false
+        });
+    }
+
     render() {
         return (
             <div className="nav">
@@ -56,11 +62,11 @@ class NavBar extends React.Component {
                         unmountOnExit
                     >
                         <ul className="mobileList">
-                            <li><Link to={'/'} className="tab">HOME</Link></li>
-                            <li><Link to={'/about'} className="tab">ABOUT</Link></li>
-                            <li><Link to={'/members'} className="tab">MEMBERS</Link></li>
-                            <li><Link to={'/projects'} className="tab">PROJECTS</Link></li>
-                            <li><Link to={'/apply'} className="tab">APPLY</Link></li>
+                            <li><Link to={'/'} className="tab" onClick={this.close}>HOME</Link></li>
+                            <li><Link to={'/about'} className="tab" onClick={this.close}>ABOUT</Link></li>
+                            <li><Link to={'/members'} className="tab" onClick={this.close}>MEMBERS</Link></li>
+                            <li><Link to={'/projects'} className="tab" onClick={this.close}>PROJECTS</Link></li>
+                            <li><Link to={'/apply'} className="tab" onClick={this.close}>APPLY</Link></li>
                         </ul>
                     </CSSTransition>
                 </div>

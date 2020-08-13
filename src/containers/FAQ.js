@@ -11,7 +11,6 @@ class FAQ extends React.Component {
     document.title = 'NIB | FAQ';
     return (
       <section className="faqPage">
-        <NavBar />
         <section className="hero container">
             <span id="left">
                 <h1>FAQs</h1>
