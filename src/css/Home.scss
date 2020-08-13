@@ -72,7 +72,6 @@
         }
 
         .blobs {
-
             .rope {
                 position: absolute;
                 top: -200px;
@@ -242,14 +241,38 @@
 @media (max-width: 1100px) {
     .homePage {
         .splash {
+            padding: 30px 0;
+            text-align: center;
+
             .bigBlob, .miniBlob, .seniors {
                 display: none;
             }
+
+            .emgajen {
+                width: 80%;
+                margin: 0 auto;
+            }
+        }
+
+        .inspired {
+            padding: 20px 0;
+
+            .showOnMobile {
+                margin: 10%;
+                .hillpic {
+                    width: 100%;
+                }
+            }
+            
         }
 
         h1 {
             font-size: 30px;
             margin: 40px 0;
+        }
+
+        p {
+            font-size: 20px;
         }
         
         .blobs {
