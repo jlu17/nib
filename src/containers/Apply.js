@@ -5,6 +5,10 @@ import nibGroup from '../img/nib-group.png';
 import '../css/Apply.scss';
 import TimelineItem from '../components/TimelineItem';
 import Timeline from '../data/Timeline';
+import prepareTypeInfo from '../data/prepareText';
+import ProjectType from '../components/ProjectType';
+
+
 
 class Apply extends React.Component {
     render() {
@@ -17,6 +21,14 @@ class Apply extends React.Component {
                 link={timelineItem.link} 
                 />
         });
+        let preperationTypes = prepareTypeInfo.map((project) => {
+            return <ProjectType 
+                img={project.img}
+                alt={project.alt}
+                title={project.title}
+                description={project.description}
+            />
+        })
 
         return (
         <section className="applyPage">
@@ -36,7 +48,10 @@ class Apply extends React.Component {
             </div>
             </section>
             <section class="container">
-            <h1>How should I prepare?</h1>
+                <h1>How should I prepare?</h1>
+                <div className="flex projectTypes">
+                    {preperationTypes}
+                </div>
             </section>
             <section class="container">
                 <h1>Timeline</h1>
