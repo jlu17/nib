@@ -9,11 +9,14 @@ import NotFound from './containers/NotFound';
 import FAQ from './containers/FAQ';
 import Footer from './components/Footer';
 
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, HashRouter } from 'react-router-dom';
 
 function App() {
   return (
-    <Router>
+    <Router
+      hashType={"slash"}
+      basename={"/"}
+    >
       <div>
         <Switch>
           <Route exact path="/" component={Home} />

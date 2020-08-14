@@ -1,5 +1,6 @@
 {
   "name": "nib",
+  "homepage": "./",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -24,7 +25,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "browserslist": {
+  "browserslist": { 
     "production": [
       ">0.2%",
       "not dead",
