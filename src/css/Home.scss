@@ -72,7 +72,6 @@
         }
 
         .blobs {
-
             .rope {
                 position: absolute;
                 top: -200px;
@@ -203,16 +202,18 @@
 
             .right {
                 text-align: right;
-                width: 50%;
-                display: block;
                 margin-bottom: 100px;
             }
         }
 
         .inspired {
+            .container {
+                display: grid;
+                grid-template-columns: 2fr 2fr;
+            }
+
             .right {
                 text-align: right;
-                width: 50%;
                 display: block;
                 margin-bottom: 100px;
             }
@@ -240,14 +241,38 @@
 @media (max-width: 1100px) {
     .homePage {
         .splash {
+            padding: 30px 0;
+            text-align: center;
+
             .bigBlob, .miniBlob, .seniors {
                 display: none;
             }
+
+            .emgajen {
+                width: 80%;
+                margin: 0 auto;
+            }
+        }
+
+        .inspired {
+            padding: 20px 0;
+
+            .showOnMobile {
+                margin: 10%;
+                .hillpic {
+                    width: 100%;
+                }
+            }
+            
         }
 
         h1 {
             font-size: 30px;
             margin: 40px 0;
+        }
+
+        p {
+            font-size: 20px;
         }
         
         .blobs {

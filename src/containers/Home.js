@@ -64,9 +64,9 @@ class Home extends React.Component {
 
     return (
       <section className="homePage">
-        <NavBar />
         <section className="splash">
             <section className="container">
+                <img src={nibLogo} className="showOnMobile emgajen" alt="3 NIB members posing" />
                 <span className="left">
                     <h1>Strategy consulting meets social good </h1>
                     <Button
@@ -84,18 +84,24 @@ class Home extends React.Component {
                 </svg>
 
                 <img src={blob1} className="seniors" alt="NIB seniors relaxing on a hill" />
-                <img src={blob2} className="emgajen" alt="3 NIB members posing" />
+                <img src={blob2} className=" hideOnMobile emgajen" alt="3 NIB members posing" />
             </div>
         </section>
-
         <svg width={window.innerWidth} className="wave" viewBox="0 0 1440 195" fill="#F0FCFE" xmlns="http://www.w3.org/2000/svg">
-        <path d="M-24 101.603L57.6667 81.0547C139.333 60.1201 302.667 0.789418 466 0.5C629.333 0.789418 792.667 90.9914 956 101.603C1119.33 112.215 1282.67 60.1201 1364.33 50.1834L1446 39.8609V194.217H1364.33C1282.67 194.217 1119.33 194.217 956 194.217C792.667 194.217 629.333 194.217 466 194.217C302.667 194.217 139.333 194.217 57.6667 194.217H-24V101.603Z" fill="#F0FCFE"/>
+            <path d="M-24 101.603L57.6667 81.0547C139.333 60.1201 302.667 0.789418 466 0.5C629.333 0.789418 792.667 90.9914 956 101.603C1119.33 112.215 1282.67 60.1201 1364.33 50.1834L1446 39.8609V194.217H1364.33C1282.67 194.217 1119.33 194.217 956 194.217C792.667 194.217 629.333 194.217 466 194.217C302.667 194.217 139.333 194.217 57.6667 194.217H-24V101.603Z" fill="#F0FCFE"/>
         </svg>
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> 365fd2815b7141a97dea4c23b1c43890c3026b01
         <section className="inspired">
+            <div className="showOnMobile">
+                <img src={hillpic} className="hillpic" alt="NIB members chilling on a hill" />
+            </div>
             <div className="container">
+                <div></div>
                 <div className="right">
                     <h1>Driven to Make a Difference</h1>
                     <p>We are a student-run consulting group on campus that provides custom strategies for clients that range from social enterprises and non-profits, to traditional for-profit businesses.</p>
@@ -116,8 +122,8 @@ class Home extends React.Component {
                     <path d="M145.25 82.5374C141.263 98.6358 127.069 109.343 113.339 122.396C99.542 135.4 86.1404 150.7 72.3693 150.659C58.7165 150.601 44.6437 135.269 34.4311 117.019C24.2185 98.7687 17.8833 77.7183 26.4059 69.1078C34.8608 60.4468 58.2412 64.2762 79.2265 58.7354C100.161 53.2623 118.633 38.3686 130.894 41.7093C143.205 44.9822 149.356 66.4218 145.25 82.5374Z" fill="#79ECFF"/>
                 </svg>
 
-                <img src={niblets} className="niblets" alt="NIB members posing on a hill" />
-                <img src={hillpic} className="hillpic" alt="NIB members posing for professional shots" />
+                <img src={niblets} className="niblets" alt="Young NIB members" />
+                <img src={hillpic} className="hillpic" alt="NIB members chilling on a hill" />
             </div>
             <br className="clear" />
         </section>

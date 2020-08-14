@@ -7,7 +7,7 @@ function ProjectType(props) {
             <img src={props.img} alt={props.alt} />
         </div>
         <div className="rightProjectDescription">
-            <h3>{props.title}</h3>
+            <h4>{props.title}</h4>
             <p>{props.description}</p>
         </div>
     </div>

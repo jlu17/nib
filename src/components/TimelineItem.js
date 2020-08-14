@@ -12,7 +12,7 @@ function TimelineItem(props) {
             <div class="timeline-panel">
                 <div class="timeline-content">
                     <div class="timeline-heading">
-                        <h3>{props.title}</h3>
+                        <h4>{props.title}</h4>
                         <a href={props.link}>
                             <div className="zoomLink">
                                 <img src={ZoomIcon} alt="Zoom link icon" />

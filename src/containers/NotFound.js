@@ -7,7 +7,6 @@ class NotFound extends React.Component {
     document.title = 'NIB | 404';
     return (
       <section className="notFoundPage">
-        <NavBar />
         <p>404 Page</p>
       </section>
     );
