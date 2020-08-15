@@ -68,7 +68,7 @@ class About extends React.Component {
                         </div>
 
                         <div>
-                            <h2>80+</h2>
+                            <h2>160+</h2>
                             <p>Net Impact Berkeley Alumni</p>
                         </div>
 

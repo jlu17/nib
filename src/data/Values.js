@@ -23,7 +23,7 @@ let values = [
         alt: "Tenacious Problem Solvers Icon",
     },
     {
-        title: "Impact Across All Spectrums",
+        title: "#NIBFam",
         description: "Net Impact is not just a student organization, we're like family. When it comes to assignments that you are having trouble or spending evenings unwinding over a warm cooked meal, we celebrate the value that each one of our members brings to our NIBfam.",
         image: nibfam,
         alt: "NIBFam Icon",

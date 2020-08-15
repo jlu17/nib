@@ -10,6 +10,7 @@ import FAQ from './containers/FAQ';
 import VirtualSproul from './containers/VirtualSproul';
 import Footer from './components/Footer';
 import NavBar from './components/NavBar';
+import ScrollToTop from './components/ScrollToTop';
 
 
 import { BrowserRouter as Router, Switch, Route, HashRouter } from 'react-router-dom';
@@ -33,8 +34,10 @@ function App() {
           <Route component={NotFound} />
         </Switch>
         <Footer />
+        <ScrollToTop />
       </div>
     </HashRouter>
+    
   );
 }
 
