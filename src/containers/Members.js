@@ -98,8 +98,7 @@ class Members extends React.Component {
             <section>
                 <section className="container memberGallery">
                     <h2>Inspired by Our Mission.</h2>
-                    <p>We are great members. We are great members. We are great members.
-                    We are great members. We are great members. We are great members. We are great members.</p>
+                    <p>With members from around the globe, Net Impact is home to a community of inclusivity and diversity, where there is constant intersection of cultural, social, and professional connection. Far from a one-size-fits-all model, each member contributes a unique perspective and skillset to their teams and projects.</p>
                     <h2>Executive Board</h2>
                     <div>{execList}</div>
                     <h2>Members</h2>
