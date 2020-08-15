@@ -31,15 +31,27 @@ class Footer extends React.Component {
                     <FooterLink link="/apply" name="Apply" />
                     <FooterLink link="/faq" name="FAQs" />
                 </div>
-                <div className="footerSection">
+                {/* <div className="footerSection">
                     <FooterTitle text="Companies" />
                     <FooterLink link="/home" name="Our Value" />
-                </div>
+                </div> */}
                 <div className="socialSection">
-                    <img src={require("../img/social/facebook.png")} className="socialIcon" alt="Facebook icon" />
-                    <img src={require("../img/social/medium.png")} className="socialIcon" alt="Medium icon" />
-                    <img src={require("../img/social/linkedin.png")} className="socialIcon" alt="LinkedIn icon" />
-                    <img src={require("../img/social/instagram.png")} className="socialIcon" alt="Instagram icon" />
+                    <a href="https://www.facebook.com/nib.berkeley.edu/" target="_blank">
+                        <img src={require("../img/social/facebook.png")} className="socialIcon" alt="Facebook icon" />
+                    </a>
+                    <a href="https://medium.com/netimpactberkeley" target="_blank">
+                        <img src={require("../img/social/medium.png")} className="socialIcon" alt="Medium icon" />
+                    </a>
+                    <a href="https://www.linkedin.com/company/net-impact-berkeley-undergrad/" target="_blank">
+                        <img src={require("../img/social/linkedin.png")} className="socialIcon" alt="LinkedIn icon" />
+                    </a>
+                    <a href="https://www.instagram.com/netimpactberkeley" target="_blank">
+                        <img src={require("../img/social/instagram.png")} className="socialIcon" alt="Instagram icon" />
+                    </a>
+                    
+                    
+                    
+                    
                 </div>
             </div>
         </footer>

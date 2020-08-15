@@ -3,28 +3,22 @@ import '../css/button.scss';
 import ZoomIcon from '../img/apply/zoom.png';
 
 function TimelineItem(props) {
+    var descriptionStyling = props.description == "Invite Only" 
+    ? <em>{props.description}</em> 
+    : props.description;
+
     return (
-        <li class="timeline">
-            <div class="posted-date">
-                <span class="month">{props.date}</span>
-            </div>
-
-            <div class="timeline-panel">
-                <div class="timeline-content">
-                    <div class="timeline-heading">
-                        <h4>{props.title}</h4>
-                        <a href={props.link}>
-                            <div className="zoomLink">
-                                <img src={ZoomIcon} alt="Zoom link icon" />
-                                <p>Zoom link</p>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="timeline-body">
-                        <p>{props.description}</p>
-                    </div>
+        <li>
+            <div class="content">
+                <p class="posted-date">{props.date}</p>
+                <div class="timeline-heading">
+                    <h4>{props.title}</h4>
+                    {
+                        props.link && 
+                        <p className="notAvailable">Zoom link not available yet</p>
+                    }
                 </div>
+                <p>{descriptionStyling}</p>
             </div>
         </li>
     );
@@ -34,11 +28,10 @@ function TimelineItem(props) {
 export default TimelineItem;
 
 /**
- * 
- * <div>
-            <div>{props.date}</div>
-            <div>{props.title}</div>
-            <div>{props.description}</div>
-            
+ * <a href={props.link}>
+        <div className="zoomLink">
+            <img src={ZoomIcon} alt="Zoom link icon" />
+            <p>Zoom link</p>
         </div>
+    </a>
  */
