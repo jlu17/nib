@@ -66,7 +66,7 @@ class Home extends React.Component {
                     <h1>Driven to Make a Difference</h1>
                     <p>We are a student-run consulting group on campus that provides custom strategies for clients that range from social enterprises and non-profits, to traditional for-profit businesses.</p>
                     <Button
-                        link="/projects"
+                        link="/about"
                         buttonText="Learn about us"
                     />
                 </div>
@@ -113,7 +113,7 @@ class Home extends React.Component {
                     Net Impact Berkeley provide its members to grow professionally through hands-on project experience, but also grow 
                     personally through the support system of NIBfam.</p>
                     <Button
-                        link="/projects"
+                        link="/members"
                         buttonText="Learn About Our Members"
                     />
                 </div>

@@ -12,11 +12,14 @@ import Footer from './components/Footer';
 import NavBar from './components/NavBar';
 
 
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, HashRouter } from 'react-router-dom';
 
 function App() {
   return (
-    <Router>
+    <Router
+      hashType={"slash"}
+      basename={"/"}
+    >
       <div>
         <NavBar />
         <Switch>

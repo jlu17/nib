@@ -75,6 +75,13 @@ let memberInfo = {
             sillyImage: require('../img/members/fun/arth.png')
         },
         {
+            name: 'Emersyn Lyon',
+            title: 'Senior Associate',
+            linkedin: 'https://www.linkedin.com/in/emersyn-lyon/',
+            image: require('../img/members/individuals/emersyn.png'),
+            sillyImage: require('../img/members/fun/emersyn.png')
+        },
+        {
             name: 'Ivan Penev',
             title: 'Senior Associate',
             linkedin: 'https://www.linkedin.com/in/ivan-penev/',
@@ -135,6 +142,7 @@ let memberInfo = {
             title: 'Associate',
             linkedin: 'https://www.linkedin.com/in/austinjsun/',
             image: fang,
+            image: require('../img/members/individuals/austin.png'),
             sillyImage: require('../img/members/fun/austin.png')
         },
         {
@@ -149,6 +157,7 @@ let memberInfo = {
             title: 'Associate',
             linkedin: 'https://www.linkedin.com/in/quinn-guenther-861811194/',
             image: fang,
+            image: require('../img/members/individuals/quinn.jpeg'),
             sillyImage: require('../img/members/fun/quinn.png')
         },
         {
@@ -170,6 +179,7 @@ let memberInfo = {
             title: 'Associate',
             linkedin: 'https://www.linkedin.com/in/agrima-sharma-04356856/',
             image: fang,
+            image: require('../img/members/individuals/agrima.jpeg'),
             sillyImage: fang
         },
         {
