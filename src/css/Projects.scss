@@ -1,4 +1,11 @@
 .projectsPage {
+
+    .hero {
+        p {
+            line-height: 28px;
+            font-size: 18px;
+        }
+    }
     .projectTypes {
         flex-wrap: wrap;
 
@@ -11,12 +18,22 @@
             margin-top: 0.6rem;
             margin-bottom: 0px;
         }
+
+        p {
+            line-height: 24px;
+            font-size: 16px;
+        }
     }
 
     .projectSpectrumSection {
         margin-top: 100px;
         img {
             width: 100%;
+        }
+
+        p {
+            line-height: 30px;
+            font-size: 18px;
         }
     }
 }
@@ -26,7 +43,7 @@
         .projectTypes {    
             margin-top: 3rem;
             .projectType {
-                width: 35%;
+                width: 40%;
                 margin-right: 5%;
                 margin-left: 5%;
                 flex-direction: row;
