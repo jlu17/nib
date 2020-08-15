@@ -1,12 +1,20 @@
 .membersPage {
     .membersHero {
-
         padding: 100px 0;
-
     }
-    
-    .blueBackground {
-        background: #D4FAFF;
+
+    .splashWaveLeft {
+        position: absolute;
+        top: 100px;
+        left: 0;
+        z-index: -1;
+    }
+
+    .splashWaveRight {
+        position: absolute;
+        top: 100px;
+        right: 0;
+        z-index: -1;
     }
     
     h1 {
@@ -16,6 +24,38 @@
     .memberGallery {
         h2, p {
             margin-left: 1%;
+        }
+    }
+
+    .carousel {
+        background-color: #F0FCFE;
+        padding-bottom: 40px;
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-left: 100px;
+            margin-right: 100px;
+
+
+            .alice-carousel {
+                width: 600px;
+            }
+
+            .alice-carousel__stage-item {
+                padding-left: 10px;
+                padding-right: 10px;
+                height: 300px;
+            }
+
+            .carouselPointer:hover {
+                cursor: pointer;
+            }
+
+            img {
+                height: 100%;
+            }
         }
     }
     
@@ -29,6 +69,18 @@
         height: 35px; */
         /* margin-right: 38px; */
         margin-bottom: 25px;
+    }
+
+    .alumniSection {
+        .grid {
+            display: grid;
+            grid-template-columns: 3fr 4fr;
+            grid-column-gap: 40px;
+            margin-bottom: 100px;
+            img {
+                width: 100%;
+            }
+        }
     }
 }
 

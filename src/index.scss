@@ -74,6 +74,10 @@ section {
     z-index: -1
 }
 
+.invertedWave {
+    background-color: #F0FCFE;
+}
+
 .flex {
     display: flex;
 }
@@ -86,6 +90,7 @@ section {
 
 @media (min-width: 1100px) {
     .hero {
+        padding: 100px 0;
         display: grid;
         grid-template-columns: 3fr 2fr;
         grid-column-gap: 40px;
@@ -93,6 +98,11 @@ section {
 
     .showOnMobile {
         display: none;
+    }
+
+    .container {
+       padding-left: 100px;
+       padding-right: 100px;
     }
 }
 
@@ -106,6 +116,8 @@ section {
     }
 
     .hero {
+        padding: 50px 0;
+        
         .heroImage {
             padding-top: 30px;
             width: 100%;
