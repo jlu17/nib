@@ -8,7 +8,6 @@ import ProjectDomain from '../components/ProjectDomain';
 import '../css/Home.scss'
 import '../css/Projects.scss'
 
-import spectrumInfo from '../data/spectrum'
 import godaddy from '../img/home/GoDaddy.png';
 import imperfect from '../img/home/ImperfectFoods.png';
 import kuli from '../img/home/KuliKuli.png';
@@ -21,46 +20,13 @@ import blob2 from '../img/home/shapes/blob2.png';
 
 import hillpic from '../img/home/hillpic.png';
 import niblets from '../img/home/niblets.png';
-
-
-import banking from '../img/home/icons/AccessibleBanking.png'
-import literacy from '../img/home/icons/ChildrensLiteracy.png'
-import crowdfunding from '../img/home/icons/Crowdfunding.png'
-import earth from '../img/home/icons/earth.png'
-import education from '../img/home/icons/Education.png'
-import environment from '../img/home/icons/Environment.png'
-import fairtrade from '../img/home/icons/FairTrade.png'
-import female from '../img/home/icons/FemaleEmpowerment.png'
-import foodsecurity from '../img/home/icons/FoodSecurity.png'
-import foodwaste from '../img/home/icons/FoodWaste.png'
-import healthtech from '../img/home/icons/HealthTechnology.png'
-import humanrights from '../img/home/icons/HumanRights.png'
-import impactinvestment from '../img/home/icons/ImpactInvestment.png'
-import lamp from '../img/home/icons/lamp.png'
-import leaf from '../img/home/icons/leaf.png'
-import energy from '../img/home/icons/SustainableEnergy.png'
-import retail from '../img/home/icons/SustainableRetail.png'
-import technnology from '../img/home/icons/Technology.png'
-import volunteering from '../img/home/icons/Volunteering.png'
-import youthservices from '../img/home/icons/YouthServices.png'
-
-import projects from '../data/projects'
-
+import trio from '../img/home/whoarewe.png';
+import SpectrumSection from '../components/SpectrumSection';
 
 
 class Home extends React.Component {
   render() {
     document.title = 'NIB | Home';
-
-    let projectList = projects.projectList.map((project) => {
-        return <ProjectDomain
-                name={project.name}
-                image={project.image}
-            />
-      }
-    )
-
-    let spectrum = spectrumInfo[0]
 
     return (
       <section className="homePage">
@@ -87,15 +53,9 @@ class Home extends React.Component {
                 <img src={blob2} className=" hideOnMobile emgajen" alt="3 NIB members posing" />
             </div>
         </section>
-        <svg width={window.innerWidth} className="wave" viewBox="0 0 1440 195" fill="#F0FCFE" xmlns="http://www.w3.org/2000/svg">
+        <svg className="wave" viewBox="0 0 1440 195" fill="#F0FCFE" xmlns="http://www.w3.org/2000/svg">
             <path d="M-24 101.603L57.6667 81.0547C139.333 60.1201 302.667 0.789418 466 0.5C629.333 0.789418 792.667 90.9914 956 101.603C1119.33 112.215 1282.67 60.1201 1364.33 50.1834L1446 39.8609V194.217H1364.33C1282.67 194.217 1119.33 194.217 956 194.217C792.667 194.217 629.333 194.217 466 194.217C302.667 194.217 139.333 194.217 57.6667 194.217H-24V101.603Z" fill="#F0FCFE"/>
         </svg>
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> 365fd2815b7141a97dea4c23b1c43890c3026b01
         <section className="inspired">
             <div className="showOnMobile">
                 <img src={hillpic} className="hillpic" alt="NIB members chilling on a hill" />
@@ -127,89 +87,36 @@ class Home extends React.Component {
             </div>
             <br className="clear" />
         </section>
-
-
-
-        {/* WORK IN PROGRESS, to be automated + some positioning work to do - adhiv */}
-
-        <section className="spectrums">
-            <div className="row">
-                <div className="projectType">
-                    <img src={banking} />
-                    <p>Accessible Banking</p>
-                </div>
-                <div className="projectType">
-                    <img src={literacy} />
-                    <p>Children's Literacy</p>
-                </div>
-                <div className="projectType">
-                    <img src={crowdfunding} />
-                    <p>Crowdfunding</p>
-                </div>
-            </div>
-            <div className="row">
-                <div className="projectType">
-                    <img src={earth} />
-                    <p>Earth</p>
-                </div>
-                <div className="projectType">
-                    <img src={education} />
-                    <p>Education</p>
-                </div>
-                <div className="projectType">
-                    <img src={environment} />
-                    <p>Environment</p>
-                </div>
-                <div className="projectType">
-                    <img src={spectrum.icon} />
-                    <p>{spectrum.name}</p>
-                </div>
-                <div className="projectType">
-                    <img src={spectrum.icon} />
-                    <p>{spectrum.name}</p>
-                </div>
-                <div className="projectType">
-                    <img src={spectrum.icon} />
-                    <p>{spectrum.name}</p>
-                </div>
-            </div>
-
-            <div className="container">
-                <h1>Impact across all spectrums</h1>
-                <p>There’s no limit to the types of projects that our members seek out. We strive to continue searching for new ways to make an impact.</p>
-                <div className="projectType"> {projectList} </div>
-                <Button
-                    link="/projects"
-                    buttonText="Learn about our projects"
-                />
-            </div>
-
-        </section>
-
-        <svg width={window.innerWidth} className="wave" viewBox="0 0 1440 195" fill="#F0FCFE" xmlns="http://www.w3.org/2000/svg">
+        <SpectrumSection />
+        <svg className="wave" viewBox="0 0 1440 195" fill="#F0FCFE" xmlns="http://www.w3.org/2000/svg">
         <path d="M-24 101.603L57.6667 81.0547C139.333 60.1201 302.667 0.789418 466 0.5C629.333 0.789418 792.667 90.9914 956 101.603C1119.33 112.215 1282.67 60.1201 1364.33 50.1834L1446 39.8609V194.217H1364.33C1282.67 194.217 1119.33 194.217 956 194.217C792.667 194.217 629.333 194.217 466 194.217C302.667 194.217 139.333 194.217 57.6667 194.217H-24V101.603Z" fill="#F0FCFE"/>
         </svg>
 
         <section className="partners ">
             <div className="container">
-                <h1>150+ international partners</h1>
-                <img src= {larkin} height= "80px" alt="Larkin Youth Services logo" />
-                <img src= {marin} height= "140px" alt="Marin County Food Bank logo" />
-                <img src= {godaddy} height= "90px" alt="GoDaddy logo" />
-                <img src= {imperfect} height= "90px" alt="Imperfect Product logo" />
-                <img src= {kuli} height= "110px" alt="Kuli Kuli logo" />
-                <img src= {sierra} height= "90px" alt="Sierra Nevada logo" />
+                <h1>150+ International Partners</h1>
+                <img src= {larkin} alt="Larkin Youth Services logo" />
+                <img src= {marin} alt="Marin County Food Bank logo" />
+                <img src= {godaddy} alt="GoDaddy logo" />
+                <img src= {imperfect} alt="Imperfect Product logo" />
+                <img src= {kuli} alt="Kuli Kuli logo" />
+                <img src= {sierra} alt="Sierra Nevada logo" />
             </div>
         </section>
 
         <section className="who">
-            <div className="container">
-                <h2>Who are we?</h2>
-                <p>We are cool people. We like to hang out. But most of all, we like to make Slack reacts. We are cool people. We like to hang out. But most of all, we like to make Slack reacts. We are cool people. We like to hang out. </p>
-                <Button
-                    link="/projects"
-                    buttonText="Learn about our members"
-                />
+            <div className="grid container">
+                <img src={trio} />
+                <div>
+                    <h2>Who are we?</h2>
+                    <p>Net Impact Berkeley is a collective of impact motivated, forward thinking student consultants. Not only does 
+                    Net Impact Berkeley provide its members to grow professionally through hands-on project experience, but also grow 
+                    personally through the support system of NIBfam.</p>
+                    <Button
+                        link="/projects"
+                        buttonText="Learn About Our Members"
+                    />
+                </div>
             </div>
         </section>
 
