@@ -90,12 +90,9 @@ class Home extends React.Component {
         <svg width={window.innerWidth} className="wave" viewBox="0 0 1440 195" fill="#F0FCFE" xmlns="http://www.w3.org/2000/svg">
             <path d="M-24 101.603L57.6667 81.0547C139.333 60.1201 302.667 0.789418 466 0.5C629.333 0.789418 792.667 90.9914 956 101.603C1119.33 112.215 1282.67 60.1201 1364.33 50.1834L1446 39.8609V194.217H1364.33C1282.67 194.217 1119.33 194.217 956 194.217C792.667 194.217 629.333 194.217 466 194.217C302.667 194.217 139.333 194.217 57.6667 194.217H-24V101.603Z" fill="#F0FCFE"/>
         </svg>
-<<<<<<< HEAD
 
 
 
-=======
->>>>>>> 365fd2815b7141a97dea4c23b1c43890c3026b01
         <section className="inspired">
             <div className="showOnMobile">
                 <img src={hillpic} className="hillpic" alt="NIB members chilling on a hill" />
