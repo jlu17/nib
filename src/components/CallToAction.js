@@ -13,7 +13,7 @@ function CallToAction() {
                 <h1>Ready to Join Us?</h1>
                 <Button
                     link="/apply"
-                    buttonText="Apply now"
+                    buttonText="Apply Now"
                 />
             </div>
         </div>

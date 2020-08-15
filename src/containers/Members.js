@@ -97,7 +97,7 @@ class Members extends React.Component {
             </svg>
             <section>
                 <section className="container memberGallery">
-                    <h2>Inspired by our mission.</h2>
+                    <h2>Inspired by Our Mission.</h2>
                     <p>We are great members. We are great members. We are great members.
                     We are great members. We are great members. We are great members. We are great members.</p>
                     <h2>Executive Board</h2>
@@ -154,7 +154,7 @@ class Members extends React.Component {
                     </div>
                 </section>
                 <section className="container">
-                    <h2>Where do our alumni go?</h2>
+                    <h2>Where do our Alumni Go?</h2>
                     <div id = "company-logos">
                         {AlumniCompanies.map((company, i) => 
                             <AlumniCompany key={i} name={company.name} href={company.href} fileName={company.fileName} />)}

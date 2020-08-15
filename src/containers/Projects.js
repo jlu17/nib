@@ -49,21 +49,21 @@ class Projects extends React.Component {
                 multiple aspects, we work with them all. As long as our work for our clients is aiming to create a better, more sustainable world. </p>
                 <img className="hideOnMobile" src={ProjectSpectrumImage} alt="Spectrum of projects ranging from small nonprofits to large corporations" />
                 <div className="mobileTimeline showOnMobile">
-                    <h3>Smaller social enterprises & nonprofits</h3>
+                    <h3>Smaller Social Enterprises and Nonprofits</h3>
                     <div class="grid">
                         <img src={require("../img/projects/pastClients/larkin.png")} alt="Larkin Youth Street Services" />
                         <img src={require("../img/projects/pastClients/volunteermatch.png")} alt="VolunteerMatch" />
                         <img src={require("../img/projects/pastClients/marinfoodbank.png")} alt="SF-Marin Food Bank" />
                         <img src={require("../img/projects/pastClients/stopthetraffik.png")} alt="Stop the Traffik" />
                     </div>
-                    <h3>Mission-driven corporations</h3>
+                    <h3>Mission-Driven Corporations</h3>
                     <div class="grid">
                         <img src={require("../img/projects/pastClients/lo3energy.png")} alt="Larkin Youth Street Services" />
                         <img src={require("../img/projects/pastClients/kulikuli.png")} alt="VolunteerMatch" />
                         <img src={require("../img/projects/pastClients/imperfectfoods.png")} alt="SF-Marin Food Bank" />
                         <img src={require("../img/projects/pastClients/semtive.png")} alt="Stop the Traffik" />
                     </div>
-                    <h3>Large for-profit corporations</h3>
+                    <h3>Large For-Profit Corporations</h3>
                     <div class="grid">
                         <img src={require("../img/projects/pastClients/casper.png")} alt="Larkin Youth Street Services" />
                         <img src={require("../img/projects/pastClients/stripe.png")} alt="VolunteerMatch" />

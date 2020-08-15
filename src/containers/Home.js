@@ -34,10 +34,10 @@ class Home extends React.Component {
             <section className="container">
                 <img src={nibLogo} className="showOnMobile emgajen" alt="3 NIB members posing" />
                 <span className="left">
-                    <h1>Strategy consulting meets social good </h1>
+                    <h1>Strategy Consulting Meets Social Good </h1>
                     <Button
                         link="/apply"
-                        buttonText="Apply now"
+                        buttonText="Apply Now"
                     />
                 </span>
             </section>
@@ -67,7 +67,7 @@ class Home extends React.Component {
                     <p>We are a student-run consulting group on campus that provides custom strategies for clients that range from social enterprises and non-profits, to traditional for-profit businesses.</p>
                     <Button
                         link="/about"
-                        buttonText="Learn about us"
+                        buttonText="Learn About Us"
                     />
                 </div>
             </div>
