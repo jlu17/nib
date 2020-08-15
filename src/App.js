@@ -16,9 +16,9 @@ import { BrowserRouter as Router, Switch, Route, HashRouter } from 'react-router
 
 function App() {
   return (
-    <Router
+    <HashRouter
       hashType={"slash"}
-      basename={"/"}
+      basename={""}
     >
       <div>
         <NavBar />
@@ -34,7 +34,7 @@ function App() {
         </Switch>
         <Footer />
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 

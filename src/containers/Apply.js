@@ -41,8 +41,9 @@ class Apply extends React.Component {
                 <h1>Join our Family</h1>
                 <p>Interested in applying to Net Impact? Click below to fill our our interest form! We'll email you once we open up our Fall 2020 application</p>
                 <Button
-                link="https://forms.gle/Cawti56DhE8s2hXY8"
-                buttonText="Interest Form"
+                    link="https://forms.gle/Cawti56DhE8s2hXY8"
+                    buttonText="Interest Form"
+                    external
                 />
             </div>
             <div className="right hideOnMobile">

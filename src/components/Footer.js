@@ -1,13 +1,15 @@
 import React from 'react';
 import '../css/Footer.scss';
-import logo from '../img/nib-full-logo.png'
+import logo from '../img/nib-full-logo.png';
+import { Link } from "react-router-dom";
+
 
 const FooterTitle = ({ text }) => {
     return <p className="footerTitle">{text}</p>
 }
 
 const FooterLink = ({ link, name }) => {
-    return <a href={link} className="footerLink">{name}</a>;
+    return <Link to={link} className="footerLink">{name}</Link>;
 }
 
 class Footer extends React.Component {
@@ -24,7 +26,7 @@ class Footer extends React.Component {
                     <FooterLink link="/about" name="About" />
                     <FooterLink link="/members" name="Members" />
                     <FooterLink link="/projects" name="Projects" />
-                    <FooterLink link="https://medium.com/netimpactberkeley" name="Blog" />
+                    <a href="https://medium.com/netimpactberkeley" class="footerLink" name="Blog">Blog</a>
                 </div>
                 <div className="footerSection">
                     <FooterTitle text="Students" />

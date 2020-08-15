@@ -109,7 +109,7 @@ class About extends React.Component {
                                 <br/>
                                 As a part of this global community, we are able to leverage the minds of industry experts and professionals in our 
                                 project work, attend national events and collaborate across our 300 chapters. </p>
-                                <Button link="https://www.netimpact.org/home" buttonText="Learn About NI Global"/>
+                                <Button link="https://www.netimpact.org/home" buttonText="Learn About NI Global" external />
                             </div>
                         </div>
                     </div>
