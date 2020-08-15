@@ -97,9 +97,6 @@ class Members extends React.Component {
             </svg>
             <section>
                 <section className="container memberGallery">
-                    <h2>Inspired by our mission.</h2>
-                    <p>We are great members. We are great members. We are great members.
-                    We are great members. We are great members. We are great members. We are great members.</p>
                     <h2>Executive Board</h2>
                     <div>{execList}</div>
                     <h2>Members</h2>
