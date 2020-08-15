@@ -89,6 +89,13 @@ let memberInfo = {
             sillyImage: require('../img/members/fun/ivan.png')
         },
         {
+            name: 'Emersyn Lyon',
+            title: 'Senior Associate',
+            linkedin: 'https://www.linkedin.com/in/emersyn-lyon/',
+            image: require('../img/members/individuals/emersyn.png'),
+            sillyImage: require('../img/members/fun/emersyn.png')
+        },
+        {
             name: 'Varsha Nekkanti',
             title: 'Senior Associate',
             linkedin: 'https://www.linkedin.com/in/varshanekkanti/',
@@ -119,7 +126,7 @@ let memberInfo = {
         {
             name: 'Brandon Qin',
             title: 'Associate',
-            linkedin: 'https://www.linkedin.com/in/brandon-qin-7b2007192/',
+            linkedin: 'https://www.linkedin.com/in/brandonqin/',
             image: require('../img/members/individuals/brandon.png'),
             sillyImage: require('../img/members/fun/brandon.png')
         },
@@ -134,6 +141,7 @@ let memberInfo = {
             name: 'Austin Sun',
             title: 'Associate',
             linkedin: 'https://www.linkedin.com/in/austinjsun/',
+            image: fang,
             image: require('../img/members/individuals/austin.png'),
             sillyImage: require('../img/members/fun/austin.png')
         },
@@ -148,6 +156,7 @@ let memberInfo = {
             name: 'Quinn Geunther',
             title: 'Associate',
             linkedin: 'https://www.linkedin.com/in/quinn-guenther-861811194/',
+            image: fang,
             image: require('../img/members/individuals/quinn.jpeg'),
             sillyImage: require('../img/members/fun/quinn.png')
         },
@@ -169,6 +178,7 @@ let memberInfo = {
             name: 'Agrima Sharma',
             title: 'Associate',
             linkedin: 'https://www.linkedin.com/in/agrima-sharma-04356856/',
+            image: fang,
             image: require('../img/members/individuals/agrima.jpeg'),
             sillyImage: fang
         },
@@ -213,7 +223,7 @@ let memberInfo = {
             name: 'Saam Zahedian',
             title: 'Senior Advisor',
             year: 2020,
-            linkedin: 'https://www.linkedin.com/in/saam-z-60414794/',
+            linkedin: 'https://www.linkedin.com/in/saam-zahedian/',
             image: require('../img/members/individuals/saam.png'),
             sillyImage: require('../img/members/fun/saam.png')
         },
