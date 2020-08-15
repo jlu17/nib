@@ -38,11 +38,11 @@ class Apply extends React.Component {
             <section className="hero container">
             <div className="left">
                 <h3>APPLY</h3>
-                <h1>Apply to Net Impact</h1>
-                <p>Put your email down to be notified when we open up applications</p>
+                <h1>Join our Family</h1>
+                <p>Interested in applying to Net Impact? Click below to fill our our interest form! We'll email you once we open up our Fall 2020 application</p>
                 <Button
-                link="/Apply"
-                buttonText="Apply Here"
+                link="https://forms.gle/Cawti56DhE8s2hXY8"
+                buttonText="Interest Form"
                 />
             </div>
             <div className="right hideOnMobile">
