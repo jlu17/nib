@@ -89,13 +89,6 @@ let memberInfo = {
             sillyImage: require('../img/members/fun/ivan.png')
         },
         {
-            name: 'Emersyn Lyon',
-            title: 'Senior Associate',
-            linkedin: 'https://www.linkedin.com/in/emersyn-lyon/',
-            image: require('../img/members/individuals/emersyn.png'),
-            sillyImage: require('../img/members/fun/emersyn.png')
-        },
-        {
             name: 'Varsha Nekkanti',
             title: 'Senior Associate',
             linkedin: 'https://www.linkedin.com/in/varshanekkanti/',
@@ -178,6 +171,13 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/agrima-sharma-04356856/',
             image: require('../img/members/individuals/agrima.jpeg'),
             sillyImage: fang
+        },
+        {
+            name: 'Helen Rhee',
+            title: 'Senior Advisor',
+            linkedin: 'https://www.linkedin.com/in/helen-rhee/',
+            image: require('../img/members/individuals/helen.png'),
+            sillyImage: require('../img/members/fun/helen.png')
         },
         {
             name: 'Adhiv Dhar',
