@@ -11,6 +11,8 @@ import VirtualSproul from './containers/VirtualSproul';
 import Footer from './components/Footer';
 import NavBar from './components/NavBar';
 import ScrollToTop from './components/ScrollToTop';
+import GA from './components/GoogleAnalytics';
+
 
 
 import { BrowserRouter as Router, Switch, Route, HashRouter } from 'react-router-dom';
@@ -22,6 +24,7 @@ function App() {
       basename={""}
     >
       <div>
+      { GA.init() && <GA.RouteTracker /> }
         <NavBar />
         <Switch>
           <Route exact path="/" component={Home} />
