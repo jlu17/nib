@@ -13,6 +13,7 @@ class Values extends React.Component {
                             description={valueData.description}
                             image={valueData.image}
                             alt={valueData.alt}
+                            key={valueData.title}
                             />
                     );
                 })}

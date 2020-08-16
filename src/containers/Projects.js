@@ -14,6 +14,7 @@ class Projects extends React.Component {
                 alt={project.alt}
                 title={project.title}
                 description={project.description}
+                key={project.title}
             />
         })
         
@@ -22,7 +23,7 @@ class Projects extends React.Component {
         return (
         <section className="projectsPage">
             <section className="hero container">
-                <div class="left">
+                <div className="left">
                     <h3>PROJECTS</h3>
                     <h1>We Make Our Impact Through Dedicated Client Work</h1>
                     <p>Each semester we work alongside companies, non-profits and start-ups on a socially/environmentally driven problem. <br />
@@ -30,7 +31,7 @@ class Projects extends React.Component {
                     Defining the work space, conducting client research, and analyzing data are just a part of what we do in order to take a 
                     complex problem and compact it into an understandable and viable solution that will make a difference.  </p>
                 </div>
-                <div class="right heroImage verticallyCenter">
+                <div className="right heroImage verticallyCenter">
                     <img src={ProjectHeroImage} alt="NIB members collage" />
                 </div>
             </section>
@@ -50,21 +51,21 @@ class Projects extends React.Component {
                 <img className="hideOnMobile" src={ProjectSpectrumImage} alt="Spectrum of projects ranging from small nonprofits to large corporations" />
                 <div className="mobileTimeline showOnMobile">
                     <h3>Smaller Social Enterprises and Nonprofits</h3>
-                    <div class="grid">
+                    <div className="grid">
                         <img src={require("../img/projects/pastClients/larkin.png")} alt="Larkin Youth Street Services" />
                         <img src={require("../img/projects/pastClients/volunteermatch.png")} alt="VolunteerMatch" />
                         <img src={require("../img/projects/pastClients/marinfoodbank.png")} alt="SF-Marin Food Bank" />
                         <img src={require("../img/projects/pastClients/stopthetraffik.png")} alt="Stop the Traffik" />
                     </div>
                     <h3>Mission-Driven Corporations</h3>
-                    <div class="grid">
+                    <div className="grid">
                         <img src={require("../img/projects/pastClients/lo3energy.png")} alt="Larkin Youth Street Services" />
                         <img src={require("../img/projects/pastClients/kulikuli.png")} alt="VolunteerMatch" />
                         <img src={require("../img/projects/pastClients/imperfectfoods.png")} alt="SF-Marin Food Bank" />
                         <img src={require("../img/projects/pastClients/semtive.png")} alt="Stop the Traffik" />
                     </div>
                     <h3>Large For-Profit Corporations</h3>
-                    <div class="grid">
+                    <div className="grid">
                         <img src={require("../img/projects/pastClients/casper.png")} alt="Larkin Youth Street Services" />
                         <img src={require("../img/projects/pastClients/stripe.png")} alt="VolunteerMatch" />
                         <img src={require("../img/projects/pastClients/lyft.png")} alt="SF-Marin Food Bank" />

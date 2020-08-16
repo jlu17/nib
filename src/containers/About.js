@@ -29,19 +29,19 @@ class About extends React.Component {
                         bring social responsibility and environmental stewardship
                         to business and innovation.</p>
                     </div>
-                    <div class="heroImage">
+                    <div className="heroImage">
                         <img src={aboutPhoto} alt="Collage of NIB members" />
                     </div>
                 </section>
 
-                <svg class="splashWave hideOnMobile" viewBox="0 0 1440 749" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg className="splashWave hideOnMobile" viewBox="0 0 1440 749" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M713.744 408.887C546.069 469.017 -2 454 -2 454V748.5H1440V0C1282.84 210.195 1071.62 83.1369 975.016 157.385C878.415 231.633 881.418 348.757 713.744 408.887Z" fill="#F0FCFE"/>
                 </svg>
 
                 <section className="aboutUsSection">
                     <section className="grid container">
                         <div className="left">
-                            <img src= {aboutRetreat} alt="Group photo of NIB members" />
+                            <img src= {aboutRetreat} alt="Group of NIB members" />
                         </div>
                         <div className="right">
                             <h1>About Us</h1>
@@ -84,7 +84,7 @@ class About extends React.Component {
                     <section className="grid">
                         <Values />
                         <div className="verticallyCenter right hideOnMobile">
-                            <img src={values} alt="Photo collage of NIB members in various scenarios" />
+                            <img src={values} alt="Collage of NIB members in various scenarios" />
                         </div>
                     </section>
                 </section>
@@ -123,11 +123,11 @@ class About extends React.Component {
                     <h1>Life in NIB</h1>
                     <div className="cultureTable">
                         <div className="col">
-                            <img src= {chowderGang} class= "lifeInNibPics" height= "280" alt="5 NIB members enjoying clam chowder" />
+                            <img src= {chowderGang} className="lifeInNibPics" height= "280" alt="5 NIB members enjoying clam chowder" />
                             <p>A couple of nib fellows enjoying a hearty bowl of clam chowder just off of the Pacific highway.</p>
                         </div>
                         <div className="col">
-                            <img src= {GarySaltBae} class= "lifeInNibPics" height= "280" alt="1 NIB member throwing salt onto his food at a food competition" />
+                            <img src= {GarySaltBae} className="lifeInNibPics" height= "280" alt="1 NIB member throwing salt onto his food at a food competition" />
                             <p>Our Fall niblet class participated in the Basic Needs cooking competition. Here Gary is doing his best Salt bae impression.</p>
                         </div>
                         <div className="col">

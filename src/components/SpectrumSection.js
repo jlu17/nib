@@ -9,6 +9,7 @@ class SpectrumSection extends React.Component {
             return <ProjectDomain
                     name={project.name}
                     image={project.icon}
+                    key={project.name}
                 />
         });
     
@@ -16,6 +17,7 @@ class SpectrumSection extends React.Component {
             return <ProjectDomain
                     name={project.name}
                     image={project.icon}
+                    key={project.name}
                 />
         });
     
@@ -24,6 +26,7 @@ class SpectrumSection extends React.Component {
                     name={project.name}
                     image={project.icon}
                     extendedClass="hideOnMobile"
+                    key={project.name}
                 />
         });
     
@@ -32,6 +35,7 @@ class SpectrumSection extends React.Component {
                     name={project.name}
                     image={project.icon}
                     extendedClass="hideOnMobile"
+                    key={project.name}
                 />
         });
     
@@ -39,6 +43,7 @@ class SpectrumSection extends React.Component {
             return <ProjectDomain
                     name={project.name}
                     image={project.icon}
+                    key={project.name}
                 />
         });
 

@@ -1,5 +1,4 @@
 import React from 'react';
-import NavBar from '../components/NavBar';
 import imageLeft from '../img/images-left.png';
 import imageRight from '../img/images-right.png';
 import AlumniCompanies from '../data/AlumniCompanies';
@@ -26,7 +25,7 @@ const Wrapper = styled.div`
 `;
 
 const AlumniCompany = ({name, href, fileName}) => {
-    return <a href={href} target="_blank"><img src={require(`../img/careers/${fileName}`)} alt={name} /></a>;
+    return <a href={href} target="_blank" rel="noopener noreferrer"><img src={require(`../img/careers/${fileName}`)} alt={name} /></a>;
 }
 
 class Members extends React.Component {
@@ -35,7 +34,7 @@ class Members extends React.Component {
     items = [photo1, photo2, photo3, photo4, photo5];
 
     state = {
-        galleryItems: this.items.map((i) => <img src={i} key={i.key} alt="" />),
+        galleryItems: this.items.map((i) => <img src={i} key={i.key} alt="Group of NIB members" />),
     };
 
 
@@ -56,6 +55,7 @@ class Members extends React.Component {
                     linkedin={person.linkedin}
                     image={person.image}
                     sillyImage={person.sillyImage}
+                    key={person.name}
                 />
           }
         );
@@ -68,6 +68,7 @@ class Members extends React.Component {
                     linkedin={person.linkedin}
                     image={person.image}
                     sillyImage={person.sillyImage}
+                    key={person.name}
                 />
         });
 
@@ -108,8 +109,8 @@ class Members extends React.Component {
             <svg className="wave hideOnMobile" viewBox="0 0 1440 150" fill="#F0FCFE" xmlns="http://www.w3.org/2000/svg">
                 <path d="M-24 101.603L57.6667 81.0547C139.333 60.1201 302.667 0.789418 466 0.5C629.333 0.789418 792.667 90.9914 956 101.603C1119.33 112.215 1282.67 60.1201 1364.33 50.1834L1446 39.8609V194.217H1364.33C1282.67 194.217 1119.33 194.217 956 194.217C792.667 194.217 629.333 194.217 466 194.217C302.667 194.217 139.333 194.217 57.6667 194.217H-24V101.603Z" fill="#F0FCFE"/>
             </svg>
-            <section class="carousel hideOnMobile">
-                <section class="container">
+            <section className="carousel hideOnMobile">
+                <section className="container">
 
                     <div onClick={() => this.Carousel.slidePrev()} className="carouselPointer">
                         <svg width="30" viewBox="0 0 65 65" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -140,7 +141,7 @@ class Members extends React.Component {
             <svg className="invertedWave hideOnMobile" viewBox="0 0 1440 150" fill="#F0FCFE" xmlns="http://www.w3.org/2000/svg">
                 <path d="M-24 101.603L57.6667 81.0547C139.333 60.1201 302.667 0.789418 466 0.5C629.333 0.789418 792.667 90.9914 956 101.603C1119.33 112.215 1282.67 60.1201 1364.33 50.1834L1446 39.8609V194.217H1364.33C1282.67 194.217 1119.33 194.217 956 194.217C792.667 194.217 629.333 194.217 466 194.217C302.667 194.217 139.333 194.217 57.6667 194.217H-24V101.603Z" fill="#ffffff"/>
             </svg>
-            <section class="alumniSection">
+            <section className="alumniSection">
                 <section className="grid container">
                     <div>
                         <img src={require('../img/members/grad.jpg')} alt="NIB alumni" />

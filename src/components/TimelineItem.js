@@ -3,15 +3,15 @@ import '../css/button.scss';
 import ZoomIcon from '../img/apply/zoom.png';
 
 function TimelineItem(props) {
-    var descriptionStyling = props.description == "Invite Only" 
+    var descriptionStyling = props.description === "Invite Only" 
     ? <em>{props.description}</em> 
     : props.description;
 
     return (
         <li>
-            <div class="content">
-                <p class="posted-date">{props.date}</p>
-                <div class="timeline-heading">
+            <div className="content">
+                <p className="posted-date">{props.date}</p>
+                <div className="timeline-heading">
                     <h4>{props.title}</h4>
                     {
                         props.link && 

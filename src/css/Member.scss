@@ -1,9 +1,6 @@
 .memberProfile {
     display: inline-block;
-    position:relative;
-    height: 18%;
-    width: 18%;
-    margin: 1%;
+    position: relative;
     vertical-align: top;
 
     .memberImage, .memberSillyImage {
@@ -50,5 +47,21 @@
 .memberProfile:hover {
     .memberSillyImage {
         opacity: 1;
+    }
+}
+
+@media (min-width: 800px) {
+    .memberProfile {
+        height: 18%;
+        width: 18%;
+        margin: 1%;
+    }
+}
+
+@media (max-width: 800px) {
+    .memberProfile {
+        height: 40%;
+        width: 40%;
+        margin: 5%;
     }
 }

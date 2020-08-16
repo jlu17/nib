@@ -1,8 +1,4 @@
 import React from 'react';
-import logo from '../img/logo.svg';
-import nibLogo from '../img/nib-full-logo.png';
-import Button from '../components/Button';
-import NavBar from '../components/NavBar';
 import CallToAction from '../components/CallToAction';
 import '../css/FAQ.scss'
 
@@ -13,7 +9,7 @@ class FAQ extends React.Component {
         <section className="faqPage">
             <section className="questions container">
             <h2> Questions </h2>
-            <h4 class="wip">NOTE: This is still a work in progress!</h4>
+            <h4 className="wip">NOTE: This is still a work in progress!</h4>
             <h4>What is consulting?</h4>
             <p>To NIB, consulting is the opportunity to work with professional clients around the world on problems we 
             mutually find meaningful. We work with a range of social-oriented companies, from small nonprofits to larger corporations, on 

@@ -4,9 +4,9 @@ import '../css/About.scss';
 class About extends React.Component {
     render() {
         return (
-            <div class="container">
+            <div className="container">
                 <h1>Welcome!</h1>
-                <iframe class="airtable-embed" src="https://airtable.com/embed/shrJXcWnKC7T5KZnc?backgroundColor=orange" frameborder="0" onmousewheel="" width="100%" height="533"></iframe>
+                <iframe className="airtable-embed" src="https://airtable.com/embed/shrJXcWnKC7T5KZnc?backgroundColor=orange" frameborder="0" onmousewheel="" width="100%" height="533" title="Airtable schedule"></iframe>
             </div>
         );
     }
