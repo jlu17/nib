@@ -124,23 +124,23 @@ class About extends React.Component {
                     <div className="cultureTable">
                         <div className="col">
                             <img src= {chowderGang} className="lifeInNibPics" height= "280" alt="5 NIB members enjoying clam chowder" />
-                            <p>A couple of nib fellows enjoying a hearty bowl of clam chowder just off of the Pacific highway.</p>
+                            <p>A couple of NIB members enjoying a hearty bowl of clam chowder just off the Pacific Coast Highway.</p>
                         </div>
                         <div className="col">
                             <img src= {GarySaltBae} className="lifeInNibPics" height= "280" alt="1 NIB member throwing salt onto his food at a food competition" />
-                            <p>Our Fall niblet class participated in the Basic Needs cooking competition. Here Gary is doing his best Salt bae impression.</p>
+                            <p>Our Fall 2019 Niblet class participated in the Basic Needs cooking competition. Here's Gary doing his best Salt Bae impression.</p>
                         </div>
                         <div className="col">
                             <img src= {EdAndAdhiv} height= "280" alt="1 NIB member showering another NIB member with coins after playing video games" />
-                            <p>A good super spash bros session where Edward is congradulating Adhiv on his spectacular victory.</p>
+                            <p>Edward congratulating Adhiv on a spectacular victory after a Super Smash Bros. Ultimate session.</p>
                         </div>
                         <div className="col">
                             <img src= {WelcomeToNib} height= "280" alt="4 NIB members posed in front of a whiteboard saying Welcome to NIB during a past infosession" />
-                            <p>Nib members at one of the semester’s infosessions. Excited to welcome applicants!</p>
+                            <p>NIB members at one of our infosessions excited to welcome applicants!</p>
                         </div>
                         <div className="col">
                             <img src= {projectHike} height= "280" alt="4 NIB members on a project team enjoying lunch in the woods" />
-                            <p>Every semester our project teams have team socials. Here one of our teams went on the fire trails hike and enjoyed a nice brunch</p>
+                            <p>Every semester our project teams have fun team socials. Here, a team hiked the Berkeley Fire Trails and enjoyed a nice brunch.</p>
                         </div>
                         <div className="col">
                             <img src= {BeachDay} height= "280" alt="NIB members at the beach" />
