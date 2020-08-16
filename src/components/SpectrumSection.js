@@ -44,8 +44,9 @@ class SpectrumSection extends React.Component {
 
         return (
             <section className="spectrums">
-                <div className="row">{row1}</div>
-                <div className="row">{row2}</div>
+                <div className="combinedRows hideOnWeb">{row1}{row2}</div>
+                <div className="row hideOnMobile">{row1}</div>
+                <div className="row hideOnMobile">{row2}</div>
                 <div className="spectrumText container">
                     <h1>Impact Across All Spectrums</h1>
                     <p>From renewable energy to healthcare technology, there’s no limit to the types of projects our members seek out. We continually strive to engage with new and innovative clients to create the greatest net impact.</p>

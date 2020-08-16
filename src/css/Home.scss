@@ -138,7 +138,7 @@
         .projectDomain {
             display: inline-block;
             border: 1px solid rgba(214,214,214,0.5);
-            padding: 15px 25px;
+            padding: 10px 20px 15px 20px;
             border-radius: 8px;
             box-sizing: border-box;
             box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
@@ -146,9 +146,11 @@
             margin: 0 15px;
 
             img {
-                width: 20px;
+                height: 25px;
                 display: inline-block;
-                margin-right:15px;
+                margin-right:12px;
+                position: relative;
+                top: 6px;
             }
 
             p {
@@ -156,7 +158,6 @@
                 display: inline-block;
                 font-weight: bold;
                 position: relative;
-                bottom: 5px;
                 margin: 0;
             }
         }
@@ -184,10 +185,10 @@
     .who {
         .grid.container {
             display: grid;
-            grid-template-columns: 1fr;
-            grid-column-gap: 30px;
+            grid-template-columns: 1fr 1fr;
             padding-top: 100px;
-            text-align: center;
+            text-align: right;
+            grid-column-gap: 30px;
 
             img {
                 width: 100%;
@@ -240,6 +241,7 @@
             .container p {
                 padding: 0 100px 0px 100px;
             }
+
         }
 
         .partners {
@@ -288,6 +290,16 @@
             
         }
 
+        .spectrums {
+
+            .projectDomain {
+                margin: 5px;
+            }
+            .row {
+                padding: 0;
+            }
+        }
+
         h1 {
             font-size: 30px;
             margin: 40px 0;
@@ -312,6 +324,20 @@
                     padding-left: 2%;
                     padding-right: 2%;
                     width: 26%;
+                }
+            }
+        }
+
+        .who {
+            .grid.container {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-column-gap: 30px;
+                padding-top: 100px;
+                text-align: center;
+    
+                img {
+                    width: 100%;
                 }
             }
         }
