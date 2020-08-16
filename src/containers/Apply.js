@@ -14,17 +14,17 @@ class Apply extends React.Component {
     render() {
         document.title = 'Apply to NIB';
         let timelineInfo = Timeline.map((timelineItem) => {
-            return <TimelineItem 
+            return <TimelineItem
                 date={timelineItem.date}
                 title={timelineItem.title}
                 description={timelineItem.description}
-                link={timelineItem.link} 
+                link={timelineItem.link}
                 key={timelineItem.title}
                 />
         });
 
         let preparationTypes = prepareTypeInfo.map((project) => {
-            return <ProjectType 
+            return <ProjectType
                 img={project.img}
                 alt={project.alt}
                 title={project.title}
@@ -39,7 +39,7 @@ class Apply extends React.Component {
                 <div className="left">
                     <h3>APPLY</h3>
                     <h1>Join our Family</h1>
-                    <p>Interested in applying to Net Impact? Click below to fill our our interest form! We'll email you once we open up our Fall 2020 application</p>
+                    <p>Interested in applying to Net Impact? Click below to fill out our interest form! We'll email you once we open up our Fall 2020 application.</p>
                     <Button
                         link="https://airtable.com/shrDaa4bxNXoRB7gQ"
                         buttonText="Interest Form"
