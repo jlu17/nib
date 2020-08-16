@@ -35,7 +35,7 @@ class NavBar extends React.Component {
                 <ul>
                     <li>
                         <Link to="/" className="logo">
-                            <img src={logosvg} alt="NIB logo"/>
+                            <img src={logo} alt="NIB logo"/>
                         </Link>
                     </li>
                     <div className="right">
