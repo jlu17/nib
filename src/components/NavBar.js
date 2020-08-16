@@ -4,6 +4,9 @@ import HamburgerMenu from 'react-hamburger-menu';
 import { CSSTransition } from 'react-transition-group';
 import '../css/NavBar.scss';
 import logo from '../img/nib-full-logo.png';
+import logoNew from '../img/nib-logo-new.png';
+import logosvg from '../img/nib-logo-svg.svg';
+
 
 class NavBar extends React.Component {
     constructor (props) {
@@ -32,7 +35,7 @@ class NavBar extends React.Component {
                 <ul>
                     <li>
                         <Link to="/" className="logo">
-                            <img src={logo} alt="NIB logo" height="20" />
+                            <img src={logosvg} alt="NIB logo"/>
                         </Link>
                     </li>
                     <div className="right">

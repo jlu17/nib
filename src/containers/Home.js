@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from '../img/logo.svg';
 import nibLogo from '../img/nib-full-logo.png';
+import nibLogoNew from '../img/nib-logo-new.png';
+
 import Button from '../components/Button';
 import NavBar from '../components/NavBar';
 import CallToAction from '../components/CallToAction';
@@ -50,7 +52,7 @@ class Home extends React.Component {
                 </svg>
 
                 <img src={blob1} className="seniors" alt="NIB seniors relaxing on a hill" />
-                <img src={blob2} className=" hideOnMobile emgajen" alt="3 NIB members posing" />
+                <img src={blob2} className="hideOnMobile emgajen" alt="3 NIB members posing" />
             </div>
         </section>
         <svg className="wave" viewBox="0 0 1440 195" fill="#F0FCFE" xmlns="http://www.w3.org/2000/svg">
