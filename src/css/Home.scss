@@ -184,10 +184,10 @@
     .who {
         .grid.container {
             display: grid;
-            grid-template-columns: 1fr 1fr;
+            grid-template-columns: 1fr;
             grid-column-gap: 30px;
             padding-top: 100px;
-            text-align: right;
+            text-align: center;
 
             img {
                 width: 100%;
