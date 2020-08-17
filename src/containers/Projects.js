@@ -46,7 +46,7 @@ class Projects extends React.Component {
                 <h1>Who Our Clients Are</h1>
                 <p>You can imagine it as a spectrum. Whether it's large for-profit corporations that allow us to deep dive into 
                 one component of their programs, mission-driven corporations that continuously strive for solutions beyond the 
-                baseline of "good enough", or smaller social enterprises and nonprofits that gives us the opportunity to touch 
+                baseline of "good enough", or smaller social enterprises and nonprofits that give us the opportunity to touch 
                 multiple aspects, we work with them all. As long as our work for our clients is aiming to create a better, more sustainable world. </p>
                 <img className="hideOnMobile" src={ProjectSpectrumImage} alt="Spectrum of projects ranging from small nonprofits to large corporations" />
                 <div className="mobileTimeline showOnMobile">
