@@ -130,6 +130,16 @@
             margin-right: 10px;
             display: inline-block;
             vertical-align: middle;
+            
+        }
+
+        .mobileRow {
+            display: block;
+
+            img {
+                width: 25px;
+                margin: 10px;
+            }
         }
 
         .projectDomain {
@@ -233,7 +243,6 @@
             .container p {
                 padding: 0 100px 0px 100px;
             }
-
         }
 
         .partners {
@@ -300,6 +309,10 @@
             }
             .row {
                 padding: 0;
+            }
+
+            .button {
+                margin-bottom: 25px;
             }
         }
 

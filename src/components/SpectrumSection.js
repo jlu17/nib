@@ -53,7 +53,13 @@ class SpectrumSection extends React.Component {
                         alt={project.name}
                     />
         });
-        let mobileRow2 = spectrumInfo.slice(7, 14).map((project) => {
+        let mobileRow2 = spectrumInfo.slice(6, 13).map((project) => {
+            return <img 
+                        src={project.icon} 
+                        alt={project.name}
+                    />
+        });
+        let mobileRow3 = spectrumInfo.slice(13, 20).map((project) => {
             return <img 
                         src={project.icon} 
                         alt={project.name}
@@ -62,8 +68,12 @@ class SpectrumSection extends React.Component {
 
         return (
             <section className="spectrums">
-                <div className="row hideOnWeb">{mobileRow1}</div>
-                <div className="row hideOnWeb">{mobileRow2}</div>
+
+                {/* MOBILE START */}
+                <div className="mobileRow hideOnWeb">{mobileRow1}</div>
+                <div className="mobileRow hideOnWeb">{mobileRow2}</div>
+                {/* MOBILE END */}
+
                 <div className="row hideOnMobile">{row1}</div>
                 <div className="row hideOnMobile">{row2}</div>
                 <div className="spectrumText container">
@@ -78,6 +88,7 @@ class SpectrumSection extends React.Component {
                     />
                     {row3right}
                 </div>
+                <div className="mobileRow hideOnWeb">{mobileRow3}</div>
                 <div className="row hideOnMobile">{row4}</div>
             </section>
         );
