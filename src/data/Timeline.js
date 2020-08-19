@@ -20,7 +20,11 @@ let Timeline = [
     {
         date: "Thursday, September 3",
         title: "Info Session #2 + Case Workshop",
+<<<<<<< HEAD
         description: "Info Session #2 is the same as Info Session #1 and will take place from 8-9pm. Feel free to take this opportunity to continue to meet more members from our organization, ask questions, and learn about what NIB can offer you. From 9-10pm we host a case workshop to help walk you through the case portion of our interview and what to expect from the overall interview process. This includes best practices, a sample case, and time to ask questions.",
+=======
+        description: "Info Session #2 is the same as Info Session #1 and will take place from 8-9pm. Feel free to take this opportunity to continue to meet more members of our organization, ask questions, and learn about what NIB can offer you. From 9-10pm we host a case workshop to help walk you through the case portion of our interview and what to expect from the overall interview process. This includes best practices, a sample case, and time to ask questions.",
+>>>>>>> 182c379d4cff9df01e3ff1f77d9b69344abee88a
         link: "#",
         usesZoom: true
     },

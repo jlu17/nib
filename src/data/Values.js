@@ -6,7 +6,7 @@ import nibfam from '../img/about/Nibfam.png';
 let values = [
     {
         title: "Impact Across All Spectrums",
-        description: "We believe that  all types of impact add value in different ways to making the world a better place. To this end, we work on a broad variety of projects from environmental sustainability to zero poverty and financial empowerment.",
+        description: "We believe that all types of impact help make the world a better place. To this end, we work on a broad variety of projects from environmental sustainability to zero poverty and financial empowerment.",
         image: passion,
         alt: "Icon",
     },
@@ -18,7 +18,7 @@ let values = [
     },
     {
         title: "Tenacious Problem Solvers",
-        description: "NIB members don't give up when there isn't an easy route to take. Rather, we seek opportunity to solve challenges, overcome major obstacles and persevere to test new solutions.",
+        description: "NIB members don't give up when there isn't an easy route to take. Rather, we seek the opportunity to solve challenges, overcome major obstacles and persevere to test new solutions.",
         image: tenacious,
         alt: "Tenacious Problem Solvers Icon",
     },

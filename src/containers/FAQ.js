@@ -36,7 +36,11 @@ class FAQ extends React.Component {
                 You'll have the chance to work in small groups to solve a real world case and learn how to 
                 approach and solve case interview questions.</li>
                 <li>Infosession #2: Info Session #2 is the same as Info Session #1 and will take place from 8-9pm. 
+<<<<<<< HEAD
                 Feel free to take this opportunity to continue to meet more members from our organization, ask questions, and 
+=======
+                Feel free to take this opportunity to continue to meet more members of our organization, ask questions, and 
+>>>>>>> 182c379d4cff9df01e3ff1f77d9b69344abee88a
                 learn about what NIB can offer you. From 9-10pm we host a case workshop to help walk you through the 
                 case portion of our interview and what to expect from the overall interview process. This includes best 
                 practices, a sample case, and time to ask questions.</li>

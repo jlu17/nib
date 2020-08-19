@@ -17,7 +17,9 @@ class Footer extends React.Component {
     return (
         <footer>
             <div className="footerLeft">
-                <img alt="NIB logo" src={logo} className="footerImage" />
+                <Link to="/">
+                    <img alt="NIB logo" src={logo} className="footerImage" />
+                </Link>
                 <p className="copyrightText">Copyright Net Impact Berkeley, 2020.</p>
             </div>
             <div className="footerRight">

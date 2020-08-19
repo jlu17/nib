@@ -8,7 +8,7 @@ let prepareTypeInfo = [
     {
         img: require('../img/apply/connectWithUs.png'),
         alt: "Cycle",
-        title: "Take Iniative, Reach Out!",
+        title: "Take Initiative, Reach Out!",
         description: "Whether it’s on sprawl, an infosession or online, ask our members about their experiences and time in NIB."
     },
     {

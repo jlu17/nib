@@ -47,9 +47,23 @@ class SpectrumSection extends React.Component {
                 />
         });
 
+        let mobileRow1 = spectrumInfo.slice(0, 6).map((project) => {
+            return <img 
+                        src={project.icon} 
+                        alt={project.name}
+                    />
+        });
+        let mobileRow2 = spectrumInfo.slice(7, 14).map((project) => {
+            return <img 
+                        src={project.icon} 
+                        alt={project.name}
+                    />
+        });
+
         return (
             <section className="spectrums">
-                <div className="combinedRows hideOnWeb">{row1}{row2}</div>
+                <div className="row hideOnWeb">{mobileRow1}</div>
+                <div className="row hideOnWeb">{mobileRow2}</div>
                 <div className="row hideOnMobile">{row1}</div>
                 <div className="row hideOnMobile">{row2}</div>
                 <div className="spectrumText container">
