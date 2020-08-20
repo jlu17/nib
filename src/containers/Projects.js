@@ -5,13 +5,14 @@ import projectTypeInfo from '../data/ProjectTypesText';
 import ProjectType from '../components/ProjectType';
 import ProjectHeroImage from '../img/projects/projectsHero.png';
 import ProjectSpectrumImage from '../img/projects/projectSpectrum.png';
+import ClientSpectrumNew from '../img/projects/ClientSpectrum.png';
 import clients from '../data/Clients';
 import ClientImage from '../components/ClientImage';
 
 class Projects extends React.Component {
     render() {
         let projectTypes = projectTypeInfo.map((project) => {
-            return <ProjectType 
+            return <ProjectType
                 img={project.img}
                 alt={project.alt}
                 title={project.title}
@@ -21,14 +22,14 @@ class Projects extends React.Component {
         });
 
         let clientImages = clients.map((client) => {
-            return <ClientImage 
+            return <ClientImage
                 img={client.img}
                 link={client.link}
             />
         });
 
         let clientImagesMobile = clientImages.slice(0, 12);
-        
+
 
         document.title = 'Projects of NIB';
         return (
@@ -39,7 +40,7 @@ class Projects extends React.Component {
                     <h1>We Make Our Impact Through Dedicated Client Work</h1>
                     <p>Each semester we work alongside companies, non-profits and start-ups on a socially/environmentally driven problem. <br />
                     <br />
-                    Defining the work space, conducting client research, and analyzing data are just a part of what we do in order to take a 
+                    Defining the work space, conducting client research, and analyzing data are just a part of what we do in order to take a
                     complex problem and compact it into an understandable and viable solution that will make a difference.  </p>
                 </div>
                 <div className="right heroImage verticallyCenter">
@@ -60,11 +61,11 @@ class Projects extends React.Component {
             </section>
             <section className="container projectSpectrumSection">
                 <h1>Who Our Clients Are</h1>
-                <p>You can imagine it as a spectrum. Whether it's large for-profit corporations that allow us to deep dive into 
-                one component of their programs, mission-driven corporations that continuously strive for solutions beyond the 
-                baseline of "good enough", or smaller social enterprises and nonprofits that give us the opportunity to touch 
+                <p>You can imagine it as a spectrum. Whether it's large for-profit corporations that allow us to deep dive into
+                one component of their programs, mission-driven corporations that continuously strive for solutions beyond the
+                baseline of "good enough", or smaller social enterprises and nonprofits that give us the opportunity to touch
                 multiple aspects, we work with them all. As long as our work for our clients is aiming to create a better, more sustainable world. </p>
-                <img className="hideOnMobile" src={ProjectSpectrumImage} alt="Spectrum of projects ranging from small nonprofits to large corporations" />
+                <img className="hideOnMobile" src={ClientSpectrumNew} alt="Spectrum of projects ranging from small nonprofits to large corporations" />
                 <div className="mobileTimeline showOnMobile">
                     <h3>Smaller Social Enterprises and Nonprofits</h3>
                     <div className="grid">
