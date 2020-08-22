@@ -10,6 +10,8 @@ import projectHike from '../img/about/projectHike.png';
 import WelcomeToNib from '../img/about/WelcomeToNib.png';
 import BeachDay from '../img/about/beachday.png';
 import values from '../img/about/ValuesPhoto.png';
+import varshaAndNaomi from '../img/about/naomiAndVarsha.png';
+import womenInNib from '../img/about/womenInNib.png';
 import NetImpactGlobal from '../img/about/NetImpactGlobal.png';
 import Button from '../components/Button';
 import Values from '../components/Values';
@@ -129,6 +131,14 @@ class About extends React.Component {
                         <div className="col">
                             <img src= {GarySaltBae} className="lifeInNibPics" height= "280" alt="1 NIB member throwing salt onto his food at a food competition" />
                             <p>Our Fall 2019 Niblet class participated in the Basic Needs cooking competition. Here's Gary doing his best Salt Bae impression.</p>
+                        </div>
+                        <div className="col">
+                            <img src= {womenInNib} height= "280" alt="Women in Nib Social" />
+                            <p>The wonderful “Women in NIB” enjoying brunch at one of the semester’s frequent socials.</p>
+                        </div>
+                        <div className="col">
+                            <img src= {varshaAndNaomi} height= "280" alt="NIB getting Boba" />
+                            <p>Varsha and fresh alum Naomi enjoying boba (a timeless nib pastime)</p>
                         </div>
                         <div className="col">
                             <img src= {EdAndAdhiv} height= "280" alt="1 NIB member showering another NIB member with coins after playing video games" />
