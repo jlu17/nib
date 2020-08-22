@@ -63,7 +63,7 @@ class Home extends React.Component {
                 <div></div>
                 <div className="right">
                     <h1>Driven to Make a Difference</h1>
-                    <p>We are a student-run consulting group on campus that provides custom strategies for clients that range from social enterprises and non-profits, to traditional for-profit businesses.</p>
+                    <p>We are a student-run consulting group at UC Berkeley that provides custom strategies for clients that range from social enterprises to non-profits to traditional for-profit businesses.</p>
                     <Button
                         link="/about"
                         buttonText="Learn About Us"
@@ -108,8 +108,8 @@ class Home extends React.Component {
                 <img src={trio} alt="3 NIB members posing" />
                 <div>
                     <h2>Who are we?</h2>
-                    <p>Net Impact Berkeley is a collective of impact motivated, forward thinking student consultants. Not only does 
-                    Net Impact Berkeley provide its members to grow professionally through hands-on project experience, but also grow 
+                    <p>Net Impact Berkeley is a collective of impact motivated, forward thinking student consultants. Not only does
+                    Net Impact Berkeley provide its members to grow professionally through hands-on project experience, but also grow
                     personally through the support system of NIBfam.</p>
                     <Button
                         link="/members"
