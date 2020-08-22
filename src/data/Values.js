@@ -5,26 +5,26 @@ import nibfam from '../img/about/Nibfam.png';
 
 let values = [
     {
-        title: "Impact Across All Spectrums",
-        description: "We believe that all types of impact help make the world a better place. To this end, we work on a broad variety of projects from environmental sustainability to zero poverty and financial empowerment.",
+        title: "Impact Across Domains",
+        description: "Our contributions to a more socially and environmentally sustainable world take many forms and come from diverse places. We pursue synergies and multi-disciplinary thinking to drive change for the broadest impact.",
         image: passion,
         alt: "Icon",
     },
     {
         title: "Growth Mindset",
-        description: "Imagine if you could do anything because you believe you can. We do. Net Impact believes in giving our members the space to stretch ourselves and cultivate the growth mindset.",
+        description: "We actively search for ways to develop and improve ourselves, those around us, our organization, and society at large. Feedback and learning are critical processes that continuously shape what we can do and who we are.",
         image: growth,
         alt: "Growth Mindset Icon",
     },
     {
-        title: "Tenacious Problem Solvers",
-        description: "NIB members don't give up when there isn't an easy route to take. Rather, we seek the opportunity to solve challenges, overcome major obstacles and persevere to test new solutions.",
+        title: "Tenacious Problem Solving",
+        description: "In order to deliver outstanding results, we embrace challenges and push through difficult problems with perseverance and ingenuity. Dedication and intelligent effort are how we make a difference in our work.",
         image: tenacious,
         alt: "Tenacious Problem Solvers Icon",
     },
     {
         title: "#NIBFam",
-        description: "Net Impact is not just a student organization, we're like family. When it comes to assignments that you are having trouble or spending evenings unwinding over a warm cooked meal, we celebrate the value that each one of our members brings to our NIBfam.",
+        description: "Beyond consulting, we are a tight-knit social group committed to supporting our members in all endeavors. We take pride and joy in enriching each other’s lives and celebrating every individual as part of the Net Impact Berkeley family.",
         image: nibfam,
         alt: "NIBFam Icon",
     },

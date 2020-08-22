@@ -17,7 +17,7 @@ import styled from 'styled-components';
 
 const Wrapper = styled.div`
   width: 100%;
-  
+
   li.alice-carousel__stage-item :not(.__cloned) {
     width: auto !important;
     margin-right: 1rem;
@@ -48,7 +48,7 @@ class Members extends React.Component {
         document.title = 'Members of NIB';
 
         let execList = memberInfo.execList.map((person) => {
-            return <Member 
+            return <Member
                     name={person.name}
                     title={person.title}
                     year={person.year}
@@ -61,7 +61,7 @@ class Members extends React.Component {
         );
 
         let memberList = memberInfo.memberList.map((person) => {
-            return <Member 
+            return <Member
                     name={person.name}
                     title={person.title}
                     year={person.year}
@@ -79,8 +79,8 @@ class Members extends React.Component {
             1024: {
                 items: 2
             }
-        };      
-                
+        };
+
         return (
         <section className="membersPage">
             <section>
@@ -119,7 +119,7 @@ class Members extends React.Component {
                         </svg>
                     </div>
                     <Wrapper>
-                    <AliceCarousel    
+                    <AliceCarousel
                         buttonsDisabled={true}
                         items={this.state.galleryItems}
                         ref={(el) => (this.Carousel = el)}
@@ -127,15 +127,15 @@ class Members extends React.Component {
                             paddingLeft: 20,     // in pixels
                             paddingRight: 10
                         }}
-                    />  
+                    />
                     </Wrapper>
-                    
+
                     <div onClick={() => this.Carousel.slideNext()} className="carouselPointer">
                         <svg width="30" viewBox="0 0 65 65" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect x="23.9434" y="8.41241" width="11.897" height="45.7575" transform="rotate(-45 23.9434 8.41241)" fill="#1B67B1"/>
                             <rect x="32.3555" y="64.7109" width="11.897" height="45.7575" transform="rotate(-135 32.3555 64.7109)" fill="#1B67B1"/>
                         </svg>
-                    </div>                  
+                    </div>
                 </section>
             </section>
             <svg className="invertedWave hideOnMobile" viewBox="0 0 1440 150" fill="#F0FCFE" xmlns="http://www.w3.org/2000/svg">
@@ -148,15 +148,15 @@ class Members extends React.Component {
                     </div>
                     <div className="verticallyCenter">
                         <h2>Alumni</h2>
-                        <p>After our Net Impact Berkeley careers, we create our impact across a
-                        diverse spectrum of careers, from graduate school to consulting to software
-                        engineering, and everything in-between.</p>
+                        <p>After their time in Net Impact Berkeley, our alumni have gone on
+                        to make their impacts in a wide array of career paths from consulting to
+                        software engineering to finance to grad school and more.</p>
                     </div>
                 </section>
                 <section className="container">
-                    <h2>Where do our Alumni Go?</h2>
+                    <h2>Where do our alumni go?</h2>
                     <div id = "company-logos">
-                        {AlumniCompanies.map((company, i) => 
+                        {AlumniCompanies.map((company, i) =>
                             <AlumniCompany key={i} name={company.name} href={company.href} fileName={company.fileName} />)}
                     </div>
                 </section>
