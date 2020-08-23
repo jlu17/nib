@@ -33,16 +33,12 @@ let spectrums = [
         icon: crowdfunding
     },
     {
-        name: 'Earth',
+        name: 'Environment',
         icon: earth
     },
     {
         name: 'Education',
         icon: education
-    },
-    {
-        name: 'Environment',
-        icon: environment
     },
     {
         name: 'Fair Trade',
@@ -73,10 +69,6 @@ let spectrums = [
         icon: impactinvestment
     },
     {
-        name: 'Volunteering',
-        icon: lamp
-    },
-    {
         name: 'Sustainable Energy',
         icon: energy
     },
@@ -97,8 +89,12 @@ let spectrums = [
         icon: youthservices
     },
     {
-        name: 'Leaf',
+        name: 'Sustainability',
         icon: leaf
+    },
+    {
+        name: 'Globalization',
+        icon: environment
     }
 ];
 

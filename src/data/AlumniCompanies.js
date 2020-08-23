@@ -26,9 +26,9 @@ let AlumniCompanies =
         fileName: 'deloitte.png'
     },
     {
-        name: 'Goldman Sachs',
-        href: 'http://www.goldmansachs.com/',
-        fileName: 'gs.png'
+        name: 'PWC',
+        href: 'http://www.pwc.com/',
+        fileName: 'pwc.png'
     },
     {
         name: 'Google',
@@ -106,9 +106,9 @@ let AlumniCompanies =
         fileName: 'ucsf.png'
     },
     {
-        name: 'Columbia',
-        href: 'http://engineering.columbia.edu/',
-        fileName: 'columbia.png'
+        name: 'MasterClass',
+        href: 'https://www.masterclass.com/',
+        fileName: 'masterclass.png'
     },
     {
         name: 'Wharton',

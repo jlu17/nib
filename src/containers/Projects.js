@@ -4,7 +4,6 @@ import CallToAction from '../components/CallToAction';
 import projectTypeInfo from '../data/ProjectTypesText';
 import ProjectType from '../components/ProjectType';
 import ProjectHeroImage from '../img/projects/projectsHero.png';
-import ProjectSpectrumImage from '../img/projects/projectSpectrum.png';
 import ClientSpectrumNew from '../img/projects/ClientSpectrum.png';
 import clients from '../data/Clients';
 import ClientImage from '../components/ClientImage';
@@ -25,6 +24,7 @@ class Projects extends React.Component {
             return <ClientImage
                 img={client.img}
                 link={client.link}
+                key={client.link}
             />
         });
 
@@ -66,10 +66,10 @@ class Projects extends React.Component {
                 one component of their programs, mission-driven corporations that continuously strive for solutions beyond the
                 baseline of "good enough", or smaller social enterprises and nonprofits that give us the opportunity to touch
                 multiple aspects, we work with them all. </p>
-                <div class="clientsSection hideOnMobile">
+                <div className="clientsSection hideOnMobile">
                     {clientImages}
                 </div>
-                <div class="clientsSection showOnMobile">
+                <div className="clientsSection showOnMobile">
                     {clientImagesMobile}
                 </div>
             </section>

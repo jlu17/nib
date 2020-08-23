@@ -51,18 +51,21 @@ class SpectrumSection extends React.Component {
             return <img 
                         src={project.icon} 
                         alt={project.name}
+                        key={project.name}
                     />
         });
         let mobileRow2 = spectrumInfo.slice(6, 13).map((project) => {
             return <img 
                         src={project.icon} 
                         alt={project.name}
+                        key={project.name}
                     />
         });
         let mobileRow3 = spectrumInfo.slice(13, 20).map((project) => {
             return <img 
                         src={project.icon} 
                         alt={project.name}
+                        key={project.name}
                     />
         });
 

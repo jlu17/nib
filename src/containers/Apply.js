@@ -64,6 +64,17 @@ class Apply extends React.Component {
                     <div className="flex projectTypes">
                         {preparationTypes}
                     </div>
+                    <div class="resources">
+                        <Button
+                            link="/faq"
+                            buttonText="FAQ"
+                        />
+                        <Button
+                            link="/nib-app-checklist.pdf"
+                            buttonText="Recruiting Cheat Sheet"
+                            external
+                        />
+                    </div>
                 </section>
             </section>
             <svg className="endWave" viewBox="0 0 1440 264" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -87,23 +98,17 @@ class Apply extends React.Component {
                 </div>
             </section>
 
-            <section className="resourcesSection">
+            <section>
                 <svg viewBox="0 0 1440 239" fill="none" xmlns="http://www.w3.org/2000/svg" className="wave">
                     <path d="M692.426 116.5C486.926 116.5 -2.07446 238.5 -2.07446 238.5H1440.93V0C1440.93 0 1408.43 183.5 1193.93 184.5C979.426 185.5 897.926 116.5 692.426 116.5Z" fill="#F0FCFE"/>
                 </svg>
-                <div className="resources">
+                <div className="callToAction">
                     <div>
-                        <h2>Have More Questions?</h2>
+                        <h1>Ready to Join?</h1>
                         <Button
-                            link="/faq"
-                            buttonText="FAQs"
-                        />
-                    </div>
-                    <div>
-                        <h2>Recruiting Resources</h2>
-                        <Button
-                            link="/apply"
-                            buttonText="Apply now"
+                            link="https://airtable.com/shrDaa4bxNXoRB7gQ"
+                            buttonText="Interest Form"
+                            external
                         />
                     </div>
                 </div>

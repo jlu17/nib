@@ -12,17 +12,15 @@ let Timeline = [
     },
     {
         date: "Wednesday, September 2",
-        title: "Case Coaching Session",
-        description: "Come learn about Net Impact's interview process and how to crush a case interview at our Case Coaching Session. You'll have the chance to work in small groups to solve a real world case and learn how to approach and solve case interview questions.",
-        link: "#",
-        usesZoom: true
-    },
-    {
-        date: "Thursday, September 3",
         title: "Info Session #2 + Case Workshop",
         description: "Info Session #2 is the same as Info Session #1 and will take place from 8-9pm. Feel free to take this opportunity to continue to meet more members of our organization, ask questions, and learn about what NIB can offer you. From 9-10pm we host a case workshop to help walk you through the case portion of our interview and what to expect from the overall interview process. This includes best practices, a sample case, and time to ask questions.",
         link: "#",
-        usesZoom: true
+    },
+    {
+        date: "Thursday, September 3",
+        title: "Case Coaching Session",
+        description: "Come learn about Net Impact's interview process and how to crush a case interview at our Case Coaching Session. You'll have the chance to work in small groups to solve a real world case and learn how to approach and solve case interview questions.",
+        link: "#",
     },
     {
         date: "Friday, September 4",

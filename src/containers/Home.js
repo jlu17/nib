@@ -7,12 +7,12 @@ import CallToAction from '../components/CallToAction';
 import '../css/Home.scss'
 import '../css/Projects.scss'
 
-import godaddy from '../img/home/GoDaddy.png';
-import imperfect from '../img/home/ImperfectFoods.png';
-import kuli from '../img/home/KuliKuli.png';
-import larkin from '../img/home/LarkinStreet.png';
-import marin from '../img/home/MarinFoodBank.png';
-import sierra from '../img/home/SierraNevada.png';
+import godaddy from '../img/projects/pastClients/GoDaddy.png';
+import imperfect from '../img/projects/pastClients/ImperfectFoods.png';
+import kuli from '../img/projects/pastClients/KuliKuli.png';
+import larkin from '../img/projects/pastClients/Larkin.png';
+import marin from '../img/projects/pastClients/MarinFoodBank.png';
+import sierra from '../img/projects/pastClients/SierraNevada.png';
 
 import blob1 from '../img/home/shapes/blob1.png';
 import blob2 from '../img/home/shapes/blob2.png';
