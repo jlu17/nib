@@ -34,6 +34,7 @@ function App() {
           <Route path="/faq" component={FAQ} />
           <Route path="/virtual-sproul" component={VirtualSproul} />
           <Route path="/checkin" component={Redirecting} />
+          <Route path="/check-in" component={Redirecting} />
           <Route component={NotFound} />
         </Switch>
         <Footer />
