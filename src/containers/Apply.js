@@ -36,15 +36,17 @@ class Apply extends React.Component {
         return (
         <section className="applyPage">
             <section className="hero container">
-                <div className="left">
-                    <h3>APPLY</h3>
-                    <h1>Join our Family</h1>
-                    <p>Interested in applying to Net Impact? Click below to fill out our interest form! We'll email you once we open up our Fall 2020 application.</p>
-                    <Button
-                        link="https://airtable.com/shrDaa4bxNXoRB7gQ"
-                        buttonText="Interest Form"
-                        external
-                    />
+                <div class="container">
+                    <div className="left">
+                        <h3>APPLY</h3>
+                        <h1>Join our Family</h1>
+                        <p>Interested in applying to Net Impact? Click below to fill out our interest form! We'll email you once we open up our Fall 2020 application.</p>
+                        <Button
+                            link="https://airtable.com/shrDaa4bxNXoRB7gQ"
+                            buttonText="Interest Form"
+                            external
+                        />
+                    </div>
                 </div>
                 <div className="right hideOnMobile">
                     <svg className="bigBlob" viewBox="0 0 650 572" fill="none" xmlns="http://www.w3.org/2000/svg">
