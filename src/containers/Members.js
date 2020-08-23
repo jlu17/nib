@@ -45,7 +45,7 @@ class Members extends React.Component {
     );
 
     render() {
-        document.title = 'Members of NIB';
+        document.title = 'NIB | Members';
 
         let execList = memberInfo.execList.map((person) => {
             return <Member
@@ -98,8 +98,6 @@ class Members extends React.Component {
             </svg>
             <section>
                 <section className="container memberGallery">
-                    <h2>Inspired by Our Mission.</h2>
-                    <p>With members from around the globe, Net Impact is home to a community of inclusivity and diversity, where there is constant intersection of cultural, social, and professional connection. Far from a one-size-fits-all model, each member contributes a unique perspective and skillset to their teams and projects.</p>
                     <h2>Executive Board</h2>
                     <div>{execList}</div>
                     <h2>Members</h2>
@@ -144,17 +142,16 @@ class Members extends React.Component {
             <section className="alumniSection">
                 <section className="grid container">
                     <div>
-                        <img src={require('../img/members/grad.jpg')} alt="NIB alumni" />
+                        <img src={require('../img/members/alumni.jpg')} alt="NIB alumni" />
                     </div>
                     <div className="verticallyCenter">
                         <h2>Alumni</h2>
-                        <p>After their time in Net Impact Berkeley, our alumni have gone on
-                        to make their impacts in a wide array of career paths from consulting to
-                        software engineering to finance to grad school and more.</p>
+                        <p>After their time in Net Impact Berkeley, our alumni have gone on to make their impacts in a wide 
+                        array of career paths from consulting to software engineering to finance to grad school and more.</p>
                     </div>
                 </section>
                 <section className="container">
-                    <h2>Where do our alumni go?</h2>
+                    <h2>Where Our Alumni Are</h2>
                     <div id = "company-logos">
                         {AlumniCompanies.map((company, i) =>
                             <AlumniCompany key={i} name={company.name} href={company.href} fileName={company.fileName} />)}

@@ -31,7 +31,7 @@ class Projects extends React.Component {
         let clientImagesMobile = clientImages.slice(0, 12);
 
 
-        document.title = 'Projects of NIB';
+        document.title = 'NIB | Projects';
         return (
         <section className="projectsPage">
             <section className="hero container">

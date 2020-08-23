@@ -19,17 +19,16 @@ import Values from '../components/Values';
 class About extends React.Component {
 
     render() {
-        document.title = 'About NIB';
+        document.title = 'NIB | About';
         return (
             <section className="aboutPage">
                 <section className="hero container">
                     <div>
-                        <h3>ABOUT US</h3>
-                        <h1>Inspired by our mission</h1>
-                        <p>Through our focus on social and environmental impact,
-                        innovative methods, and diverse backgrounds, we strive to
-                        bring social responsibility and environmental stewardship
-                        to business and innovation.</p>
+                        <h3>ABOUT</h3>
+                        <h1>Inspired By Our Mission</h1>
+                        <p>Through innovative impact-focused methods and collaborative 
+                        problem-solving, we strive to bring social responsibility and 
+                        environmental stewardship to business and innovation.</p>
                     </div>
                     <div className="heroImage">
                         <img src={aboutPhoto} alt="Collage of NIB members" />
@@ -47,15 +46,15 @@ class About extends React.Component {
                         </div>
                         <div className="right">
                             <h1>About Us</h1>
-                            <p>Net Impact Berkeley is a student-run consulting club on the
-                            University of California Berkeley's campus. We offer
-                            comprehensive strategy solutions to our clients, ranging from
-                            non-profits and social enterprises to large corporations
-                            and Fortune 500s, to improve their performance and
-                            to ensure a lasting impact.</p>
-                            <p>For over 10 years, we have brought together the best minds in
-                            Berkeley from various disciplines and backgrounds
-                            to solve problems that promote social good.</p>
+                            <p>
+                            Net Impact Berkeley is a student-run consulting group at the University of California Berkeley. 
+                            We provide comprehensive strategy solutions to our clients—including non-profits, social enterprises, 
+                            startups and Fortune 500 corporations—to improve their performance and organizational effectiveness
+                            </p>
+                            <p>
+                            For over 13 years, we have brought together the brightest minds from various disciplines and 
+                            backgrounds at UC Berkeley to solve problems and advance positive social and environmental impact.
+                            </p>
                         </div>
                     </section>
                     <section className="statsSection container">
@@ -65,8 +64,8 @@ class About extends React.Component {
                         </div>
 
                         <div>
-                            <h2>10+</h2>
-                            <p>Years of Experience Since 2008</p>
+                            <h2>13+</h2>
+                            <p>Years of Experience</p>
                         </div>
 
                         <div>
@@ -76,13 +75,13 @@ class About extends React.Component {
 
                         <div>
                             <h2>100,000+</h2>
-                            <p>Net Impact National Network</p>
+                            <p>Net Impact Members Worldwide</p>
                         </div>
                     </section>
                 </section>
 
                 <section className="container valuesSection">
-                    <h1>Driven by Our Core Values</h1> 
+                    <h1>Driven By Our Core Values</h1> 
                     <section className="grid">
                         <Values />
                         <div className="verticallyCenter right hideOnMobile">
@@ -100,18 +99,18 @@ class About extends React.Component {
                         <div className="showOnMobile">
                             <img src={NetImpactGlobal} alt="2 NIB members attending a Net Impact conference"/>
                         </div>
-                        <h1>Net Impact’s Global Organization</h1>
+                        <h1>Net Impact’s Global Network</h1>
                         <div className="grid">
                             <div className="left verticallyCenter hideOnMobile">
                                 <img src={NetImpactGlobal} alt="2 NIB members attending a Net Impact conference"/>
                             </div>
                             <div className="right verticallyCenter">
-                                <p>We are the leading Gold Status undergraduate chapter of the global organization of Net Impact, which consists of 
-                                100,000+ undergraduates, graduates, and professionals united by the common mission of using business for social good.<br/>
+                                <p>We are a leading Gold Status chapter of Net Impact, a global organization consisting of 100,000+ students and 
+                                business professionals united by the common mission of using business for social good.<br/>
                                 <br/>
                                 As a part of this global community, we are able to leverage the minds of industry experts and professionals in our 
                                 project work, attend national events and collaborate across our 300 chapters. </p>
-                                <Button link="https://www.netimpact.org/home" buttonText="Learn About NI Global" external />
+                                <Button link="https://www.netimpact.org/home" buttonText="Learn About Net Impact Central" external />
                             </div>
                         </div>
                     </div>

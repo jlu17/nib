@@ -1,5 +1,3 @@
-import fang from './../img/members/individuals/fang.png'
-
 let memberInfo = {
     execList: [
         {
@@ -44,7 +42,7 @@ let memberInfo = {
             title: 'Project Manager',
             linkedin: 'https://www.linkedin.com/in/jasdeep-singh-hundal-aab090171/',
             image: require('../img/members/individuals/jasdeep.png'),
-            sillyImage: fang
+            sillyImage: require('../img/members/fun/jasdeep.png')
         },
         {
             name: 'Kelly Han',
@@ -170,7 +168,7 @@ let memberInfo = {
             title: 'Associate',
             linkedin: 'https://www.linkedin.com/in/agrima-sharma-04356856/',
             image: require('../img/members/individuals/agrima.jpeg'),
-            sillyImage: fang
+            sillyImage: require('../img/members/fun/agrima.png')
         },
         {
             name: 'Helen Rhee',

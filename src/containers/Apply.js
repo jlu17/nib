@@ -12,7 +12,7 @@ import blob2 from '../img/apply/shapes/photo2.png';
 
 class Apply extends React.Component {
     render() {
-        document.title = 'Apply to NIB';
+        document.title = 'NIB | Apply';
         let timelineInfo = Timeline.map((timelineItem) => {
             return <TimelineItem
                 date={timelineItem.date}

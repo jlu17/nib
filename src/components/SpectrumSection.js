@@ -77,8 +77,8 @@ class SpectrumSection extends React.Component {
                 <div className="row hideOnMobile">{row1}</div>
                 <div className="row hideOnMobile">{row2}</div>
                 <div className="spectrumText container">
-                    <h1>Impact Across All Spectrums</h1>
-                    <p>From renewable energy to healthcare technology, there’s no limit to the types of projects our members seek out. We continually strive to engage with new and innovative clients to create the greatest net impact.</p>
+                    <h1>Impact Across Many Domains</h1>
+                    <p>Our members have worked on projects in all kinds of impact areas. We continually seek to engage with new clients operating in different industries.</p>
                 </div>
                 <div className="row">
                     {row3left}
