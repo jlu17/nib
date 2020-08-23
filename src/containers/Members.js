@@ -4,25 +4,20 @@ import imageRight from '../img/images-right.png';
 import AlumniCompanies from '../data/AlumniCompanies';
 import Member from './../components/Member.js';
 import '../css/Members.scss';
-import memberInfo from '../data/memberInfo'
+import memberInfo from '../data/memberInfo';
+import imageList from '../data/Carousel';
 import CallToAction from '../components/CallToAction';
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
+import "../css/flickity.css";
+
 import photo1 from '../img/members/carousel/photo1.jpg';
 import photo2 from '../img/members/carousel/photo2.jpg';
 import photo3 from '../img/members/carousel/photo3.jpg';
-import photo4 from '../img/members/carousel/photo4.jpg';
-import photo5 from '../img/members/carousel/photo5.jpg';
+
 import styled from 'styled-components';
+import Carousel from '../components/Carousel';
 
-const Wrapper = styled.div`
-  width: 100%;
-
-  li.alice-carousel__stage-item :not(.__cloned) {
-    width: auto !important;
-    margin-right: 1rem;
-  }
-`;
 
 const AlumniCompany = ({name, href, fileName}) => {
     return <a href={href} target="_blank" rel="noopener noreferrer"><img src={require(`../img/careers/${fileName}`)} alt={name} /></a>;
@@ -31,18 +26,6 @@ const AlumniCompany = ({name, href, fileName}) => {
 class Members extends React.Component {
     handleOnDragStart = (e) => e.preventDefault();
 
-    items = [photo1, photo2, photo3, photo4, photo5];
-
-    state = {
-        galleryItems: this.items.map((i) => <img src={i} key={i.key} alt="Group of NIB members" />),
-    };
-
-
-    thumbItem = (item, i) => (
-        <span key={item} onClick={() => this.Carousel.slideTo(i)}>
-        *{' '}
-        </span>
-    );
 
     render() {
         document.title = 'Members of NIB';
@@ -81,6 +64,12 @@ class Members extends React.Component {
             }
         };
 
+        let images = imageList.map((photo) => {
+            return <img src={photo.src} />
+        })
+
+        console.log(images)
+
         return (
         <section className="membersPage">
             <section>
@@ -111,8 +100,15 @@ class Members extends React.Component {
             </svg>
             <section className="carousel hideOnMobile">
                 <section className="container">
-
-                    <div onClick={() => this.Carousel.slidePrev()} className="carouselPointer">
+                    <div class="carouselView">
+                        <Carousel>
+                            <img src={photo1} />
+                            <img src={photo2} />
+                            <img src={photo3} />
+                        </Carousel>
+                    </div>
+                   
+                    {/* <div onClick={() => this.Carousel.slidePrev()} className="carouselPointer">
                         <svg width="30" viewBox="0 0 65 65" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect x="40.7681" y="56.2985" width="11.897" height="45.7575" transform="rotate(135 40.7681 56.2985)" fill="#1B67B1"/>
                             <rect x="32.3555" width="11.897" height="45.7575" transform="rotate(45 32.3555 0)" fill="#1B67B1"/>
@@ -135,7 +131,7 @@ class Members extends React.Component {
                             <rect x="23.9434" y="8.41241" width="11.897" height="45.7575" transform="rotate(-45 23.9434 8.41241)" fill="#1B67B1"/>
                             <rect x="32.3555" y="64.7109" width="11.897" height="45.7575" transform="rotate(-135 32.3555 64.7109)" fill="#1B67B1"/>
                         </svg>
-                    </div>
+                    </div> */}
                 </section>
             </section>
             <svg className="invertedWave hideOnMobile" viewBox="0 0 1440 150" fill="#F0FCFE" xmlns="http://www.w3.org/2000/svg">
