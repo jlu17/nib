@@ -1,3 +1,53 @@
 .notFoundPage {
+    height: 90vh;
+    text-align: center;
+    background-color: #F0FCFE;
+
+    h1 {
+        margin: 0;
+        padding-top: 10vh;
+        color: #6faeec;
+    }
+
+    .alex {
+        img {
+            width: 40px;
+        }
+    }
     
+    p {
+        top: 50%;
+        max-width: 50%;
+        margin: auto;
+    }
+}
+
+@media (min-width: 700px) {
+    .notFoundPage {
+        h1 {
+            font-size: 20rem;
+        }
+    
+        .alex {
+            position: absolute;
+            z-index: 2;
+            top: 40vh;
+            width: 100%;
+            padding: 0;
+            margin: 0;
+        }
+    }
+}
+
+@media (max-width: 700px) {
+    .notFoundPage {
+        h1 {
+            font-size: 10rem;
+            padding-top: 0;
+        }
+
+        .alex {
+            padding-top: 50px;
+        }
+    }
 }
