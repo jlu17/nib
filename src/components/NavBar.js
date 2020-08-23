@@ -43,7 +43,7 @@ class NavBar extends React.Component {
                         <li><NavLink to={'/about'} className="tab">ABOUT</NavLink></li>
                         <li><NavLink to={'/members'} className="tab">MEMBERS</NavLink></li>
                         <li><NavLink to={'/projects'} className="tab">PROJECTS</NavLink></li>
-                        <li><NavLink to={'/apply'} className="tab">APPLY</NavLink></li>
+                        <li><NavLink to={'/apply'} className="tab applyTab">APPLY</NavLink></li>
                     </div>
                 </ul>
                 </div>
