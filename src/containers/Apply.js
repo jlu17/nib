@@ -7,7 +7,7 @@ import prepareTypeInfo from '../data/prepareText';
 import ProjectType from '../components/ProjectType';
 
 import blob1 from '../img/apply/shapes/photo1.png';
-import blob2 from '../img/apply/shapes/photo2.png';
+import blob2 from '../img/apply/shapes/photo3.png';
 
 
 class Apply extends React.Component {

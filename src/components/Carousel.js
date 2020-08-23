@@ -9,7 +9,9 @@ import photo4 from '../img/members/carousel/photo4.jpg';
 import photo5 from '../img/members/carousel/photo5.jpg';
 
 const flickityOptions = {
-  initialIndex: 2
+  initialIndex: 2,
+    wrapAround: true,
+    fade: true
 }
 
 function Carousel(props) {
