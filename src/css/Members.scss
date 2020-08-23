@@ -47,32 +47,18 @@
     .carousel {
         background-color: #F0FCFE;
         padding-bottom: 40px;
+        padding: 100px 0 100px 0;
 
+        .carouselView {
+            display: block;
+            text-align: center;
+            position: relative;
+        }
+
+        // changing max-width here will adjust width of carousel
         .container {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            margin-left: 100px;
-            margin-right: 100px;
-
-
-            .alice-carousel {
-                width: 600px;
-            }
-
-            .alice-carousel__stage-item {
-                padding-left: 10px;
-                padding-right: 10px;
-                height: 300px;
-            }
-
-            .carouselPointer:hover {
-                cursor: pointer;
-            }
-
-            img {
-                height: 100%;
-            }
+            padding: 0;
+            max-width: 90%;
         }
     }
 
