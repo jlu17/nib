@@ -28,6 +28,10 @@
             top: -100px;
             z-index: -1;
         }
+
+        .button {
+            margin-right: 10px;
+        }
     }
 
     a {
@@ -46,6 +50,49 @@
         position: absolute;
         z-index: -1;
         width: 100%;
+    }
+
+    .zoomBannerContainer {
+        position: absolute;
+        width: 100%;
+        z-index: 50;
+
+        .zoomBanner {
+            display: flex;
+            margin: 10px;
+            padding: 10px 20px;
+            background-color: #F0FCFE;
+            border-radius: 15px;
+            flex-direction: row;
+            transition: all 0.5s;
+            box-shadow: 2px 2px #c4e5eb;
+            align-items: center;
+
+            img {
+                width: 40px;
+            }
+    
+            p {
+                margin-left: 20px;
+            }
+    
+            .exit, .exit:hover {
+                cursor: pointer;
+                margin-left: auto;
+            }
+        }
+    }
+
+    .fadeOut{
+        opacity:0;
+        width:0;
+        height:0;
+        transition: width 0.5s 0.5s, height 0.5s 0.5s, opacity 0.5s;
+    }
+
+    .fadeIn{
+        opacity:1;
+        transition: width 0.5s, height 0.5s, opacity 0.5s 0.5s;
     }
 
     .preparationSection {

@@ -1,8 +1,17 @@
+import React from 'react';
+
 let Timeline = [
     {
-        date: "Wednesday, August 26 - Thursday, September 3",
+        date: "Wednesday, August 26 - Saturday, August 29",
         title: "Virtual Sproul Tabling",
-        description: "Drop by our virtual Sproul hours from August 26-September 3 to learn more about our people, projects, and impact! Take this time to meet our incredible members and to ask any questions about consulting for Net Impact.",
+        description: "Drop by our virtual Sproul hours from August 26-29 to learn more about our people, projects, and impact! 2 members will be online from 10am-6pm. Take this time to meet our incredible members and to ask any questions about consulting for Net Impact.",
+    },
+    {
+        date: "Monday, August 31 - Thursday, September 3",
+        title: "Virtual Chats",
+        description: "Sign up for a 20 minute chat with one of our members anytime from August 31-September 3 to meet someone from our community.",
+        buttonTitle: "Sign Up",
+        buttonLink: "https://airtable.com/shrAXBVJn9KMHPoIZ"
     },
     {
         date: "Tuesday, September 1",

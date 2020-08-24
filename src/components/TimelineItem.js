@@ -1,6 +1,6 @@
 import React from 'react';
 import '../css/button.scss';
-import ZoomIcon from '../img/apply/zoom.png';
+import Button from './Button';
 
 function TimelineItem(props) {
     var descriptionStyling = props.description === "Invite Only" 
@@ -19,6 +19,14 @@ function TimelineItem(props) {
                     }
                 </div>
                 <p>{descriptionStyling}</p>
+                {
+                    props.buttonTitle &&
+                    <Button 
+                        buttonText={props.buttonTitle}
+                        link={props.buttonLink}
+                        external
+                    />
+                }
             </div>
         </li>
     );
