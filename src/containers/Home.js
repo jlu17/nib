@@ -108,8 +108,8 @@ class Home extends React.Component {
                 <img src={trio} alt="3 NIB members posing" />
                 <div>
                     <h2>Who We Are</h2>
-                    <p>Net Impact Berkeley is a community of forward-thinking student consultants motivated by the desire to make 
-                    an impact. Our members develop professionally through hands-on project experiences and also grow personally 
+                    <p>Net Impact Berkeley is a community of forward-thinking student consultants motivated by the desire to make
+                    an impact. Our members develop professionally through hands-on project experiences and also grow personally
                     through the support system and social community of NIBFam.</p>
                     <Button
                         link="/members"

@@ -22,7 +22,7 @@
         .right {
             overflow: hidden;
             display: block;
-            
+
             .bigBlob {
                 position: absolute;
                 z-index: -1000;
@@ -58,7 +58,7 @@
         background-color: #F0FCFE;
         position: relative;
         display: block;
-        
+
         h1, p {
             margin-bottom: 15px;
         }
@@ -126,7 +126,7 @@
             margin-right: 10px;
             display: inline-block;
             vertical-align: middle;
-            
+
         }
 
         .mobileRow {
@@ -187,13 +187,7 @@
         }
     }
 
-    .who {
-        .grid.container {
-            img {
-                width: 100%;
-            }
-        }
-    }
+
 
     .wave {
         z-index: -1000;
@@ -244,11 +238,11 @@
         }
 
         .partners {
-            .container {    
+            .container {
                 h1 {
                     margin-bottom: 1em;
                 }
-    
+
                 img {
                     padding-left: 1%;
                     padding-right: 1%;
@@ -264,10 +258,37 @@
                 grid-column-gap: 30px;
                 padding-top: 100px;
                 text-align: right;
+                img {
+                    width: 110%;
+                    z-index: -1000;
+                    // text-align: center;
+                }
             }
         }
+
+    }
+    .topsvg {
+      margin-top: -180px;
     }
 }
+
+
+// @media (max-width: 1800px) and (min-width: 1100px) {
+//   .homePage {
+//     .who {
+//         .grid.container {
+//             text-align: right;
+//             img {
+//                 width: 110%;
+//                 z-index: -1000;
+//             }
+//         }
+//     }
+//   }
+//   .topsvg {
+//     margin-top: -150px;
+//   }
+// }
 
 // ~ MOBILE ~
 
@@ -297,7 +318,7 @@
                     width: 100%;
                 }
             }
-            
+
         }
 
         .spectrums {
@@ -322,18 +343,18 @@
         p {
             font-size: 20px;
         }
-        
+
         .blobs {
             display: none;
         }
 
         .partners {
             .container {
-    
+
                 h1 {
                     margin-bottom: .5em;
                 }
-    
+
                 img {
                     padding-left: 2%;
                     padding-right: 2%;
@@ -345,7 +366,15 @@
         .who {
             .grid.container {
                 text-align: center;
+                img {
+                    // width: 100%;
+                    height: 70vh;
+                    z-index: -1000;
+                }
             }
         }
+    }
+    .topsvg {
+      margin-top: 0px;
     }
 }
