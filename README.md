@@ -8,6 +8,8 @@ Welcome!!
 
 This repo pushes automatically to [https://nib-test.netlify.app/](https://nib-test.netlify.app/). Build status is above and you can see your changes live in the Netlify app. You cannot view the deploy logs though - if there is an error building and you don't know why, reach out to Jen.
 
+The official guide for [updating the NIB Website](https://docs.google.com/document/d/1wJ4Q93xB8GGqvt4Q78D13ggxAFUWZHRlYfnflWBHs8I/edit). You must have access to NIB Central in order to view.
+
 ## Available Scripts
 
 In the project directory, you can run:
