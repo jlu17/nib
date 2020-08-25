@@ -88,22 +88,26 @@ class Members extends React.Component {
             <svg width="599" className="splashWaveRight hideOnMobile" viewBox="0 0 599 569" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M369.721 545.557C428.721 566.057 599.221 568.057 599.221 568.057V5.55713C599.221 5.55713 500.221 -6.94641 466.721 5.55713C433.221 18.0607 413.221 48.0571 340.721 85.0571C268.221 122.057 192.221 46.5571 105.721 52.5571C19.2207 58.5571 -39.2793 117.057 31.7207 206.057C102.721 295.057 296.721 244.557 326.721 307.557C356.721 370.557 264.721 360.557 261.221 425.057C257.721 489.557 310.721 525.057 369.721 545.557Z" fill="#F0FCFE"/>
             </svg>
-            <section className= "showOnMobile tapQueue">
-                <section className= "abiTest">
-                <h4 className= "tapOn"> Tap on a member's image for a surprise </h4>
-                </section>
+            <section className="container nibVideo">
+                <h2>What #NIBFam Looks Like</h2>
+                <iframe width="840" height="472" src="https://www.youtube.com/embed/iNxr6s16L3Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </section>
-            <section>
-                <section className="container memberGallery">
+            <svg className="splashWave hideOnMobile" viewBox="0 0 1440 749" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M713.744 408.887C546.069 469.017 -2 454 -2 454V748.5H1440V0C1282.84 210.195 1071.62 83.1369 975.016 157.385C878.415 231.633 881.418 348.757 713.744 408.887Z" fill="#F0FCFE"/>
+            </svg>
+            <section className="memberGallery">
+                <section className= "showOnMobile tapQueue">
+                    <section className= "abiTest">
+                        <h4 className= "tapOn"> Tap on a member's image for a surprise </h4>
+                    </section>
+                </section>
+                <section className="container">
                     <h2>Executive Board</h2>
                     <div>{execList}</div>
                     <h2>Members</h2>
                     <div>{memberList}</div>
                 </section>
             </section>
-            <svg className="wave hideOnMobile" viewBox="0 0 1440 150" fill="#F0FCFE" xmlns="http://www.w3.org/2000/svg">
-                <path d="M-24 101.603L57.6667 81.0547C139.333 60.1201 302.667 0.789418 466 0.5C629.333 0.789418 792.667 90.9914 956 101.603C1119.33 112.215 1282.67 60.1201 1364.33 50.1834L1446 39.8609V194.217H1364.33C1282.67 194.217 1119.33 194.217 956 194.217C792.667 194.217 629.333 194.217 466 194.217C302.667 194.217 139.333 194.217 57.6667 194.217H-24V101.603Z" fill="#F0FCFE"/>
-            </svg>
             <section className="carousel hideOnMobile">
                 <section className="container">
                     <div class="carouselView">
@@ -113,31 +117,6 @@ class Members extends React.Component {
                             <img src={photo3} />
                         </Carousel>
                     </div>
-                   
-                    {/* <div onClick={() => this.Carousel.slidePrev()} className="carouselPointer">
-                        <svg width="30" viewBox="0 0 65 65" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <rect x="40.7681" y="56.2985" width="11.897" height="45.7575" transform="rotate(135 40.7681 56.2985)" fill="#1B67B1"/>
-                            <rect x="32.3555" width="11.897" height="45.7575" transform="rotate(45 32.3555 0)" fill="#1B67B1"/>
-                        </svg>
-                    </div>
-                    <Wrapper>
-                    <AliceCarousel
-                        buttonsDisabled={true}
-                        items={this.state.galleryItems}
-                        ref={(el) => (this.Carousel = el)}
-                        stagePadding={{
-                            paddingLeft: 20,     // in pixels
-                            paddingRight: 10
-                        }}
-                    />
-                    </Wrapper>
-
-                    <div onClick={() => this.Carousel.slideNext()} className="carouselPointer">
-                        <svg width="30" viewBox="0 0 65 65" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <rect x="23.9434" y="8.41241" width="11.897" height="45.7575" transform="rotate(-45 23.9434 8.41241)" fill="#1B67B1"/>
-                            <rect x="32.3555" y="64.7109" width="11.897" height="45.7575" transform="rotate(-135 32.3555 64.7109)" fill="#1B67B1"/>
-                        </svg>
-                    </div> */}
                 </section>
             </section>
             <svg className="invertedWave hideOnMobile" viewBox="0 0 1440 150" fill="#F0FCFE" xmlns="http://www.w3.org/2000/svg">

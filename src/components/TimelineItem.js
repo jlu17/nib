@@ -1,6 +1,7 @@
 import React from 'react';
 import '../css/button.scss';
 import Button from './Button';
+import ZoomIcon from '../img/apply/zoom.png';
 
 function TimelineItem(props) {
     var descriptionStyling = props.description === "Invite Only" 

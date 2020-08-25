@@ -10,6 +10,10 @@ import blob1 from '../img/apply/shapes/photo1.png';
 import blob2 from '../img/apply/shapes/photo2.png';
 import zoom from '../img/apply/zoom.png';
 
+import chat from '../img/apply/atAGlance/chat.png';
+import {ReactComponent as Arrow} from '../img/apply/atAGlance/arrow.svg';
+import {ReactComponent as DownArrow} from '../img/apply/atAGlance/down.svg';
+
 
 class Apply extends React.Component {
     virtualTablingLink = "https://berkeley.zoom.us/j/91291610391";
@@ -110,8 +114,45 @@ class Apply extends React.Component {
                 <path d="M713.744 408.887C546.069 469.017 -2 454 -2 454V748.5H1440V0C1282.84 210.195 1071.62 83.1369 975.016 157.385C878.415 231.633 881.418 348.757 713.744 408.887Z" fill="#F0FCFE"/>
             </svg>
             <section className="preparationSection">
+                <section className="container atAGlance">
+                    <h1>Timeline at a Glance</h1>
+                    <a href="/apply#timelineSection">
+                        <p>Full timeline below <DownArrow /></p>
+                    </a>
+                    <div className="flex">
+                        <Arrow />
+                        <div className="item">
+                            <img src={chat} alt="chat icon" />
+                            <h4>Virtual Tabling</h4>
+                            <p>Wednesday, August 26 - Thursday, September 3</p>
+                            <ul>
+                                <li>From August 26-29 anytime 10am-6pm, come say hi <a className="underline-magical" href=""> here! </a></li>
+                                <li>Sign up for a 1:1 with a NIB member next week <a className="underline-magical" href=""> here. </a></li>
+                            </ul>
+                        </div>
+                        <div className="item">
+                            <img src={chat} alt="chat icon" />
+                            <h4>Infosessions</h4>
+                            <p>Tuesday, September 1 - Thursday, September 3</p>
+                            <ul>
+                                <li>Tuesday: Infosession #1 <br/>(<a className="underline-magical" href=""> Zoom link </a>)</li>
+                                <li>Wednesday: Infosession #2 + Case Workshop <br/>(<a className="underline-magical" href=""> Zoom link </a>)</li>
+                                <li>Thursday: Case coaching session - <strong>Pre-registration is required.</strong> Please register <a className="underline-magical" href=""> here. </a></li>
+                            </ul>
+                        </div>
+                        <div className="item">
+                            <img src={chat} alt="chat icon" />
+                            <h4>Applications and Interviews</h4>
+                            <p>Friday, September 4 - Thursday, September 10</p>
+                            <ul>
+                                <li>Apps are due at NOON on September 4. Apply <a className="underline-magical" href=""> here. </a></li>
+                                <li>Interview resources <a className="underline-magical" href=""> here. </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
                 <section className="container">
-                    <h1>How should I prepare?</h1>
+                    <h1>How Should I Prepare?</h1>
                     <div className="flex projectTypes">
                         {preparationTypes}
                     </div>
@@ -132,7 +173,7 @@ class Apply extends React.Component {
                 <path d="M1440 264V0.0714111H-1C-1 0.0714111 1440 0.0714111 1440 264Z" fill="#F0FCFE"/>
             </svg>
 
-            <section className="container timelineSection">
+            <section className="container timelineSection" id="timelineSection">
                 <h1>Timeline</h1>
                 <div className="timelinePhotos">
                     <img src={require("../img/apply/timelinePhotos/photo1.jpg")} alt="" />

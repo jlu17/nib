@@ -12,6 +12,7 @@ import Footer from './components/Footer';
 import NavBar from './components/NavBar';
 import ScrollToTop from './components/ScrollToTop';
 import Redirecting from './containers/Redirecting';
+import Events from './containers/Events';
 import GA from './components/GoogleAnalytics';
 
 import { BrowserRouter as Router, Switch, Route, HashRouter } from 'react-router-dom';
@@ -33,6 +34,7 @@ function App() {
           <Route path="/members" component={Members} />
           <Route path="/faq" component={FAQ} />
           <Route path="/virtual-sproul" component={VirtualSproul} />
+          <Route path="/recruiting" component={Events} />
           <Route path="/checkin" component={Redirecting} />
           <Route path="/check-in" component={Redirecting} />
           <Route component={NotFound} />
