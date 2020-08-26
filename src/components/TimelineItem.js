@@ -10,6 +10,7 @@ function TimelineItem(props) {
     : props.description;
 
     var availableLink = props.link && props.link != "#";
+    var unavailableLink = props.link && props.link === "#";
 
     return (
         <li>
@@ -18,7 +19,7 @@ function TimelineItem(props) {
                 <div className="timeline-heading">
                     <h4>{props.title}</h4>
                     {
-                        props.link && 
+                        unavailableLink && 
                         <p className="notAvailable">Zoom link not available yet</p>
                     }
                 </div>
