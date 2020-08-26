@@ -35,9 +35,8 @@ class Home extends React.Component {
                 <span className="left">
                     <h1>Strategy Consulting Meets Social Good</h1>
                     <Button
-                        link="https://airtable.com/shrhW4PzvxhFM6zEi"
-                        buttonText="Apply Now"
-                        external
+                        link="/apply"
+                        buttonText="Join Us"
                     />
                 </span>
             </section>

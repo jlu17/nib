@@ -70,6 +70,7 @@ class Apply extends React.Component {
                 description={timelineItem.description}
                 link={timelineItem.link}
                 buttonTitle={timelineItem.buttonTitle}
+                buttonIcon={timelineItem.buttonIcon}
                 buttonLink={timelineItem.buttonLink}
                 gCalLink={timelineItem.gCalLink}
                 key={timelineItem.title}
@@ -89,7 +90,7 @@ class Apply extends React.Component {
         return (
         <section className="applyPage">
             {this.getComponent()}
-            <section className="hero container">
+            <section className="hero">
                 <div class="container">
                     <div className="left">
                         <h3>APPLY</h3>
@@ -121,7 +122,7 @@ class Apply extends React.Component {
                 <path d="M713.744 408.887C546.069 469.017 -2 454 -2 454V748.5H1440V0C1282.84 210.195 1071.62 83.1369 975.016 157.385C878.415 231.633 881.418 348.757 713.744 408.887Z" fill="#F0FCFE"/>
             </svg>
             <section className="preparationSection">
-                <section className="container atAGlance">
+                <section className="container atAGlance hideOnMobile">
                     <h1>Timeline at a Glance</h1>
                     <a href="/apply#timelineSection">
                         <p>Full timeline below <DownArrow /></p>
@@ -157,6 +158,30 @@ class Apply extends React.Component {
                             </ul>
                         </div>
                     </div>
+                </section>
+                <section className="quickLinks container showOnMobile">
+                    <h1>Quick Links</h1>
+                    <a target="_blank" href={this.virtualTablingLink}>
+                        <p className="description">Meet our our NIB members anytime 10 am-6 pm August 26-29 in the link below!</p>
+                        <div className="zoomLink">
+                            <img src={zoom} alt="Zoom link icon" className="verticallyCenter" />
+                            <p className="verticallyCenter">Virtual Tabling</p>
+                        </div>
+                    </a>
+                    <a target="_blank" href={this.coffeeChatSignUp}>
+                        <p className="description">Sign up for a coffee chat with a NIB member August 31 - Sept 3!</p>
+                        <div className="zoomLink">
+                            <img src={zoom} alt="Zoom link icon" className="verticallyCenter" />
+                            <p className="verticallyCenter">Sign up for coffee chats</p>
+                        </div>
+                    </a>
+                    <a target="_blank" href={this.caseCoachingSignUp}>
+                        <p className="description">Register for the case coaching session on September 3 so that we can prepare material for you.</p>
+                        <div className="zoomLink">
+                            <img src={zoom} alt="Zoom link icon" className="verticallyCenter" />
+                            <p className="verticallyCenter">Pre-register for case coaching session</p>
+                        </div>
+                    </a>
                 </section>
                 <section className="container">
                     <h1>How Should I Prepare?</h1>
