@@ -7,6 +7,7 @@ import chowderGang from '../img/about/chowderGang.png';
 import EdAndAdhiv from '../img/about/edAndAdhiv.png';
 import GarySaltBae from '../img/about/GarySaltBae.png';
 import projectHike from '../img/about/projectHike.png';
+import oliviaAndAbi from '../img/about/olivia&Abi.png';
 import WelcomeToNib from '../img/about/WelcomeToNib.png';
 import BeachDay from '../img/about/beachday.png';
 import values from '../img/about/ValuesPhoto.png';
@@ -124,8 +125,8 @@ class About extends React.Component {
                     <h1>Life in NIB</h1>
                     <div className="cultureTable">
                         <div className="col">
-                            <img src= {chowderGang} className="lifeInNibPics" height= "280" alt="5 NIB members enjoying clam chowder" />
-                            <p>A couple of NIB members enjoying a hearty bowl of clam chowder just off the Pacific Coast Highway.</p>
+                            <img src= {oliviaAndAbi} className="lifeInNibPics" height= "280" alt="5 Olivia and Abi enjoying coffee together" />
+                            <p>Olivia and Abi enjoying coffee together. Several times a semester, members of NIB get matched together and enjoy a "buddy brunch" hangout.</p>
                         </div>
                         <div className="col">
                             <img src= {GarySaltBae} className="lifeInNibPics" height= "280" alt="1 NIB member throwing salt onto his food at a food competition" />
