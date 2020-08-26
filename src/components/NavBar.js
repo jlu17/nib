@@ -43,7 +43,6 @@ class NavBar extends React.Component {
                         <li><NavLink to={'/about'} className="tab">ABOUT</NavLink></li>
                         <li><NavLink to={'/members'} className="tab">MEMBERS</NavLink></li>
                         <li><NavLink to={'/projects'} className="tab">PROJECTS</NavLink></li>
-                        <li><NavLink to={'/recruiting'} className="tab">RECRUITING</NavLink></li>
                         <li><NavLink to={'/apply'} className="tab applyTab">APPLY</NavLink></li>
                     </div>
                 </ul>
@@ -70,7 +69,6 @@ class NavBar extends React.Component {
                             <li><Link to={'/about'} className="tab" onClick={this.close}>ABOUT</Link></li>
                             <li><Link to={'/members'} className="tab" onClick={this.close}>MEMBERS</Link></li>
                             <li><Link to={'/projects'} className="tab" onClick={this.close}>PROJECTS</Link></li>
-                            <li><Link to={'/recruiting'} className="tab" onClick={this.close}>RECRUITING</Link></li>
                             <li><Link to={'/apply'} className="tab" onClick={this.close}>APPLY</Link></li>
                         </ul>
                     </CSSTransition>

@@ -2,11 +2,14 @@ import React from 'react';
 import '../css/button.scss';
 import Button from './Button';
 import ZoomIcon from '../img/apply/zoom.png';
+import GCal from '../img/apply/gcal.png';
 
 function TimelineItem(props) {
     var descriptionStyling = props.description === "Invite Only" 
     ? <em>{props.description}</em> 
     : props.description;
+
+    var availableLink = props.link && props.link != "#";
 
     return (
         <li>
@@ -28,6 +31,24 @@ function TimelineItem(props) {
                         external
                     />
                 }
+                {
+                    availableLink &&
+                    <a target="_blank" href={props.link}>
+                        <div className="zoomLink">
+                            <img src={ZoomIcon} alt="Zoom link icon" />
+                            <p>Zoom link</p>
+                        </div>
+                    </a>
+                }
+                {
+                    props.gCalLink &&
+                    <a target="_blank" href={props.gCalLink}>
+                        <div className="zoomLink">
+                            <img border="0" src={GCal} />
+                            <p>Add to Google Calendar</p>
+                        </div>
+                    </a>
+                }
             </div>
         </li>
     );
@@ -35,12 +56,3 @@ function TimelineItem(props) {
 }
 
 export default TimelineItem;
-
-/**
- * <a href={props.link}>
-        <div className="zoomLink">
-            <img src={ZoomIcon} alt="Zoom link icon" />
-            <p>Zoom link</p>
-        </div>
-    </a>
- */

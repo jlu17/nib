@@ -5,6 +5,8 @@ let Timeline = [
         date: "Wednesday, August 26 - Saturday, August 29",
         title: "Virtual Sproul Tabling",
         description: "Drop by our virtual Sproul hours from August 26-29 to learn more about our people, projects, and impact! 2 members will be online from 10am-6pm. Take this time to meet our incredible members and to ask any questions about consulting for Net Impact.",
+        link: "https://berkeley.zoom.us/j/91291610391",
+        gCalLink: "https://calendar.google.com/event?action=TEMPLATE&tmeid=MHE5ZzlqM2JvNjc0ZWJicWxiMWN0dmg1ZmdfMjAyMDA4MjZUMTcwMDAwWiBqZW5uaWZlci5sdUBiZXJrZWxleS5lZHU&tmsrc=jennifer.lu%40berkeley.edu&scp=ALL"
     },
     {
         date: "Monday, August 31 - Thursday, September 3",

@@ -34,7 +34,6 @@ function App() {
           <Route path="/members" component={Members} />
           <Route path="/faq" component={FAQ} />
           <Route path="/virtual-sproul" component={VirtualSproul} />
-          <Route path="/recruiting" component={Events} />
           <Route path="/checkin" component={Redirecting} />
           <Route path="/check-in" component={Redirecting} />
           <Route component={NotFound} />
