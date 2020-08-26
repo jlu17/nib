@@ -146,6 +146,9 @@ class Apply extends React.Component {
                     <img src={require("../img/apply/timelinePhotos/photo4.jpg")} alt="" />
                     <img src={require("../img/apply/timelinePhotos/photo5.jpg")} alt="" />
                     <img src={require("../img/apply/timelinePhotos/photo6.jpg")} alt="" />
+                    <img src={require("../img/apply/timelinePhotos/photo8.png")} alt="" />
+                    <img src={require("../img/apply/timelinePhotos/photo7.png")} alt="" />
+                            
                 </div>
                 <div className="timelineContainer">
                     <ul className="timeline">
