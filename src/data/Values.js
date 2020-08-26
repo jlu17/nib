@@ -5,7 +5,7 @@ import nibfam from '../img/about/Nibfam.png';
 
 let values = [
     {
-        title: "Impact Across Domains",
+        title: "Impact Across Many Domains",
         description: "Our contributions to a more socially and environmentally sustainable world take many forms and come from diverse places. We pursue synergies and multi-disciplinary thinking to drive change for the broadest impact.",
         image: passion,
         alt: "Icon",
