@@ -28,11 +28,12 @@ class Footer extends React.Component {
                     <FooterLink link="/about" name="About" />
                     <FooterLink link="/members" name="Members" />
                     <FooterLink link="/projects" name="Projects" />
-                    <a href="https://medium.com/netimpactberkeley" className="footerLink" name="Blog">Blog</a>
+                    {/** <a href="https://medium.com/netimpactberkeley" className="footerLink" name="Blog">Blog</a> */}
                 </div>
                 <div className="footerSection">
                     <FooterTitle text="Students" />
-                    <FooterLink link="/apply" name="Apply" />
+                    <FooterLink link="/apply" name="Join Us" />
+                    <a href="https://airtable.com/shrhW4PzvxhFM6zEi" className="footerLink" target="_blank">Application</a>
                     <FooterLink link="/faq" name="FAQs" />
                 </div>
                 {/* <div className="footerSection">
@@ -43,19 +44,15 @@ class Footer extends React.Component {
                     <a href="https://www.facebook.com/nib.berkeley.edu/" target="_blank" rel="noopener noreferrer">
                         <img src={require("../img/social/facebook.png")} className="socialIcon" alt="Facebook icon" />
                     </a>
-                    <a href="https://medium.com/netimpactberkeley" target="_blank" rel="noopener noreferrer">
+                    {/**<a href="https://medium.com/netimpactberkeley" target="_blank" rel="noopener noreferrer">
                         <img src={require("../img/social/medium.png")} className="socialIcon" alt="Medium icon" />
-                    </a>
+                    </a> */}
                     <a href="https://www.linkedin.com/company/net-impact-berkeley-undergrad/" target="_blank" rel="noopener noreferrer">
                         <img src={require("../img/social/linkedin.png")} className="socialIcon" alt="LinkedIn icon" />
                     </a>
                     <a href="https://www.instagram.com/netimpactberkeley" target="_blank" rel="noopener noreferrer">
                         <img src={require("../img/social/instagram.png")} className="socialIcon" alt="Instagram icon" />
                     </a>
-                    
-                    
-                    
-                    
                 </div>
             </div>
         </footer>

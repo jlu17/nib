@@ -26,11 +26,12 @@ function TimelineItem(props) {
                 <p>{descriptionStyling}</p>
                 {
                     props.buttonTitle &&
-                    <Button 
-                        buttonText={props.buttonTitle}
-                        link={props.buttonLink}
-                        external
-                    />
+                    <a target="_blank" href={props.buttonLink}>
+                        <div className="zoomLink">
+                            <img src={props.buttonIcon} alt="Zoom link icon" />
+                            <p>{props.buttonTitle}</p>
+                        </div>
+                    </a>
                 }
                 {
                     availableLink &&
