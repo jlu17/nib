@@ -1,7 +1,7 @@
-import growth from '../img/about/GrowthMindset.png';
-import passion from '../img/about/InspiringPassion.png';
-import tenacious from '../img/about/TenaciousProblemSolvers.png';
-import nibfam from '../img/about/Nibfam.png';
+import growth from '../img/about/GrowthMindset2.png';
+import passion from '../img/about/InspiringPassion2.png';
+import tenacious from '../img/about/TenaciousProblemSolvers2.png';
+import nibfam from '../img/about/Nibfam2.png';
 
 let values = [
     {

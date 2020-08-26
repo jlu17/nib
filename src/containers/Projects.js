@@ -3,7 +3,7 @@ import '../css/Projects.scss';
 import CallToAction from '../components/CallToAction';
 import projectTypeInfo from '../data/ProjectTypesText';
 import ProjectType from '../components/ProjectType';
-import ProjectHeroImage from '../img/projects/projectsHero.png';
+import ProjectHeroImage from '../img/projects/projectsHero2.png';
 import ClientSpectrumNew from '../img/projects/ClientSpectrum.png';
 import clients from '../data/Clients';
 import ClientImage from '../components/ClientImage';
@@ -61,7 +61,7 @@ class Projects extends React.Component {
             <section className="container projectSpectrumSection">
                 <h1>Our Clients</h1>
                 <img className="hideOnMobile" src={ClientSpectrumNew} alt="Spectrum of projects ranging from small nonprofits to large corporations" />
-                <p>We work with organizations of all kinds that are interested in contributing to a better, more sustainable world. 
+                <p>We work with organizations of all kinds that are interested in contributing to a better, more sustainable world.
                 Whether it's for-profit corporations that allow us to deep dive into
                 one component of their programs, mission-driven corporations that continuously strive for solutions beyond the
                 baseline of "good enough", or smaller social enterprises and nonprofits that give us the opportunity to touch
