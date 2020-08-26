@@ -19,7 +19,7 @@ import {ReactComponent as DownArrow} from '../img/apply/atAGlance/down.svg';
 
 class Apply extends React.Component {
     virtualTablingLink = "https://berkeley.zoom.us/j/91291610391";
-    coffeeChatSignUp = "https://airtable.com/shrDaa4bxNXoRB7gQ";
+    coffeeChatSignUp = "https://airtable.com/shrAXBVJn9KMHPoIZ";
     interestForm = "https://airtable.com/shrDaa4bxNXoRB7gQ";
     application = "https://airtable.com/shrhW4PzvxhFM6zEi";
     caseCoachingSignUp = "https://berkeley.zoom.us/meeting/register/tJEqdOuvpzIrGtPHKIafEcR3V7zKkNE9LZzz";
