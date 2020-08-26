@@ -11,12 +11,18 @@ import blob2 from '../img/apply/shapes/photo2.png';
 import zoom from '../img/apply/zoom.png';
 
 import chat from '../img/apply/atAGlance/chat.png';
+import doc from '../img/apply/atAGlance/doc.png';
+import network from '../img/apply/atAGlance/network.png';
 import {ReactComponent as Arrow} from '../img/apply/atAGlance/arrow.svg';
 import {ReactComponent as DownArrow} from '../img/apply/atAGlance/down.svg';
 
 
 class Apply extends React.Component {
     virtualTablingLink = "https://berkeley.zoom.us/j/91291610391";
+    coffeeChatSignUp = "https://airtable.com/shrDaa4bxNXoRB7gQ";
+    interestForm = "https://airtable.com/shrDaa4bxNXoRB7gQ";
+    application = "https://airtable.com/shrhW4PzvxhFM6zEi";
+    caseCoachingSignUp = "https://berkeley.zoom.us/meeting/register/tJEqdOuvpzIrGtPHKIafEcR3V7zKkNE9LZzz";
 
     constructor(props) {
         super(props);
@@ -91,12 +97,12 @@ class Apply extends React.Component {
                         <p>Interested in applying to Net Impact? Below are links to our interest form (receive email updates
                         for our events coming up) and our application form due Friday, September 4 at noon.</p>
                         <Button
-                            link="https://airtable.com/shrDaa4bxNXoRB7gQ"
+                            link={this.interestForm}
                             buttonText="Interest Form"
                             external
                         />
                         <Button
-                            link="https://airtable.com/shrhW4PzvxhFM6zEi"
+                            link={this.application}
                             buttonText="Application"
                             external
                         />
@@ -115,6 +121,43 @@ class Apply extends React.Component {
                 <path d="M713.744 408.887C546.069 469.017 -2 454 -2 454V748.5H1440V0C1282.84 210.195 1071.62 83.1369 975.016 157.385C878.415 231.633 881.418 348.757 713.744 408.887Z" fill="#F0FCFE"/>
             </svg>
             <section className="preparationSection">
+                <section className="container atAGlance">
+                    <h1>Timeline at a Glance</h1>
+                    <a href="/apply#timelineSection">
+                        <p>Full timeline below <DownArrow /></p>
+                    </a>
+                    <div className="flex">
+                        <Arrow />
+                        <div className="item">
+                            <img src={chat} alt="chat icon" />
+                            <h4>Virtual Tabling</h4>
+                            <p>Wednesday, August 26 - Thursday, September 3</p>
+                            <ul>
+                                <li>From August 26-29 anytime 10am-6pm, come say hi <a className="underline-magical" href={this.virtualTablingLink} target="_blank"> on Zoom! </a></li>
+                                <li>Sign up for a 1:1 with a NIB member next week <a className="underline-magical" href={this.coffeeChatSignUp} target="_blank"> here. </a></li>
+                            </ul>
+                        </div>
+                        <div className="item">
+                            <img src={network} alt="chat icon" />
+                            <h4>Infosessions</h4>
+                            <p>Tuesday, September 1 - Thursday, September 3</p>
+                            <ul>
+                                <li>Tuesday: Infosession #1</li>
+                                <li>Wednesday: Infosession #2 + Case Workshop</li>
+                                <li>Thursday: Case coaching session - <strong>Pre-registration is required.</strong> Please register <a className="underline-magical" href={this.caseCoachingSignUp} target="_blank"> here. </a></li>
+                            </ul>
+                        </div>
+                        <div className="item">
+                            <img src={doc} alt="chat icon" />
+                            <h4>Applications and Interviews</h4>
+                            <p>Friday, September 4 - Thursday, September 10</p>
+                            <ul>
+                                <li>Apps are due at NOON on September 4. Apply <a className="underline-magical" href="https://airtable.com/shrhW4PzvxhFM6zEi" target="_blank"> here. </a></li>
+                                <li>Check out our interview FAQ and tips <a className="underline-magical" href="/nib-app-checklist.pdf" target="_blank"> here! </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
                 <section className="container">
                     <h1>How Should I Prepare?</h1>
                     <div className="flex projectTypes">
