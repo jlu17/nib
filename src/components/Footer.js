@@ -33,7 +33,7 @@ class Footer extends React.Component {
                 <div className="footerSection">
                     <FooterTitle text="Students" />
                     <FooterLink link="/apply" name="Join Us" />
-                    <a href="https://airtable.com/shrhW4PzvxhFM6zEi" className="footerLink" target="_blank">Application</a>
+                    <a href="https://airtable.com/shrhW4PzvxhFM6zEi" className="footerLink" target="_blank" rel="noopener noreferrer">Application</a>
                     <FooterLink link="/faq" name="FAQs" />
                 </div>
                 {/* <div className="footerSection">

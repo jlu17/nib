@@ -17,7 +17,7 @@ function CallToAction() {
                     buttonText="Learn How to Apply"
                 />
                 <div className="application">
-                    <a href="https://airtable.com/shrhW4PzvxhFM6zEi" target="_blank">Application Link →</a>
+                    <a href="https://airtable.com/shrhW4PzvxhFM6zEi" target="_blank" rel="noopener noreferrer">Application Link →</a>
                 </div>
             </div>
         </div>

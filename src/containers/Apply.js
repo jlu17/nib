@@ -41,7 +41,7 @@ class Apply extends React.Component {
                 return (
                     <div className={this.state.exitedBanner?'fadeOut zoomBannerContainer hideOnMobile':'fadeIn zoomBannerContainer hideOnMobile'}>
                         <div className="zoomBanner">
-                            <a href={this.virtualTablingLink} target="_blank"><img src={zoom} alt="Zoom icon" /></a>
+                            <a href={this.virtualTablingLink} target="_blank" rel="noopener noreferrer"><img src={zoom} alt="Zoom icon" /></a>
                             <p>2 members of NIB are on this Zoom call from Wednesday to Saturday, 10am-6pm PST. 
                             Click the Zoom icon to join now and chat with our members!</p>
                             <svg className="exit" onClick={this.exitBanner} width="20" viewBox="0 0 194 194" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -134,8 +134,8 @@ class Apply extends React.Component {
                             <h4>Virtual Tabling</h4>
                             <p>Wednesday, August 26 - Thursday, September 3</p>
                             <ul>
-                                <li>From August 26-29 anytime 10am-6pm, come say hi <a className="underline-magical" href={this.virtualTablingLink} target="_blank"> on Zoom! </a></li>
-                                <li>Sign up for a 1:1 with a NIB member sometime August 31-September 3 <a className="underline-magical" href={this.coffeeChatSignUp} target="_blank"> here. </a></li>
+                                <li>From August 26-29 anytime 10am-6pm, come say hi <a className="underline-magical" href={this.virtualTablingLink} target="_blank" rel="noopener noreferrer"> on Zoom! </a></li>
+                                <li>Sign up for a 1:1 with a NIB member sometime August 31-September 3 <a className="underline-magical" href={this.coffeeChatSignUp} target="_blank" rel="noopener noreferrer" rel="noopener noreferrer"> here. </a></li>
                             </ul>
                         </div>
                         <div className="item">
@@ -153,29 +153,29 @@ class Apply extends React.Component {
                             <h4>Applications and Interviews</h4>
                             <p>Friday, September 4 - Thursday, September 10</p>
                             <ul>
-                                <li>Apps are due at NOON on September 4. Apply <a className="underline-magical" href="https://airtable.com/shrhW4PzvxhFM6zEi" target="_blank"> here. </a></li>
-                                <li>Check out our interview FAQ and tips <a className="underline-magical" href="/nib-app-checklist.pdf" target="_blank"> here! </a></li>
+                                <li>Apps are due at NOON on September 4. Apply <a className="underline-magical" href="https://airtable.com/shrhW4PzvxhFM6zEi" target="_blank" rel="noopener noreferrer"> here. </a></li>
+                                <li>Check out our interview FAQ and tips <a className="underline-magical" href="/nib-app-checklist.pdf" target="_blank" rel="noopener noreferrer"> here! </a></li>
                             </ul>
                         </div>
                     </div>
                 </section>
                 <section className="quickLinks container showOnMobile">
                     <h1>Quick Links</h1>
-                    <a target="_blank" href={this.virtualTablingLink}>
+                    <a target="_blank" rel="noopener noreferrer"href={this.virtualTablingLink}>
                         <p className="description">Meet our our NIB members anytime 10 am-6 pm August 26-29 in the link below!</p>
                         <div className="zoomLink">
                             <img src={zoom} alt="Zoom link icon" className="verticallyCenter" />
                             <p className="verticallyCenter">Virtual Tabling</p>
                         </div>
                     </a>
-                    <a target="_blank" href={this.coffeeChatSignUp}>
+                    <a target="_blank" rel="noopener noreferrer"href={this.coffeeChatSignUp}>
                         <p className="description">Sign up for a coffee chat with a NIB member August 31 - Sept 3!</p>
                         <div className="zoomLink">
                             <img src={zoom} alt="Zoom link icon" className="verticallyCenter" />
                             <p className="verticallyCenter">Sign up for coffee chats</p>
                         </div>
                     </a>
-                    <a target="_blank" href={this.caseCoachingSignUp}>
+                    <a target="_blank" rel="noopener noreferrer"href={this.caseCoachingSignUp}>
                         <p className="description">Register for the case coaching session on September 3 so that we can prepare material for you.</p>
                         <div className="zoomLink">
                             <img src={zoom} alt="Zoom link icon" className="verticallyCenter" />

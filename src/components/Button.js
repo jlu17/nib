@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function Button(props) {
   if(props.external) {
     return ( 
-      <a href={props.link} className="button" target="_blank">
+      <a href={props.link} className="button" target="_blank" rel="noopener noreferrer">
           {props.buttonText}
       </a>
     );

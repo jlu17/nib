@@ -20,7 +20,7 @@ import Carousel from '../components/Carousel';
 
 
 const AlumniCompany = ({name, href, fileName}) => {
-    return <a href={href} target="_blank" rel="noopener noreferrer"><img src={require(`../img/careers/${fileName}`)} alt={name} /></a>;
+    return <a href={href} target="_blank" rel="noopener noreferrer" rel="noopener noreferrer"><img src={require(`../img/careers/${fileName}`)} alt={name} /></a>;
 }
 
 class Members extends React.Component {

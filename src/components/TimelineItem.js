@@ -26,7 +26,7 @@ function TimelineItem(props) {
                 <p>{descriptionStyling}</p>
                 {
                     props.buttonTitle &&
-                    <a target="_blank" href={props.buttonLink}>
+                    <a target="_blank" rel="noopener noreferrer" href={props.buttonLink}>
                         <div className="zoomLink">
                             <img src={props.buttonIcon} alt="Zoom link icon" />
                             <p>{props.buttonTitle}</p>
@@ -35,7 +35,7 @@ function TimelineItem(props) {
                 }
                 {
                     availableLink &&
-                    <a target="_blank" href={props.link}>
+                    <a target="_blank" rel="noopener noreferrer" href={props.link}>
                         <div className="zoomLink">
                             <img src={ZoomIcon} alt="Zoom link icon" />
                             <p>Zoom link</p>
@@ -44,7 +44,7 @@ function TimelineItem(props) {
                 }
                 {
                     props.gCalLink &&
-                    <a target="_blank" href={props.gCalLink}>
+                    <a target="_blank" rel="noopener noreferrer" href={props.gCalLink}>
                         <div className="zoomLink">
                             <img border="0" src={GCal} />
                             <p>Add to Google Calendar</p>
