@@ -42,7 +42,7 @@ class Apply extends React.Component {
                     <div className={this.state.exitedBanner?'fadeOut zoomBannerContainer hideOnMobile':'fadeIn zoomBannerContainer hideOnMobile'}>
                         <div className="zoomBanner">
                             <a href={this.virtualTablingLink} target="_blank" rel="noopener noreferrer"><img src={zoom} alt="Zoom icon" /></a>
-                            <p>2 members of NIB are on this Zoom call from Wednesday to Saturday, 10am-6pm PST. 
+                            <p>2 members of NIB are on this Zoom call from Wednesday to Saturday, 10am-6pm PST.
                             Click the Zoom icon to join now and chat with our members!</p>
                             <svg className="exit" onClick={this.exitBanner} width="20" viewBox="0 0 194 194" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <rect x="129.527" y="33.3604" width="43" height="136" transform="rotate(45 129.527 33.3604)" fill="#1C68B2"/>
@@ -111,7 +111,7 @@ class Apply extends React.Component {
                 </div>
                 <div className="right hideOnMobile">
                     <svg className="bigBlob" viewBox="0 0 550 572" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M502.554 212.204C541.576 245.066 628.38 256.67 643.225 281.052C658.284 305.025 600.382 341.773 581.058 406.475C561.127 471.38 579.347 565.055 550.932 563.71C522.517 562.365 449.319 466.203 387.941 449.188C326.957 432.378 277.186 494.918 227.285 513.511C177.384 532.103 124.86 507.768 77.2651 467.309C29.8841 426.442 -12.5676 369.45 11.5662 323.365C35.0923 277.482 125.812 242.302 167.751 190.978C209.509 139.04 202.093 70.7509 226.505 34.6806C250.523 -1.59575 306.762 -5.44739 354.672 6.60652C402.582 18.6604 442.771 46.4181 457.91 86.5371C473.443 126.862 463.713 179.956 502.554 212.204Z" fill="#79ECFF"/>
+                        <path d="M502.554 212.204C541.576 245.066 628.38 256.67 643.225 281.052C658.284 305.025 600.382 341.773 581.058 406.475C561.127 471.38 579.347 565.055 550.932 563.71C522.517 562.365 449.319 466.203 387.941 449.188C326.957 432.378 277.186 494.918 227.285 513.511C177.384 532.103 124.86 507.768 77.2651 467.309C29.8841 426.442 -12.5676 369.45 11.5662 323.365C35.0923 277.482 125.812 242.302 167.751 190.978C209.509 139.04 202.093 70.7509 226.505 34.6806C250.523 -1.59575 306.762 -5.44739 354.672 6.60652C402.582 18.6604 442.771 46.4181 457.91 86.5371C473.443 126.862 463.713 179.956 502.554 212.204Z" fill="#91e9ff"/>
                     </svg>
 
                     <img src={blob1} className="hideOnMobile blob1" alt="3 NIB members posing" />
@@ -216,7 +216,7 @@ class Apply extends React.Component {
                     <img src={require("../img/apply/timelinePhotos/photo6.jpg")} alt="" />
                     <img src={require("../img/apply/timelinePhotos/photo9.png")} alt="" />
                     <img src={require("../img/apply/timelinePhotos/photo8.png")} alt="" />
-                            
+
                 </div>
                 <div className="timelineContainer">
                     <ul className="timeline">
