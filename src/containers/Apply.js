@@ -42,7 +42,7 @@ class Apply extends React.Component {
                     <div className={this.state.exitedBanner?'fadeOut zoomBannerContainer hideOnMobile':'fadeIn zoomBannerContainer hideOnMobile'}>
                         <div className="zoomBanner">
                             <a href={this.virtualTablingLink} target="_blank"><img src={zoom} alt="Zoom icon" /></a>
-                            <p>2 members of NIB are on this Zoom call from Wednesday to Friday, 10am-6pm PST.
+                            <p>2 members of NIB are on this Zoom call from Wednesday to Saturday, 10am-6pm PST. 
                             Click the Zoom icon to join now and chat with our members!</p>
                             <svg className="exit" onClick={this.exitBanner} width="20" viewBox="0 0 194 194" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <rect x="129.527" y="33.3604" width="43" height="136" transform="rotate(45 129.527 33.3604)" fill="#1C68B2"/>
@@ -135,7 +135,7 @@ class Apply extends React.Component {
                             <p>Wednesday, August 26 - Thursday, September 3</p>
                             <ul>
                                 <li>From August 26-29 anytime 10am-6pm, come say hi <a className="underline-magical" href={this.virtualTablingLink} target="_blank"> on Zoom! </a></li>
-                                <li>Sign up for a 1:1 with a NIB member next week <a className="underline-magical" href={this.coffeeChatSignUp} target="_blank"> here. </a></li>
+                                <li>Sign up for a 1:1 with a NIB member sometime August 31-September 3 <a className="underline-magical" href={this.coffeeChatSignUp} target="_blank"> here. </a></li>
                             </ul>
                         </div>
                         <div className="item">

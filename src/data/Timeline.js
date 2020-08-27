@@ -1,5 +1,6 @@
 import React from 'react';
 import zoom from '../img/apply/zoom.png';
+import airtable from '../img/apply/airtable.png';
 
 let Timeline = [
     {
@@ -13,9 +14,9 @@ let Timeline = [
         date: "Monday, August 31 - Thursday, September 3",
         title: "Virtual Chats",
         description: "Sign up for a 20 minute chat with one of our members anytime from August 31-September 3 to meet someone from our community.",
-        buttonIcon: zoom,
+        buttonIcon: airtable,
         buttonTitle: "Sign Up",
-        buttonLink: "https://airtable.com/shrAXBVJn9KMHPoIZ"
+        buttonLink: "https://airtable.com/shrAXBVJn9KMHPoIZ",
     },
     {
         date: "Tuesday, September 1",
@@ -34,7 +35,7 @@ let Timeline = [
         title: "Case Coaching Session",
         description: "Come learn about Net Impact's interview process and how to crush a case interview at our Case Coaching Session. You'll have the chance to work in small groups to solve a real world case and learn how to approach and solve case interview questions.",
         buttonIcon: zoom,
-        buttonTitle: "Pre-register (required)",
+        buttonTitle: "Pre-register (recommended)",
         buttonLink: "https://berkeley.zoom.us/meeting/register/tJEqdOuvpzIrGtPHKIafEcR3V7zKkNE9LZzz"
     },
     {
