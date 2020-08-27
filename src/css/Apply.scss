@@ -26,6 +26,7 @@
             position: absolute;
             height: 600px;
             top: 0px;
+            right: 0px;
             z-index: -1;
         }
 
@@ -288,7 +289,9 @@
     }
 
     .bigBlob {
-        right: -100px;
+        svg {
+            viewBox: 0 0 550 572; 
+        }
     }
 }
 
@@ -302,7 +305,9 @@
     }
 
     .bigBlob {
-        right: -250px;
+        svg {
+            viewBox: 0 0 450 572; 
+        }
     }
 }
 

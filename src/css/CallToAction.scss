@@ -3,6 +3,27 @@
     margin: 0;
     text-align: center;
     padding: 30px;
+
+    .application {
+        display: block;
+
+        a {
+            color: #666666;
+            font-size: 18px;
+            display: inline-block;
+            font-weight: bold;
+            text-decoration: none;
+            padding-bottom: 5px;
+            border-bottom: 2px #666666 dashed;
+            transition: all 0.3s;
+        }
+
+        a:hover {
+            color: black;
+            border-bottom: 2px black dashed;
+            transition: all 0.3s;
+        }
+    }
 }
 
 .callToAction > * {
