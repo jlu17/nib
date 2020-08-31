@@ -134,7 +134,7 @@ class Apply extends React.Component {
                             <h4>Virtual Tabling</h4>
                             <p>Wednesday, August 26 - Thursday, September 3</p>
                             <ul>
-                                <li>From August 26-29 anytime 10am-6pm, come say hi <a className="underline-magical" href={this.virtualTablingLink} target="_blank" rel="noopener noreferrer"> on Zoom! </a></li>
+                                <li>From August 26-29 anytime 10am-6pm, come say hi on Zoom!</li>
                                 <li>Sign up for a 1:1 with a NIB member sometime August 31-September 3 <a className="underline-magical" href={this.coffeeChatSignUp} target="_blank" rel="noopener noreferrer" rel="noopener noreferrer"> here. </a></li>
                             </ul>
                         </div>

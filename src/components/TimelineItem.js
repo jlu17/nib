@@ -9,7 +9,14 @@ function TimelineItem(props) {
     ? <em>{props.description}</em> 
     : props.description;
 
-    var availableLink = props.link && props.link != "#";
+    var isCCS = props.title === "Case Coaching Session";
+    let now = new Date(Date.now());
+    let day = now.getDate();
+    var isDayOfCCS= day === 3;
+
+    var showZoomLink = (!isCCS || (isCCS && isDayOfCCS));
+
+    var availableLink = showZoomLink && props.link && props.link != "#";
     var unavailableLink = props.link && props.link === "#";
 
     return (
@@ -18,10 +25,6 @@ function TimelineItem(props) {
                 <p className="posted-date">{props.date}</p>
                 <div className="timeline-heading">
                     <h4>{props.title}</h4>
-                    {
-                        unavailableLink && 
-                        <p className="notAvailable">Zoom link not available yet</p>
-                    }
                 </div>
                 <p>{descriptionStyling}</p>
                 {
@@ -50,6 +53,10 @@ function TimelineItem(props) {
                             <p>Add to Google Calendar</p>
                         </div>
                     </a>
+                }
+                {
+                    unavailableLink && 
+                    <p className="notAvailable">Zoom event finished</p>
                 }
             </div>
         </li>
