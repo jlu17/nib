@@ -23,6 +23,9 @@ class Apply extends React.Component {
     interestForm = "https://airtable.com/shrDaa4bxNXoRB7gQ";
     application = "https://airtable.com/shrhW4PzvxhFM6zEi";
     caseCoachingSignUp = "https://berkeley.zoom.us/meeting/register/tJEqdOuvpzIrGtPHKIafEcR3V7zKkNE9LZzz";
+    infosession1 = "https://berkeley.zoom.us/j/94684234345?pwd=QjUwd1cyV3o2TUppbk44a2FTRlEwUT09";
+    infosession2 = "https://berkeley.zoom.us/j/93246084610?pwd=QTQ1WjJCTjdoU3RkYnFrNndCaUgzUT09";
+    caseCoachingSession = "https://berkeley.zoom.us/j/95732799107?pwd=UThjWUE2R1pHZkZyd2VqbEtobTd6QT09";
 
     constructor(props) {
         super(props);
@@ -32,18 +35,35 @@ class Apply extends React.Component {
     }
 
     getComponent = () => {
+        let options = [
+            {
+                title: "Our 1st infosession is happening right now - click the Zoom icon to join now learn more about our club!",
+                link: this.infosession1
+            },
+            {
+                title: "Our 2nd infosession + case workshop is happening right now - click the Zoom icon to learn about our club and how to case!",
+                link: this.infosession2
+            },
+            {
+                title: "Our case coaching session is happening right now - click the Zoom icon to join now and learn how to case!",
+                link: this.caseCoachingSession
+            }
+        ];
+
+
+
         let now = new Date(Date.now());
 
         let hour = now.getHours();
         let day = now.getDate();
-        if (day >= 26 && day <= 29) {
-            if (hour >= 10 && hour <= 15) {
+        if (day >= 1 && day <= 3) {
+            if (hour >= 20 && hour <= 22) {
+                var item = options[day - 1];
                 return (
                     <div className={this.state.exitedBanner?'fadeOut zoomBannerContainer hideOnMobile':'fadeIn zoomBannerContainer hideOnMobile'}>
                         <div className="zoomBanner">
-                            <a href={this.virtualTablingLink} target="_blank" rel="noopener noreferrer"><img src={zoom} alt="Zoom icon" /></a>
-                            <p>2 members of NIB are on this Zoom call from Wednesday to Saturday, 10am-6pm PST.
-                            Click the Zoom icon to join now and chat with our members!</p>
+                            <a href={item.link} target="_blank" rel="noopener noreferrer"><img src={zoom} alt="Zoom icon" /></a>
+                            <p>{item.title}</p>
                             <svg className="exit" onClick={this.exitBanner} width="20" viewBox="0 0 194 194" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <rect x="129.527" y="33.3604" width="43" height="136" transform="rotate(45 129.527 33.3604)" fill="#1C68B2"/>
                                 <rect x="33.3604" y="64.4731" width="43" height="136" transform="rotate(-45 33.3604 64.4731)" fill="#1C68B2"/>
