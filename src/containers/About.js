@@ -86,7 +86,7 @@ class About extends React.Component {
                     <section className="grid">
                         <Values />
                         <div className="verticallyCenter right hideOnMobile">
-                            <img src={values} alt="Collage of NIB members in various scenarios" />
+                            <img id="bagelBrunchPic" src={values} alt="Collage of NIB members in various scenarios" />
                         </div>
                     </section>
                 </section>
