@@ -3,6 +3,7 @@ import '../css/button.scss';
 import Button from './Button';
 import ZoomIcon from '../img/apply/zoom.png';
 import GCal from '../img/apply/gcal.png';
+import Youtube from '../img/apply/youtube.png';
 
 function TimelineItem(props) {
     var descriptionStyling = props.description === "Invite Only" 
@@ -51,6 +52,15 @@ function TimelineItem(props) {
                         <div className="zoomLink">
                             <img border="0" src={GCal} />
                             <p>Add to Google Calendar</p>
+                        </div>
+                    </a>
+                }
+                {
+                    props.youtubeLink &&
+                    <a target="_blank" rel="noopener noreferrer" href={props.youtubeLink}>
+                        <div className="zoomLink">
+                            <img border="0" src={Youtube} />
+                            <p>Recording</p>
                         </div>
                     </a>
                 }

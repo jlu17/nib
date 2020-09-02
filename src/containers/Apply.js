@@ -91,6 +91,7 @@ class Apply extends React.Component {
                 buttonIcon={timelineItem.buttonIcon}
                 buttonLink={timelineItem.buttonLink}
                 gCalLink={timelineItem.gCalLink}
+                youtubeLink={timelineItem.youtubeLink}
                 key={timelineItem.title}
                 />
         });

@@ -21,7 +21,7 @@ let Timeline = [
         date: "Tuesday, September 1, 8-10 PM",
         title: "Info Session #1",
         description: "Join us at one of our info sessions to get a glimpse into what in means to be part of Net Impact Berkeley and to see what we offer to all majors, backgrounds, and interests. You'll have the opportunity to learn more about our upcoming projects, socials, trainings and external events and to connect with all of our members.",
-        link: "#",
+        youtubeLink: "https://youtu.be/SyAKHbY_d_c"
     },
     {
         date: "Wednesday, September 2, 8-10 PM",
