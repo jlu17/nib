@@ -50,14 +50,12 @@ class Apply extends React.Component {
             }
         ];
 
-
-
         let now = new Date(Date.now());
 
         let hour = now.getHours();
         let day = now.getDate();
         if (day >= 1 && day <= 3) {
-            if (hour >= 20 && hour <= 22) {
+            if (hour >= 20 && hour <= 21) {
                 var item = options[day - 1];
                 return (
                     <div className={this.state.exitedBanner?'fadeOut zoomBannerContainer hideOnMobile':'fadeIn zoomBannerContainer hideOnMobile'}>
