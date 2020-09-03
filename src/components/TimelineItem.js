@@ -3,7 +3,6 @@ import '../css/button.scss';
 import Button from './Button';
 import ZoomIcon from '../img/apply/zoom.png';
 import GCal from '../img/apply/gcal.png';
-import Youtube from '../img/apply/youtube.png';
 
 function TimelineItem(props) {
     var descriptionStyling = props.description === "Invite Only" 
@@ -19,6 +18,7 @@ function TimelineItem(props) {
 
     var availableLink = showZoomLink && props.link && props.link != "#";
     var unavailableLink = props.link && props.link === "#";
+    var availableButton = props.buttonTitle && props.buttonLink != "#";
 
     return (
         <li>
@@ -29,7 +29,7 @@ function TimelineItem(props) {
                 </div>
                 <p>{descriptionStyling}</p>
                 {
-                    props.buttonTitle &&
+                    availableButton &&
                     <a target="_blank" rel="noopener noreferrer" href={props.buttonLink}>
                         <div className="zoomLink">
                             <img src={props.buttonIcon} alt="Zoom link icon" />
@@ -56,13 +56,8 @@ function TimelineItem(props) {
                     </a>
                 }
                 {
-                    props.youtubeLink &&
-                    <a target="_blank" rel="noopener noreferrer" href={props.youtubeLink}>
-                        <div className="zoomLink">
-                            <img border="0" src={Youtube} />
-                            <p>Recording</p>
-                        </div>
-                    </a>
+                    props.buttonLink === "#" &&
+                    <p className="notAvailable">Sign ups filled</p>
                 }
                 {
                     unavailableLink && 

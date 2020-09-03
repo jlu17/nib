@@ -1,6 +1,7 @@
 import React from 'react';
 import zoom from '../img/apply/zoom.png';
 import airtable from '../img/apply/airtable.png';
+import youtube from '../img/apply/youtube.png';
 
 let Timeline = [
     {
@@ -15,20 +16,23 @@ let Timeline = [
         description: "Sign up for a 20 minute chat with one of our members anytime from August 31-September 3 to meet someone from our community.",
         buttonIcon: airtable,
         buttonTitle: "Sign Up",
-        buttonLink: "https://airtable.com/shrAXBVJn9KMHPoIZ",
+        buttonLink: "#",
     },
     {
         date: "Tuesday, September 1, 8-10 PM",
         title: "Info Session #1",
         description: "Join us at one of our info sessions to get a glimpse into what in means to be part of Net Impact Berkeley and to see what we offer to all majors, backgrounds, and interests. You'll have the opportunity to learn more about our upcoming projects, socials, trainings and external events and to connect with all of our members.",
-        youtubeLink: "https://youtu.be/SyAKHbY_d_c"
+        buttonIcon: youtube,
+        buttonTitle: "Info Session Recording",
+        buttonLink: "https://youtu.be/SyAKHbY_d_c",
     },
     {
         date: "Wednesday, September 2, 8-10 PM",
         title: "Info Session #2 + Case Workshop",
         description: "Info Session #2 is the same as Info Session #1 and will take place from 8-9pm. Feel free to take this opportunity to continue to meet more members of our organization, ask questions, and learn about what NIB can offer you. From 9-10pm we host a case workshop to help walk you through the case portion of our interview and what to expect from the overall interview process. This includes best practices, a sample case, and time to ask questions.",
-        link: "https://berkeley.zoom.us/j/93246084610?pwd=QTQ1WjJCTjdoU3RkYnFrNndCaUgzUT09",
-        gCalLink: "https://calendar.google.com/event?action=TEMPLATE&tmeid=bWs1N285cDBwZHYxdGQ0ZXQ1M25iY2J2NzQgamVubmlmZXIubHVAYmVya2VsZXkuZWR1&tmsrc=jennifer.lu%40berkeley.edu"
+        buttonIcon: youtube,
+        buttonTitle: "Case Workshop Recording",
+        buttonLink: "https://youtu.be/sbfy9vxG-ps",
     },
     {
         date: "Thursday, September 3, 8-10 PM",

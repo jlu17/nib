@@ -154,7 +154,7 @@ class Apply extends React.Component {
                             <p>Wednesday, August 26 - Thursday, September 3</p>
                             <ul>
                                 <li>From August 26-29 anytime 10am-6pm, come say hi on Zoom!</li>
-                                <li>Sign up for a 1:1 with a NIB member sometime August 31-September 3 <a className="underline-magical" href={this.coffeeChatSignUp} target="_blank" rel="noopener noreferrer" rel="noopener noreferrer"> here. </a></li>
+                                <li>(Note: sign ups filled!) Sign up for a 1:1 with a NIB member sometime August 31-September 3.</li>
                             </ul>
                         </div>
                         <div className="item">
@@ -164,7 +164,7 @@ class Apply extends React.Component {
                             <ul>
                                 <li>Tuesday: Infosession #1</li>
                                 <li>Wednesday: Infosession #2 + Case Workshop</li>
-                                <li>Thursday: Case coaching session - <strong>Pre-registration is required.</strong> Please register <a className="underline-magical" href={this.caseCoachingSignUp} target="_blank"> here. </a></li>
+                                <li>Thursday: Case coaching session</li>
                             </ul>
                         </div>
                         <div className="item">
@@ -209,12 +209,13 @@ class Apply extends React.Component {
                     </div>
                     <div class="resources">
                         <Button
-                            link="/faq"
-                            buttonText="FAQ"
+                            link="/nib-app-checklist.pdf"
+                            buttonText="Recruiting Tips"
+                            external
                         />
                         <Button
-                            link="/nib-app-checklist.pdf"
-                            buttonText="Recruiting Cheat Sheet"
+                            link="/sample-case.pdf"
+                            buttonText="Sample 1st Round Case"
                             external
                         />
                     </div>
