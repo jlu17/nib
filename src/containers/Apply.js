@@ -178,30 +178,6 @@ class Apply extends React.Component {
                         </div>
                     </div>
                 </section>
-                <section className="quickLinks container showOnMobile">
-                    <h1>Quick Links</h1>
-                    <a target="_blank" rel="noopener noreferrer"href={this.virtualTablingLink}>
-                        <p className="description">Meet our our NIB members anytime 10 am-6 pm August 26-29 in the link below!</p>
-                        <div className="zoomLink">
-                            <img src={zoom} alt="Zoom link icon" className="verticallyCenter" />
-                            <p className="verticallyCenter">Virtual Tabling</p>
-                        </div>
-                    </a>
-                    <a target="_blank" rel="noopener noreferrer"href={this.coffeeChatSignUp}>
-                        <p className="description">Sign up for a coffee chat with a NIB member August 31 - Sept 3!</p>
-                        <div className="zoomLink">
-                            <img src={zoom} alt="Zoom link icon" className="verticallyCenter" />
-                            <p className="verticallyCenter">Sign up for coffee chats</p>
-                        </div>
-                    </a>
-                    <a target="_blank" rel="noopener noreferrer"href={this.caseCoachingSignUp}>
-                        <p className="description">Register for the case coaching session on September 3 so that we can prepare material for you.</p>
-                        <div className="zoomLink">
-                            <img src={zoom} alt="Zoom link icon" className="verticallyCenter" />
-                            <p className="verticallyCenter">Pre-register for case coaching session</p>
-                        </div>
-                    </a>
-                </section>
                 <section className="container">
                     <h1>How Should I Prepare?</h1>
                     <div className="flex projectTypes">

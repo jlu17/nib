@@ -57,7 +57,7 @@ function TimelineItem(props) {
                 }
                 {
                     props.buttonLink === "#" &&
-                    <p className="notAvailable">Sign ups filled</p>
+                    <p className="notAvailable">Sign ups full</p>
                 }
                 {
                     unavailableLink && 

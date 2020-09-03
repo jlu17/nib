@@ -38,12 +38,9 @@ let Timeline = [
         date: "Thursday, September 3, 8-10 PM",
         title: "Case Coaching Session",
         description: "Come learn about Net Impact's interview process and how to crush a case interview at our Case Coaching Session. You'll have the chance to work in small groups to solve a real world case and learn how to approach and solve case interview questions.",
-        buttonIcon: zoom,
         buttonTitle: "Pre-register (recommended)",
-        buttonLink: "https://berkeley.zoom.us/meeting/register/tJEqdOuvpzIrGtPHKIafEcR3V7zKkNE9LZzz",
-        link: "https://berkeley.zoom.us/j/95732799107?pwd=UThjWUE2R1pHZkZyd2VqbEtobTd6QT09",
-        gCalLink: "https://calendar.google.com/event?action=TEMPLATE&tmeid=M2NkMnVibzE3MTZraHIyOW5zYWhvZWZnbmMgamVubmlmZXIubHVAYmVya2VsZXkuZWR1&tmsrc=jennifer.lu%40berkeley.edu"
-    },
+        buttonLink: "#",
+        },
     {
         date: "Friday, September 4, 12 PM (noon)",
         title: "Applications Due!",
