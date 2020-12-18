@@ -1,21 +1,19 @@
 import React from 'react';
 
-import About from './containers/About';
-import Home from './containers/Home';
-import Apply from './containers/Apply';
-import Projects from './containers/Projects';
-import Members from './containers/Members';
-import NotFound from './containers/NotFound';
-import FAQ from './containers/FAQ';
-import VirtualSproul from './containers/VirtualSproul';
-import Footer from './components/Footer';
-import NavBar from './components/NavBar';
+import About from './about';
+import Home from './home';
+import Apply from './apply';
+import Projects from './projects';
+import Members from './members';
+import NotFound from './404';
+import FAQ from './faq';
+import Redirecting from './redirecting';
+import Footer from './components/footer';
+import NavBar from './components/navbar';
 import ScrollToTop from './components/ScrollToTop';
-import Redirecting from './containers/Redirecting';
-import Events from './containers/Events';
 import GA from './components/GoogleAnalytics';
 
-import { BrowserRouter as Router, Switch, Route, HashRouter } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {
   return (
@@ -33,7 +31,6 @@ function App() {
           <Route path="/projects" component={Projects} />
           <Route path="/members" component={Members} />
           <Route path="/faq" component={FAQ} />
-          <Route path="/virtual-sproul" component={VirtualSproul} />
           <Route path="/checkin" component={Redirecting} />
           <Route path="/check-in" component={Redirecting} />
           <Route component={NotFound} />
