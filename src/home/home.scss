@@ -200,11 +200,13 @@
     .homePage {
         h1 {
             font-size: 3rem;
-            margin: 80px 0;
             line-height: 113.18%;
         }
 
         .splash {
+            h1 {
+                margin: 80px 0;
+            }
             .container {
                 display: grid;
                 grid-template-columns: 2fr 2fr;
@@ -270,24 +272,6 @@
         }
     }
 }
-
-
-// @media (max-width: 1800px) and (min-width: 1100px) {
-//   .homePage {
-//     .who {
-//         .grid.container {
-//             text-align: right;
-//             img {
-//                 width: 110%;
-//                 z-index: -1000;
-//             }
-//         }
-//     }
-//   }
-//   .topsvg {
-//     margin-top: -150px;
-//   }
-// }
 
 // ~ MOBILE ~
 

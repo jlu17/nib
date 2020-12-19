@@ -8,7 +8,7 @@ class Redirecting extends React.Component {
         return (
             <section className="redirectingPage">
                 <div className="container">
-                    <img src={loadingPic} />
+                    <img src={loadingPic} alt="3 loading dots" />
                     <h1>Redirecting to the check-in page...</h1>
                     <p>Click <a href="https://airtable.com/shrSPOe3ijuWcs5L7">here</a> if you're not redirected.</p>
                 </div>

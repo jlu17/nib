@@ -14,9 +14,9 @@ function TimelineItem(props) {
 
     var showZoomLink = (!isCCS || (isCCS && isDayOfCCS));
 
-    var availableLink = showZoomLink && props.link && props.link != "#";
+    var availableLink = showZoomLink && props.link && props.link !== "#";
     var unavailableLink = props.link && props.link === "#";
-    var availableButton = props.buttonTitle && props.buttonLink != "#";
+    var availableButton = props.buttonTitle && props.buttonLink !== "#";
 
     return (
         <li>
@@ -48,7 +48,7 @@ function TimelineItem(props) {
                     props.gCalLink &&
                     <a target="_blank" rel="noopener noreferrer" href={props.gCalLink}>
                         <div className="zoomLink">
-                            <img border="0" src={GCal} />
+                            <img border="0" src={GCal} alt="Google Calendar icon" />
                             <p>Add to Google Calendar</p>
                         </div>
                     </a>

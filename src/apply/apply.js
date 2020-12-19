@@ -10,11 +10,11 @@ import blob1 from './img/shapes/photo1.png';
 import blob2 from './img/shapes/photo2.png';
 import zoom from './img/zoom.png';
 
-import chat from './img/atAGlance/chat.png';
-import doc from './img/atAGlance/doc.png';
-import network from './img/atAGlance/network.png';
-import {ReactComponent as Arrow} from './img/atAGlance/arrow.svg';
-import {ReactComponent as DownArrow} from './img/atAGlance/down.svg';
+// import chat from './img/atAGlance/chat.png';
+// import doc from './img/atAGlance/doc.png';
+// import network from './img/atAGlance/network.png';
+// import {ReactComponent as Arrow} from './img/atAGlance/arrow.svg';
+// import {ReactComponent as DownArrow} from './img/atAGlance/down.svg';
 
 
 class Apply extends React.Component {

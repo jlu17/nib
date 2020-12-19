@@ -19,11 +19,11 @@ function Carousel(props) {
         options={flickityOptions}
       
       >
-        <img src={photo1} />
-        <img src={photo2} />
-        <img src={photo3} />
-        <img src={photo4} />
-        <img src={photo5} />
+        <img src={photo1} alt="" />
+        <img src={photo2} alt="" />
+        <img src={photo3} alt="" />
+        <img src={photo4} alt="" />
+        <img src={photo5} alt="" />
       </Flickity>
 
   )

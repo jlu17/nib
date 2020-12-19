@@ -1,7 +1,7 @@
-import React from 'react';
-import zoom from '../img/zoom.png';
-import airtable from '../img/airtable.png';
-import youtube from '../img/youtube.png';
+// import React from 'react';
+// import zoom from '../img/zoom.png';
+// import airtable from '../img/airtable.png';
+// import youtube from '../img/youtube.png';
 
 let Timeline = [
     {
