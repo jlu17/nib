@@ -1,8 +1,10 @@
 import React from 'react';
 import './members.scss';
+import Member from './member.js';
+import CallToAction from '../components/callToAction';
+import Carousel from './carousel';
 import "./flickity.css";
 import 'react-alice-carousel/lib/alice-carousel.css';
-import Member from './member.js';
 
 import AlumniCompanies from './data/alumniCompanies';
 import memberInfo from './data/memberInfo';
@@ -10,14 +12,9 @@ import imageList from './data/carousel';
 
 import imageLeft from './img/splash-left.png';
 import imageRight from './img/splash-right.png';
-import CallToAction from '../components/callToAction';
-
 import photo1 from './img/carousel/photo1.jpg';
 import photo2 from './img/carousel/photo2.jpg';
 import photo3 from './img/carousel/photo3.jpg';
-
-import Carousel from './carousel';
-
 
 const AlumniCompany = ({name, href, fileName}) => {
     return <a href={href} target="_blank" rel="noopener noreferrer" rel="noopener noreferrer"><img src={require(`./img/careers/${fileName}`)} alt={name} /></a>;
@@ -31,38 +28,13 @@ class Members extends React.Component {
         document.title = 'NIB | Members';
 
         let execList = memberInfo.execList.map((person) => {
-            return <Member
-                    name={person.name}
-                    title={person.title}
-                    year={person.year}
-                    linkedin={person.linkedin}
-                    image={person.image}
-                    sillyImage={person.sillyImage}
-                    key={person.name}
-                />
+            return <Member {...person} />
           }
         );
 
         let memberList = memberInfo.memberList.map((person) => {
-            return <Member
-                    name={person.name}
-                    title={person.title}
-                    year={person.year}
-                    linkedin={person.linkedin}
-                    image={person.image}
-                    sillyImage={person.sillyImage}
-                    key={person.name}
-                />
+            return <Member {...person} />
         });
-
-        let responsive =   {
-            0: {
-                items: 1,
-            },
-            1024: {
-                items: 2
-            }
-        };
 
         let images = imageList.map((photo) => {
             return <img src={photo.src} />

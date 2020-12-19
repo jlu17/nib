@@ -81,30 +81,6 @@ class Apply extends React.Component {
 
     render() {
         document.title = 'NIB | Apply';
-        let timelineInfo = Timeline.map((timelineItem) => {
-            return <TimelineItem
-                date={timelineItem.date}
-                title={timelineItem.title}
-                description={timelineItem.description}
-                link={timelineItem.link}
-                buttonTitle={timelineItem.buttonTitle}
-                buttonIcon={timelineItem.buttonIcon}
-                buttonLink={timelineItem.buttonLink}
-                gCalLink={timelineItem.gCalLink}
-                youtubeLink={timelineItem.youtubeLink}
-                key={timelineItem.title}
-                />
-        });
-
-        let preparationTypes = prepareTypeInfo.map((project) => {
-            return <ProjectType
-                img={project.img}
-                alt={project.alt}
-                title={project.title}
-                description={project.description}
-                key={project.title}
-            />
-        })
 
         return (
         <section className="applyPage">
@@ -114,18 +90,17 @@ class Apply extends React.Component {
                     <div className="left">
                         <h3>APPLY</h3>
                         <h1>Join our Family</h1>
-                        <p>Interested in applying to Net Impact? Below are links to our interest form (receive email updates
-                        for our events coming up) and our application form due Friday, September 4 at noon.</p>
+                        <p>Interested in applying to Net Impact? Fill out our interest form to be notified on events coming up!</p>
                         <Button
                             link={this.interestForm}
                             buttonText="Interest Form"
                             external
                         />
-                        <Button
+                        {/* <Button
                             link={this.application}
                             buttonText="Application"
                             external
-                        />
+                        /> */}
                     </div>
                 </div>
                 <div className="right hideOnMobile">
@@ -141,7 +116,7 @@ class Apply extends React.Component {
                 <path d="M713.744 408.887C546.069 469.017 -2 454 -2 454V748.5H1440V0C1282.84 210.195 1071.62 83.1369 975.016 157.385C878.415 231.633 881.418 348.757 713.744 408.887Z" fill="#F0FCFE"/>
             </svg>
             <section className="preparationSection">
-                <section className="container atAGlance hideOnMobile">
+                {/* <section className="container atAGlance hideOnMobile">
                     <h1>Timeline at a Glance</h1>
                     <a href="/apply#timelineSection">
                         <p>Full timeline below <DownArrow /></p>
@@ -177,11 +152,13 @@ class Apply extends React.Component {
                             </ul>
                         </div>
                     </div>
-                </section>
+                </section> */}
                 <section className="container">
                     <h1>How Should I Prepare?</h1>
                     <div className="flex projectTypes">
-                        {preparationTypes}
+                        {prepareTypeInfo.map((project) => {
+                            return <ProjectType {...project} />;
+                        })}
                     </div>
                     <div class="resources">
                         <Button
@@ -212,11 +189,12 @@ class Apply extends React.Component {
                     <img src={require("./img/timelinePhotos/photo6.jpg")} alt="" />
                     <img src={require("./img/timelinePhotos/photo9.png")} alt="" />
                     <img src={require("./img/timelinePhotos/photo8.png")} alt="" />
-
                 </div>
                 <div className="timelineContainer">
                     <ul className="timeline">
-                        {timelineInfo}
+                        {Timeline.map((timelineItem) => {
+                            return <TimelineItem {...timelineItem} />;
+                        })}
                     </ul>
                 </div>
             </section>

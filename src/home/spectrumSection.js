@@ -1,7 +1,7 @@
 import React from 'react';
 import spectrumInfo from './data/projectDomains';
 import Button from '../components/button';
-import ProjectDomain from './ProjectDomain';
+import ProjectDomain from './projectDomain';
 
 class SpectrumSection extends React.Component {
     render() {

@@ -1,25 +1,17 @@
 import React from 'react';
-import nibLogo from '../img/nib-logo-new.png';
-
 import Button from '../components/button';
 import CallToAction from '../components/callToAction';
 import './home.scss';
 import '../projects/projects.scss';
 
-import godaddy from '../projects/img/pastClients/GoDaddy.png';
-import imperfect from '../projects/img/pastClients/ImperfectFoods.png';
-import kuli from '../projects/img/pastClients/KuliKuli.png';
-import larkin from '../projects/img/pastClients/Larkin.png';
-import marin from '../projects/img/pastClients/MarinFoodBank.png';
-import sierra from '../projects/img/pastClients/SierraNevada.png';
-
-import blob1 from './img/shapes/blob1.png';
-import blob2 from './img/shapes/blob2.png';
-
-import hillpic from './img/hillpic.png';
-import niblets from './img/niblets.png';
-import trio from './img/whoarewe.png';
+import nibLogo from '../img/nib-logo-new.png';
+import heroBlob1 from './img/shapes/blob1.png';
+import heroBlob2 from './img/shapes/blob2.png';
+import secondSection1 from './img/hillpic.png';
+import secondSection2 from './img/niblets.png';
+import membersSectionImage from './img/whoarewe.png';
 import SpectrumSection from './spectrumSection';
+import pastClients from './data/pastClientsHighlights';
 
 
 class Home extends React.Component {
@@ -47,8 +39,8 @@ class Home extends React.Component {
                     <path d="M89.6851 32.0176C93.2985 41.7664 81.203 57.1611 65.3926 66.226C49.4787 75.321 29.9208 77.9597 17.5121 70.9377C5.10338 63.9157 0.0150779 47.236 0.413986 32.1847C0.916331 17.1033 6.9738 3.68343 15.7691 0.956559C24.5289 -1.70698 35.9586 6.28935 51.3346 12.3391C66.7462 18.3254 86.0361 22.3321 89.6851 32.0176Z" fill="#91e9ff"/>
                 </svg>
 
-                <img src={blob1} className="seniors" alt="NIB seniors relaxing on a hill" />
-                <img src={blob2} className="hideOnMobile emgajen" alt="3 NIB members posing" />
+                <img src={heroBlob1} className="seniors" alt="NIB seniors relaxing on a hill" />
+                <img src={heroBlob2} className="hideOnMobile emgajen" alt="3 NIB members posing" />
             </div>
         </section>
         <svg className="wave" viewBox="0 0 1440 195" fill="#F0FCFE" xmlns="http://www.w3.org/2000/svg">
@@ -56,7 +48,7 @@ class Home extends React.Component {
         </svg>
         <section className="inspired">
             <div className="showOnMobile">
-                <img src={hillpic} className="hillpic" alt="NIB members chilling on a hill" />
+                <img src={secondSection1} className="hillpic" alt="NIB members chilling on a hill" />
             </div>
             <div className="blobs">
                 <svg className="rope" width="664" height="904" viewBox="0 0 664 904" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -69,8 +61,8 @@ class Home extends React.Component {
                     <path d="M145.25 82.5374C141.263 98.6358 127.069 109.343 113.339 122.396C99.542 135.4 86.1404 150.7 72.3693 150.659C58.7165 150.601 44.6437 135.269 34.4311 117.019C24.2185 98.7687 17.8833 77.7183 26.4059 69.1078C34.8608 60.4468 58.2412 64.2762 79.2265 58.7354C100.161 53.2623 118.633 38.3686 130.894 41.7093C143.205 44.9822 149.356 66.4218 145.25 82.5374Z" fill="#91e9ff"/>
                 </svg>
 
-                <img src={niblets} className="niblets" alt="Young NIB members" />
-                <img src={hillpic} className="hillpic" alt="NIB members chilling on a hill" />
+                <img src={secondSection1} className="niblets" alt="Young NIB members" />
+                <img src={secondSection2} className="hillpic" alt="NIB members chilling on a hill" />
             </div>
             <div className="container">
                 <div></div>
@@ -93,18 +85,15 @@ class Home extends React.Component {
         <section className="partners ">
             <div className="container">
                 <h1>150+ Past Clients</h1>
-                <img src= {larkin} alt="Larkin Youth Services logo" />
-                <img src= {marin} alt="Marin County Food Bank logo" />
-                <img src= {godaddy} alt="GoDaddy logo" />
-                <img src= {imperfect} alt="Imperfect Product logo" />
-                <img src= {kuli} alt="Kuli Kuli logo" />
-                <img src= {sierra} alt="Sierra Nevada logo" />
+                {pastClients.map((client) => {
+                    return <img src={client.img} alt={client.alt} />;
+                })}
             </div>
         </section>
 
         <section className="who">
             <div className="grid container">
-                <img src={trio} alt="3 NIB members posing" />
+                <img src={membersSectionImage} alt="3 NIB members posing" />
                 <div>
                     <h2>Who We Are</h2>
                     <p>Net Impact Berkeley is a community of forward-thinking student consultants motivated by the desire to make

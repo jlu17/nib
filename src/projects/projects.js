@@ -11,21 +11,11 @@ import ClientImage from './clientImage';
 class Projects extends React.Component {
     render() {
         let projectTypes = projectTypeInfo.map((project) => {
-            return <ProjectType
-                img={project.img}
-                alt={project.alt}
-                title={project.title}
-                description={project.description}
-                key={project.title}
-            />
+            return <ProjectType {...project} />
         });
 
         let clientImages = clients.map((client) => {
-            return <ClientImage
-                img={client.img}
-                link={client.link}
-                key={client.link}
-            />
+            return <ClientImage {...client} />
         });
 
         let clientImagesMobile = clientImages.slice(0, 12);

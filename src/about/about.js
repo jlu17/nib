@@ -3,18 +3,12 @@ import './about.scss';
 import CallToAction from '../components/callToAction';
 import aboutPhoto from './img/about-header.png';
 import aboutRetreat from './img/AboutRetreat.jpg';
-import EdAndAdhiv from './img/edAndAdhiv.png';
-import GarySaltBae from './img/GarySaltBae.png';
-import projectHike from './img/projectHike.png';
-import oliviaAndAbi from './img/olivia&Abi.png';
-import WelcomeToNib from './img/WelcomeToNib.png';
-import BeachDay from './img/beachday.png';
 import values from './img/ValuesPhoto.png';
-import varshaAndNaomi from './img/naomiAndVarsha.png';
-import womenInNib from './img/womenInNib.png';
 import NetImpactGlobal from './img/NetImpactGlobal.png';
 import Button from '../components/button';
 import Values from './values';
+import CultureImage from './cultureImage';
+import cultureData from './data/culture';
 
 class About extends React.Component {
     render() {
@@ -122,38 +116,9 @@ class About extends React.Component {
                 <section className="cultureSection container">
                     <h1>Life in NIB</h1>
                     <div className="cultureTable">
-                        <div className="col">
-                            <img src= {oliviaAndAbi} className="lifeInNibPics" height= "280" alt="5 Olivia and Abi enjoying coffee together" />
-                            <p>Olivia and Abi enjoying coffee together. Several times a semester, members of NIB get matched together and enjoy a "buddy brunch" hangout.</p>
-                        </div>
-                        <div className="col">
-                            <img src= {GarySaltBae} className="lifeInNibPics" height= "280" alt="1 NIB member throwing salt onto his food at a food competition" />
-                            <p>Our Fall 2019 Niblet class participated in the Basic Needs cooking competition. Here's Gary doing his best Salt Bae impression.</p>
-                        </div>
-                        <div className="col">
-                            <img src= {womenInNib} height= "280" alt="Women in Nib Social" />
-                            <p>The wonderful “Women in NIB” enjoying brunch at one of the semester’s frequent socials.</p>
-                        </div>
-                        <div className="col">
-                            <img src= {varshaAndNaomi} height= "280" alt="NIB getting Boba" />
-                            <p>Varsha and fresh alum Naomi enjoying boba (a timeless nib pastime)</p>
-                        </div>
-                        <div className="col">
-                            <img src= {EdAndAdhiv} height= "280" alt="1 NIB member showering another NIB member with coins after playing video games" />
-                            <p>Edward congratulating Adhiv on a spectacular victory after a Super Smash Bros. Ultimate session.</p>
-                        </div>
-                        <div className="col">
-                            <img src= {WelcomeToNib} height= "280" alt="4 NIB members posed in front of a whiteboard saying Welcome to NIB during a past infosession" />
-                            <p>NIB members at one of our infosessions excited to welcome applicants!</p>
-                        </div>
-                        <div className="col">
-                            <img src= {projectHike} height= "280" alt="4 NIB members on a project team enjoying lunch in the woods" />
-                            <p>Every semester our project teams have fun team socials. Here, a team hiked the Berkeley Fire Trails and enjoyed a nice brunch.</p>
-                        </div>
-                        <div className="col">
-                            <img src= {BeachDay} height= "280" alt="NIB members at the beach" />
-                            <p>Good times and vibes at the beach!</p>
-                        </div>
+                        {cultureData.map((cultureItem) => {
+                            return <CultureImage {...cultureItem}/>;
+                        })}
                     </div>
                 </section>
                 <CallToAction />

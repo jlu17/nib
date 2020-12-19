@@ -59,7 +59,7 @@ function TimelineItem(props) {
                 }
                 {
                     unavailableLink && 
-                    <p className="notAvailable">Zoom event finished</p>
+                    <p className="notAvailable">Sign up link not available (yet!)</p>
                 }
             </div>
         </li>

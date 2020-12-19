@@ -7,15 +7,7 @@ class Values extends React.Component {
         return (
             <div>
                 {valuesData.map((valueData) => {
-                    return (
-                        <Value 
-                            title={valueData.title} 
-                            description={valueData.description}
-                            image={valueData.image}
-                            alt={valueData.alt}
-                            key={valueData.title}
-                            />
-                    );
+                    return <Value {...valueData} />;
                 })}
             </div>
         );

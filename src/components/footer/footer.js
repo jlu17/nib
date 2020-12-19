@@ -3,7 +3,6 @@ import './footer.scss';
 import logo from '../../img/nib-logo-new.png';
 import { Link } from "react-router-dom";
 
-
 const FooterTitle = ({ text }) => {
     return <p className="footerTitle">{text}</p>
 }
