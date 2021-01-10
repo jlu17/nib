@@ -74,6 +74,21 @@
         }
     }
 
+    .advisor {
+        background-color: #F0FCFE;
+        // text-align: center;
+        img {
+            width: 90%;
+        }
+        h2 {
+            margin-bottom: 0;
+        }
+        p {
+            text-align: left;
+            line-height: 24px;
+        }
+    }
+
     .invertedWave {
         width: 100%;
     }
@@ -127,6 +142,19 @@
                 margin-bottom: 100px;
             }
         }
+
+        .advisor {
+            padding-top: 50px;
+            padding-bottom: 20px;
+            .grid {
+                display: grid;
+                margin-right: 10%;
+                margin-left: 10%;
+                grid-template-columns: 3fr 4fr;
+                grid-column-gap: 40px;
+                margin-bottom: 100px;
+            }
+        }
     }
 }
 
@@ -144,12 +172,19 @@
             font-size: 24px;
         }
         
-        .alumniSection {
+        .alumniSection, .advisor {
             padding-top: 50px;
             .grid {
                 h2 {
                     margin-bottom: 0;
                 }
+            }
+        }
+
+        .advisor {
+            padding-bottom: 50px;
+            img {
+                width: 80%;
             }
         }
     }

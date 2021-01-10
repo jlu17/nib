@@ -20,7 +20,7 @@ import zoom from './img/zoom.png';
 class Apply extends React.Component {
     virtualTablingLink = "https://berkeley.zoom.us/j/91291610391";
     coffeeChatSignUp = "https://airtable.com/shrAXBVJn9KMHPoIZ";
-    interestForm = "https://airtable.com/shrDaa4bxNXoRB7gQ";
+    interestForm = "https://airtable.com/shrygabTd2yQDaYfc";
     application = "https://airtable.com/shrhW4PzvxhFM6zEi";
     caseCoachingSignUp = "https://berkeley.zoom.us/meeting/register/tJEqdOuvpzIrGtPHKIafEcR3V7zKkNE9LZzz";
     infosession1 = "https://berkeley.zoom.us/j/94684234345?pwd=QjUwd1cyV3o2TUppbk44a2FTRlEwUT09";
@@ -207,8 +207,8 @@ class Apply extends React.Component {
                     <div>
                         <h1>Ready to Join?</h1>
                         <Button
-                            link="https://airtable.com/shrhW4PzvxhFM6zEi"
-                            buttonText="Application"
+                            link="https://airtable.com/shrygabTd2yQDaYfc"
+                            buttonText="Interest Form"
                             external
                         />
                     </div>

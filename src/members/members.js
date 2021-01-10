@@ -5,6 +5,7 @@ import CallToAction from '../components/callToAction';
 import Carousel from './carousel';
 import "./flickity.css";
 import 'react-alice-carousel/lib/alice-carousel.css';
+import Button from '../components/button';
 
 import AlumniCompanies from './data/alumniCompanies';
 import memberInfo from './data/memberInfo';
@@ -28,7 +29,7 @@ class Members extends React.Component {
         document.title = 'NIB | Members';
 
         let execList = memberInfo.execList.map((person) => {
-            return <Member {...person} />
+            return <Member exec {...person} />
           }
         );
 
@@ -78,6 +79,30 @@ class Members extends React.Component {
                     <div>{execList}</div>
                     <h2>Members</h2>
                     <div>{memberList}</div>
+                </section>
+            </section>
+            <section className="advisor">
+                <section className="grid container">
+                    <div>
+                        <img src={require('./img/azb.jpg')} alt="Alex Budak" />
+                    </div>
+                    <div className="verticallyCenter">
+                        <h2>Advisor</h2>
+                        <p>Our faculty advisor, Professor Alex Budak, is a lecturer at Berkeley 
+                        Haas specializing in leadership, change, and social entrepreneurship. He 
+                        co-founded and now advises the social enterprise <a href="startsomegood.com">startsomegood.com</a> and is 
+                        the creator and instructor of UC Berkeley's "Becoming a Changemaker" course. 
+                        Professor Budak is also a member of the World Economic Forum's Expert Network 
+                        for Social Innovation and serves as Executive Director of the Berkeley Haas 
+                        Global Access Program.</p>
+                        <span>
+                            <Button
+                                link="https://alexbudak.com/about"
+                                buttonText="Learn more"
+                                external
+                            />
+                        </span>
+                    </div>
                 </section>
             </section>
             <section className="carousel hideOnMobile">

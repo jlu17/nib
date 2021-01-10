@@ -1,77 +1,49 @@
 let memberInfo = {
     execList: [
         {
-            name: 'Edward Yang',
-            title: 'President',
-            linkedin: 'https://www.linkedin.com/in/edwardryang/',
-            image: require('../img/individuals/edward.png'),
-            sillyImage: require('../img/fun/edward.png')
-        },
-        {
-            name: 'Shalini Haupt',
-            title: 'VP Finance & Operations',
-            linkedin: 'https://www.linkedin.com/in/shalini-haupt-935857177/',
-            image: require('../img/individuals/shalini.png'),
-            sillyImage: require('../img/fun/shalini.png')
-        },
-        {
             name: 'Alexander Manes',
-            title: 'VP Associate Development',
+            title: 'President',
             linkedin: 'https://www.linkedin.com/in/alexander-manes/',
             image: require('../img/individuals/alex.png'),
             sillyImage: require('../img/fun/alex.png')
         },
         {
-            name: 'Jennifer Lu',
-            title: 'VP External',
-            linkedin: 'https://www.linkedin.com/in/jenniferzlu/',
-            image: require('../img/individuals/jen.png'),
-            sillyImage: require('../img/fun/jen.png')
+            name: 'David Kwon',
+            title: 'VP Finance & Operations',
+            linkedin: 'https://www.linkedin.com/in/daviddkwon/',
+            image: require('../img/individuals/david.png'),
+            sillyImage: require('../img/fun/david.png')
         },
-    ],
-    memberList: [
         {
             name: 'Aanika Shah',
-            title: 'Account Manager',
+            title: 'VP Associate Development',
             linkedin: 'https://www.linkedin.com/in/aanika-shah/',
             image: require('../img/individuals/aanika.png'),
             sillyImage: require('../img/fun/aanika.png')
         },
         {
-            name: 'Jasdeep Hundal',
-            title: 'Project Manager',
-            linkedin: 'https://www.linkedin.com/in/jasdeep-singh-hundal-aab090171/',
-            image: require('../img/individuals/jasdeep.png'),
-            sillyImage: require('../img/fun/jasdeep.png')
+            name: 'Edward Yang',
+            title: 'VP External',
+            linkedin: 'https://www.linkedin.com/in/edwardryang/',
+            image: require('../img/individuals/edward.png'),
+            sillyImage: require('../img/fun/edward.png')
         },
         {
             name: 'Kelly Han',
-            title: 'Project Manager',
+            title: 'Co-VP Consulting',
             linkedin: 'https://www.linkedin.com/in/kellyjalinhan/',
             image: require('../img/individuals/kelly.png'),
             sillyImage: require('../img/fun/kelly.png')
         },
         {
-            name: 'Suyash Jaju',
-            title: 'Project Manager',
-            linkedin: 'https://www.linkedin.com/in/suyash-jaju/',
-            image: require('../img/individuals/suyash.png'),
-            sillyImage: require('../img/fun/suyash.png')
-        },
-        {
             name: 'Adam Ng',
-            title: 'Project Manager',
+            title: 'Co-VP Consulting',
             linkedin: 'https://www.linkedin.com/in/adamngberkeley/',
             image: require('../img/individuals/adam.png'),
             sillyImage: require('../img/fun/adam.png')
         },
-        {
-            name: 'Arth Vidyarthi',
-            title: 'Project Manager',
-            linkedin: 'https://www.linkedin.com/in/arth-vid/',
-            image: require('../img/individuals/arth.png'),
-            sillyImage: require('../img/fun/arth.png')
-        },
+    ],
+    memberList: [
         {
             name: 'Emersyn Lyon',
             title: 'Senior Associate',
@@ -81,52 +53,66 @@ let memberInfo = {
         },
         {
             name: 'Ivan Penev',
-            title: 'Senior Associate',
+            title: 'Project Manager',
             linkedin: 'https://www.linkedin.com/in/ivan-penev/',
             image: require('../img/individuals/ivan.png'),
             sillyImage: require('../img/fun/ivan.png')
         },
         {
             name: 'Varsha Nekkanti',
-            title: 'Senior Associate',
+            title: 'Project Manager',
             linkedin: 'https://www.linkedin.com/in/varshanekkanti/',
             image: require('../img/individuals/varsha.png'),
             sillyImage: require('../img/fun/varsha.png')
         },
         {
-            name: 'Emily Chien',
-            title: 'Senior Associate',
-            linkedin: 'https://www.linkedin.com/in/emily-chien-9b9040188/',
-            image: require('../img/individuals/emily.png'),
-            sillyImage: require('../img/fun/emily.png')
-        },
-        {
             name: 'Basant Apurva',
-            title: 'Senior Associate',
+            title: 'Project Manager',
             linkedin: 'https://www.linkedin.com/in/basant-apurva/',
             image: require('../img/individuals/basant.png'),
             sillyImage: require('../img/fun/basant.png')
         },
         {
+            name: 'Helen Rhee',
+            title: 'Project Manager',
+            linkedin: 'https://www.linkedin.com/in/helen-rhee/',
+            image: require('../img/individuals/helen.png'),
+            sillyImage: require('../img/fun/helen.png')
+        },
+        {
             name: 'Gary Liu',
-            title: 'Associate',
+            title: 'Senior Associate',
             linkedin: 'https://www.linkedin.com/in/liugary/',
             image: require('../img/individuals/gary.png'),
             sillyImage: require('../img/fun/gary.png')
         },
         {
             name: 'Brandon Qin',
-            title: 'Associate',
+            title: 'Senior Associate',
             linkedin: 'https://www.linkedin.com/in/brandonqin/',
             image: require('../img/individuals/brandon.png'),
             sillyImage: require('../img/fun/brandon.png')
         },
         {
-            name: 'Mingjie Zhong',
-            title: 'Associate',
-            linkedin: 'https://www.linkedin.com/in/mingjiez/',
-            image: require('../img/individuals/mingjie.png'),
-            sillyImage: require('../img/fun/mingjie.png')
+            name: 'Abi Srikant',
+            title: 'Senior Associate',
+            linkedin: 'https://www.linkedin.com/in/abinaya-srikant/',
+            image: require('../img/individuals/abinaya.png'),
+            sillyImage: require('../img/fun/abi.png')
+        },
+        {
+            name: 'Agrima Sharma',
+            title: 'Senior Associate',
+            linkedin: 'https://www.linkedin.com/in/agrima-sharma-04356856/',
+            image: require('../img/individuals/agrima.jpeg'),
+            sillyImage: require('../img/fun/agrima.png')
+        },
+        {
+            name: 'Evan Mallah',
+            title: 'Senior Associate',
+            linkedin: 'https://www.linkedin.com/in/evan-mallah/',
+            image: require('../img/individuals/evan.png'),
+            sillyImage: require('../img/fun/evan.png')
         },
         {
             name: 'Austin Sun',
@@ -134,13 +120,6 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/austinjsun/',
             image: require('../img/individuals/austin.png'),
             sillyImage: require('../img/fun/austin.png')
-        },
-        {
-            name: 'Abi Srikant',
-            title: 'Associate',
-            linkedin: 'https://www.linkedin.com/in/abinaya-srikant/',
-            image: require('../img/individuals/abinaya.png'),
-            sillyImage: require('../img/fun/abi.png')
         },
         {
             name: 'Quinn Geunther',
@@ -156,27 +135,7 @@ let memberInfo = {
             image: require('../img/individuals/makena.png'),
             sillyImage: require('../img/fun/makena.png')
         },
-        {
-            name: 'Evan Mallah',
-            title: 'Associate',
-            linkedin: 'https://www.linkedin.com/in/evan-mallah/',
-            image: require('../img/individuals/evan.png'),
-            sillyImage: require('../img/fun/evan.png')
-        },
-        {
-            name: 'Agrima Sharma',
-            title: 'Associate',
-            linkedin: 'https://www.linkedin.com/in/agrima-sharma-04356856/',
-            image: require('../img/individuals/agrima.jpeg'),
-            sillyImage: require('../img/fun/agrima.png')
-        },
-        {
-            name: 'Helen Rhee',
-            title: 'Senior Advisor',
-            linkedin: 'https://www.linkedin.com/in/helen-rhee/',
-            image: require('../img/individuals/helen.png'),
-            sillyImage: require('../img/fun/helen.png')
-        },
+        
         {
             name: 'Adhiv Dhar',
             title: 'Senior Advisor',
@@ -193,6 +152,20 @@ let memberInfo = {
             sillyImage: require('../img/fun/ashu.png')
         },
         {
+            name: 'Jasdeep Hundal',
+            title: 'Project Manager',
+            linkedin: 'https://www.linkedin.com/in/jasdeep-singh-hundal-aab090171/',
+            image: require('../img/individuals/jasdeep.png'),
+            sillyImage: require('../img/fun/jasdeep.png')
+        },
+        {
+            name: 'Jennifer Lu',
+            title: 'VP External',
+            linkedin: 'https://www.linkedin.com/in/jenniferzlu/',
+            image: require('../img/individuals/jen.png'),
+            sillyImage: require('../img/fun/jen.png')
+        },
+        {
             name: 'Mahesh Murag',
             title: 'Senior Advisor',
             linkedin: 'https://www.linkedin.com/in/maheshmurag/',
@@ -200,11 +173,18 @@ let memberInfo = {
             sillyImage: require('../img/fun/mahesh.png')
         },
         {
-            name: 'David Kwon',
+            name: 'Mingjie Zhong',
             title: 'Senior Advisor',
-            linkedin: 'https://www.linkedin.com/in/daviddkwon/',
-            image: require('../img/individuals/david.png'),
-            sillyImage: require('../img/fun/david.png')
+            linkedin: 'https://www.linkedin.com/in/mingjiez/',
+            image: require('../img/individuals/mingjie.png'),
+            sillyImage: require('../img/fun/mingjie.png')
+        },
+        {
+            name: 'Shalini Haupt',
+            title: 'Senior Advisor',
+            linkedin: 'https://www.linkedin.com/in/shalini-haupt-935857177/',
+            image: require('../img/individuals/shalini.png'),
+            sillyImage: require('../img/fun/shalini.png')
         },
         {
             name: 'Shikha Patel',
@@ -221,6 +201,27 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/saam-zahedian/',
             image: require('../img/individuals/saam.png'),
             sillyImage: require('../img/fun/saam.png')
+        },
+        {
+            name: 'Arth Vidyarthi',
+            title: 'Senior Advisor',
+            linkedin: 'https://www.linkedin.com/in/arth-vid/',
+            image: require('../img/individuals/arth.png'),
+            sillyImage: require('../img/fun/arth.png')
+        },
+        {
+            name: 'Emily Chien',
+            title: 'Senior Advisor',
+            linkedin: 'https://www.linkedin.com/in/emily-chien-9b9040188/',
+            image: require('../img/individuals/emily.png'),
+            sillyImage: require('../img/fun/emily.png')
+        },
+        {
+            name: 'Suyash Jaju',
+            title: 'Senior Advisor',
+            linkedin: 'https://www.linkedin.com/in/suyash-jaju/',
+            image: require('../img/individuals/suyash.png'),
+            sillyImage: require('../img/fun/suyash.png')
         },
 
     ]
