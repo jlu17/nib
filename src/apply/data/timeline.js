@@ -5,36 +5,45 @@
 
 let Timeline = [
     {
-        date: "Dates TBD",
+        date: "January 19th - 23rd",
         title: "Virtual Sproul Tabling",
-        description: "Drop by our virtual Sproul hours to learn more about our people, projects, and impact! 2 members will be online from 10am-6pm. Take this time to meet our incredible members and to ask any questions about consulting for Net Impact.",
-        link: "#"
+        description: "Drop by our virtual Sproul hours to learn more about our people, projects, and impact! 2 members will be online from 10am-6pm PST. Take this time to meet our incredible members and to ask any questions about consulting for Net Impact.",
+        link: "https://berkeley.zoom.us/j/95663292195",
+        linkText: "Zoom Link",
     },
     {
-        date: "Dates TBD",
+        date: "January 25th - 28th",
         title: "Virtual Chats",
         description: "Sign up for a 20 minute chat with one of our members anytime to meet someone from our community.",
-        link: "#"
+        link: "https://airtable.com/shr5tNafnTL2VsY33",
+        linkText: "Sign up here",
     },
     {
-        date: "Tuesday, January 26, 8-10 PM",
+        date: "Tuesday, January 26, 8-10 PM PST",
         title: "Info Session #1",
         description: "Join us at one of our info sessions to get a glimpse into what in means to be part of Net Impact Berkeley and to see what we offer to all majors, backgrounds, and interests. You'll have the opportunity to learn more about our upcoming projects, socials, trainings and external events and to connect with all of our members.",
+        link: "https://berkeley.zoom.us/j/99404517995?pwd=Q1ljRTlwb3RBdG9TUFpUTzY0L0UvUT09",
+        linkText: "Zoom Link",
     },
     {
-        date: "Wednesday, January 27, 8-10 PM",
+        date: "Wednesday, January 27, 8-10 PM PST",
         title: "Info Session #2 + Case Workshop",
         description: "Info Session #2 is the same as Info Session #1 and will take place from 8-9pm. Feel free to take this opportunity to continue to meet more members of our organization, ask questions, and learn about what NIB can offer you. From 9-10pm we host a case workshop to help walk you through the case portion of our interview and what to expect from the overall interview process. This includes best practices, a sample case, and time to ask questions.",
+        link: "https://berkeley.zoom.us/j/96961413275?pwd=TTJzVGhteFdVa2QzSjlDZk82MFlPZz09",
+        linkText: "Zoom Link",
     },
     {
-        date: "Thursday, January 28, 8-10 PM",
+        date: "Thursday, January 28, 8-10 PM PST",
         title: "Case Coaching Session",
         description: "Come learn about Net Impact's interview process and how to crush a case interview at our Case Coaching Session. You'll have the chance to work in small groups to solve a real world case and learn how to approach and solve case interview questions.",
+        link: "https://berkeley.zoom.us/meeting/register/tJEkdu-urjspGtA68NPJLepuKa-CBfMsTvm3",
+        linkText: "Registration Link"
         },
     {
-        date: "Friday, January 29, 12 PM (noon)",
+        date: "Friday, January 29, 12 PM PST (noon)",
         title: "Applications Due!",
         description: "Our application consists of a resume drop and a few short answer questions. Please submit your application by noon on Friday if you'd like to apply!",
+        link: "#",
     },
     {
         date: "Saturday, January 30",

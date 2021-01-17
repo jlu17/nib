@@ -1,22 +1,33 @@
 import React from 'react';
 import ZoomIcon from './img/zoom.png';
 import GCal from './img/gcal.png';
+import airtableIcon from './img/airtable.png';
 
 function TimelineItem(props) {
     var descriptionStyling = props.description === "Invite Only" 
     ? <em>{props.description}</em> 
     : props.description;
 
-    var isCCS = props.title === "Case Coaching Session";
-    let now = new Date(Date.now());
-    let day = now.getDate();
-    var isDayOfCCS= day === 3;
+    // var isCCS = props.title === "Case Coaching Session";
+    // let now = new Date(Date.now());
+    // let day = now.getDate();
+    // var isDayOfCCS= day === 3;
 
-    var showZoomLink = (!isCCS || (isCCS && isDayOfCCS));
-
-    var availableLink = showZoomLink && props.link && props.link !== "#";
+    // var showZoomLink = (!isCCS || (isCCS && isDayOfCCS));
+    // var availableLink = showZoomLink && props.link && props.link !== "#";
+    var availableLink = props.link && props.link !== "#";
     var unavailableLink = props.link && props.link === "#";
     var availableButton = props.buttonTitle && props.buttonLink !== "#";
+
+    // button icon logic
+    var buttonIcon;
+    if(props.link && props.link.includes("airtable.com")) {
+        buttonIcon = <img src={airtableIcon} alt="Airtable link icon" />;
+    }
+    else if(props.link && props.link.includes("zoom.us")) {
+        buttonIcon = <img src={ZoomIcon} alt="Zoom link icon" />;
+    }
+
 
     return (
         <li>
@@ -30,8 +41,8 @@ function TimelineItem(props) {
                     availableButton &&
                     <a target="_blank" rel="noopener noreferrer" href={props.buttonLink}>
                         <div className="zoomLink">
-                            <img src={props.buttonIcon} alt="Zoom link icon" />
-                            <p>{props.buttonTitle}</p>
+                            {buttonIcon}
+                            <p>{props.linkText}</p>
                         </div>
                     </a>
                 }
@@ -39,8 +50,8 @@ function TimelineItem(props) {
                     availableLink &&
                     <a target="_blank" rel="noopener noreferrer" href={props.link}>
                         <div className="zoomLink">
-                            <img src={ZoomIcon} alt="Zoom link icon" />
-                            <p>Zoom link</p>
+                            {buttonIcon}
+                            <p>{props.linkText}</p>
                         </div>
                     </a>
                 }
