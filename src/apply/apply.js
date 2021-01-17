@@ -18,14 +18,14 @@ import zoom from './img/zoom.png';
 
 
 class Apply extends React.Component {
-    virtualTablingLink = "https://berkeley.zoom.us/j/91291610391";
-    coffeeChatSignUp = "https://airtable.com/shrAXBVJn9KMHPoIZ";
+    virtualTablingLink = "https://berkeley.zoom.us/j/95663292195";
+    coffeeChatSignUp = "https://airtable.com/shr5tNafnTL2VsY33";
     interestForm = "https://airtable.com/shrygabTd2yQDaYfc";
     application = "https://airtable.com/shrhW4PzvxhFM6zEi";
-    caseCoachingSignUp = "https://berkeley.zoom.us/meeting/register/tJEqdOuvpzIrGtPHKIafEcR3V7zKkNE9LZzz";
-    infosession1 = "https://berkeley.zoom.us/j/94684234345?pwd=QjUwd1cyV3o2TUppbk44a2FTRlEwUT09";
-    infosession2 = "https://berkeley.zoom.us/j/93246084610?pwd=QTQ1WjJCTjdoU3RkYnFrNndCaUgzUT09";
-    caseCoachingSession = "https://berkeley.zoom.us/j/95732799107?pwd=UThjWUE2R1pHZkZyd2VqbEtobTd6QT09";
+    caseCoachingSignUp = "https://berkeley.zoom.us/meeting/register/tJEkdu-urjspGtA68NPJLepuKa-CBfMsTvm3";
+    infosession1 = "https://berkeley.zoom.us/j/99404517995?pwd=Q1ljRTlwb3RBdG9TUFpUTzY0L0UvUT09";
+    infosession2 = "https://berkeley.zoom.us/j/96961413275?pwd=TTJzVGhteFdVa2QzSjlDZk82MFlPZz09";
+    caseCoachingSession = "TBD";
 
     constructor(props) {
         super(props);
