@@ -19,6 +19,14 @@
         padding: 100px 0;
         position: relative;
 
+        .left {
+           
+            p {
+                font-size: 22px;
+                line-height: 150%;    
+            }
+        }
+
         .right {
             overflow: hidden;
             display: block;
@@ -205,7 +213,7 @@
 
         .splash {
             h1 {
-                margin: 80px 0;
+                margin: 20px 0;
             }
             .container {
                 display: grid;

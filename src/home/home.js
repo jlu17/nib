@@ -25,6 +25,7 @@ class Home extends React.Component {
                 <img src={nibLogo} className="showOnMobile emgajen" alt="3 NIB members posing" />
                 <span className="left">
                     <h1>Strategy Consulting Meets Social Good</h1>
+                    <p>Net Impact Berkeley is recruiting for Spring 2021</p>
                     <Button
                         link="/apply"
                         buttonText="Join Us"
