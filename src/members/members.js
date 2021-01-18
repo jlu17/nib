@@ -88,7 +88,7 @@ class Members extends React.Component {
                     </div>
                     <div className="verticallyCenter">
                         <h2>Faculty Advisor</h2>
-                        <p>Our faculty advisor, Professor Alex Budak is a lecturer at Berkeley 
+                        <p>Professor Alex Budak is a lecturer at Berkeley 
                         Haas specializing in leadership, change, and social entrepreneurship. He 
                         co-founded and now advises the social enterprise <a href="https://startsomegood.com/" target="_blank">startsomegood.com</a> and is 
                         the creator and instructor of UC Berkeley's "Becoming a Changemaker" course. 
