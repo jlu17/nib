@@ -22,6 +22,11 @@ class Footer extends React.Component {
                 <p className="copyrightText">Copyright Net Impact Berkeley, 2020.</p>
             </div>
             <div className="footerRight">
+                <div className="email">
+                    <FooterTitle text="Contact" />
+                    <p><a href="emailto:net-impact@berkeley.edu" className="dontbreak">net-impact@berkeley.edu</a></p>
+                    {/** <a href="https://medium.com/netimpactberkeley" className="footerLink" name="Blog">Blog</a> */}
+                </div>
                 <div className="footerSection">
                     <FooterTitle text="General" />
                     <FooterLink link="/about" name="About" />

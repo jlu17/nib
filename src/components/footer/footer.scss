@@ -28,6 +28,19 @@ footer {
     .footerSection {
         width: 30%;
     }
+
+    .email {
+        width: 40%;
+
+        a {
+            text-decoration: underline;
+            color: #000000;
+        }
+
+        .dontbreak {
+            white-space: nowrap;
+        }
+    }
     
     .footerTitle {
         font-weight: 600;
@@ -109,15 +122,32 @@ footer {
 
         .footerRight {
             margin: 0 auto;
+            flex-direction: column-reverse;
 
             .footerSection {
                 display: none;
+                
             }
     
             .socialSection {
                 padding-top: 10px;
                 flex-direction: row;
+                display: flex;
                 width: 100%;
+                margin: 0 auto;
+                justify-content: center;
+            }
+
+            .email {
+                text-align: center;
+                margin: 0 auto;
+                display: block;
+                width: 100%;
+                
+                .footerTitle {
+                    display: none;
+                }
+                
             }
         }
     }
