@@ -128,7 +128,7 @@ class Apply extends React.Component {
                             <h4>Virtual Tabling</h4>
                             <p>Tuesday, 1/19 - Saturday, 1/23</p>
                             <ul>
-                                <li>From January 19 - 23 anytime 10am-6pm, come say hi on Zoom!</li>
+                                <li>From January 19 - 23 anytime 10am-5pm, come say hi on Zoom!</li>
                                 <li>Sign up for a 1:1 with a NIB member sometime January 25th - 28th.</li>
                             </ul>
                         </div>

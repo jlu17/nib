@@ -230,13 +230,14 @@
                     margin-bottom: 50px;
         
                     h4 {
-                        font-size: 20px;
-                        margin: 0;
+                        font-size: 25px;
+                        margin: 10px 0; 
                         line-height: 28px;
                     }
 
                     p {
                         margin: .5em 0;
+                        line-height: 1.5em;
                     }
             
                     .zoomLink {
@@ -260,7 +261,7 @@
                         animation: fadein 2.5s;
                         -webkit-transition: all 250ms;
                         border-radius: 10px;
-                        padding: 5px 10px;
+                        padding: 7px 15px;
                     }
                 
                     .zoomLink:hover {

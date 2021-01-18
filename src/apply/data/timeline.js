@@ -5,14 +5,14 @@
 
 let Timeline = [
     {
-        date: "January 19th - 23rd",
+        date: "January 19th - 23rd, 10am - 5pm PST",
         title: "Virtual Sproul Tabling",
-        description: "Drop by our virtual Sproul hours to learn more about our people, projects, and impact! 2 members will be online from 10am-6pm PST. Take this time to meet our incredible members and to ask any questions about consulting for Net Impact.",
+        description: "Drop by our virtual Sproul hours to learn more about our people, projects, and impact! 2 members will be online from 10am-5pm PST. Take this time to meet our incredible members and to ask any questions about consulting for Net Impact.",
         link: "https://berkeley.zoom.us/j/95663292195",
         linkText: "Zoom Link",
     },
     {
-        date: "January 25th - 28th",
+        date: "January 25th - 28th, 8am - 6pm PST",
         title: "Virtual Chats",
         description: "Sign up for a 20 minute chat with one of our members anytime to meet someone from our community.",
         link: "https://airtable.com/shr5tNafnTL2VsY33",

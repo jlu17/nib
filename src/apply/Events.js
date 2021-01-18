@@ -32,7 +32,7 @@ class Apply extends React.Component {
                     <div className={this.state.exitedBanner?'fadeOut zoomBannerContainer hideOnMobile':'fadeIn zoomBannerContainer hideOnMobile'}>
                         <div className="zoomBanner">
                             <a href={this.virtualTablingLink} target="_blank" rel="noopener noreferrer"><img src={zoom} alt="Zoom icon" /></a>
-                            <p>2 members of NIB are on this Zoom call from Wednesday to Friday, 10am-6pm PST. 
+                            <p>2 members of NIB are on this Zoom call from Wednesday to Friday, 10am-5pm PST. 
                             Click the Zoom icon to join now and chat with our members!</p>
                             <svg className="exit" onClick={this.exitBanner} width="20" viewBox="0 0 194 194" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <rect x="129.527" y="33.3604" width="43" height="136" transform="rotate(45 129.527 33.3604)" fill="#1C68B2"/>
