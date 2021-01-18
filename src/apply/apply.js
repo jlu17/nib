@@ -10,11 +10,11 @@ import blob1 from './img/shapes/photo1.png';
 import blob2 from './img/shapes/photo2.png';
 import zoom from './img/zoom.png';
 
-// import chat from './img/atAGlance/chat.png';
-// import doc from './img/atAGlance/doc.png';
-// import network from './img/atAGlance/network.png';
-// import {ReactComponent as Arrow} from './img/atAGlance/arrow.svg';
-// import {ReactComponent as DownArrow} from './img/atAGlance/down.svg';
+import chat from './img/atAGlance/chat.png';
+import doc from './img/atAGlance/doc.png';
+import network from './img/atAGlance/network.png';
+import {ReactComponent as Arrow} from './img/atAGlance/arrow.svg';
+import {ReactComponent as DownArrow} from './img/atAGlance/down.svg';
 
 
 class Apply extends React.Component {
@@ -116,26 +116,26 @@ class Apply extends React.Component {
                 <path d="M713.744 408.887C546.069 469.017 -2 454 -2 454V748.5H1440V0C1282.84 210.195 1071.62 83.1369 975.016 157.385C878.415 231.633 881.418 348.757 713.744 408.887Z" fill="#F0FCFE"/>
             </svg>
             <section className="preparationSection">
-                {/* <section className="container atAGlance hideOnMobile">
+                 <section className="container atAGlance hideOnMobile">
                     <h1>Timeline at a Glance</h1>
                     <a href="/apply#timelineSection">
-                        <p>Full timeline below <DownArrow /></p>
+                        <p>Full timeline + links below <DownArrow /></p>
                     </a>
                     <div className="flex">
                         <Arrow />
                         <div className="item">
                             <img src={chat} alt="chat icon" />
                             <h4>Virtual Tabling</h4>
-                            <p>Wednesday, August 26 - Thursday, September 3</p>
+                            <p>Tuesday, 1/19 - Saturday, 1/23</p>
                             <ul>
-                                <li>From August 26-29 anytime 10am-6pm, come say hi on Zoom!</li>
-                                <li>(Note: sign ups filled!) Sign up for a 1:1 with a NIB member sometime August 31-September 3.</li>
+                                <li>From January 19 - 23 anytime 10am-6pm, come say hi on Zoom!</li>
+                                <li>Sign up for a 1:1 with a NIB member sometime January 25th - 28th.</li>
                             </ul>
                         </div>
                         <div className="item">
                             <img src={network} alt="chat icon" />
                             <h4>Infosessions</h4>
-                            <p>Tuesday, September 1 - Thursday, September 3</p>
+                            <p>Tuesday, 1/26 - Thursday, 1/28</p>
                             <ul>
                                 <li>Tuesday: Infosession #1</li>
                                 <li>Wednesday: Infosession #2 + Case Workshop</li>
@@ -145,14 +145,15 @@ class Apply extends React.Component {
                         <div className="item">
                             <img src={doc} alt="chat icon" />
                             <h4>Applications and Interviews</h4>
-                            <p>Friday, September 4 - Thursday, September 10</p>
+                            <p>Friday 1/29 - Tuesday 2/2</p>
                             <ul>
-                                <li>Apps are due at NOON on September 4. Apply <a className="underline-magical" href="https://airtable.com/shrhW4PzvxhFM6zEi" target="_blank" rel="noopener noreferrer"> here. </a></li>
+                                <li>Apps are due at NOON on January 29th. Application link coming soon!</li>
+                                {/* Apply <a className="underline-magical" href="https://airtable.com/shrhW4PzvxhFM6zEi" target="_blank" rel="noopener noreferrer"> here. </a> */}
                                 <li>Check out our interview FAQ and tips <a className="underline-magical" href="/nib-app-checklist.pdf" target="_blank" rel="noopener noreferrer"> here! </a></li>
                             </ul>
                         </div>
                     </div>
-                </section> */}
+                </section> 
                 <section className="container">
                     <h1>How Should I Prepare?</h1>
                     <div className="flex projectTypes">

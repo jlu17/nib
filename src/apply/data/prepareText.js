@@ -9,7 +9,7 @@ let prepareTypeInfo = [
         img: require('../img/prepareSection/meet.svg'),
         alt: "Icon of 2 chat bubbles",
         title: "Take Initiative, Reach Out!",
-        description: "We're on Zoom during the day (dates TBD). Ask our members about their experiences and time in NIB!"
+        description: "We're on Zoom during the day from January 19th to 23rd. Ask our members about their experiences and time in NIB!"
     },
     {
         img: require('../img/prepareSection/case.svg'),
