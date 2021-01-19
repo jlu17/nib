@@ -143,6 +143,48 @@ let memberInfo = {
             sillyImage: require('../img/fun/quinn.png')
         },
         {
+            name: 'Elisabeth Wing',
+            title: 'Associate',
+            linkedin: 'https://www.linkedin.com/in/elisabeth-wing/',
+            image: require('../img/individuals/elisabeth.png'),
+            sillyImage: require('../img/fun/elisabeth.png')
+        },
+        {
+            name: 'Haikun Liu',
+            title: 'Associate',
+            linkedin: 'https://www.linkedin.com/in/haikunliu/',
+            image: require('../img/individuals/haikun.png'),
+            sillyImage: require('../img/fun/haikun.png')
+        },
+        {
+            name: 'Laeticia Yang',
+            title: 'Associate',
+            linkedin: 'https://www.linkedin.com/in/laeticia-yang-84aa2415b/',
+            image: require('../img/individuals/laeticia.png'),
+            sillyImage: require('../img/fun/laeticia.png')
+        },
+        {
+            name: 'Tsadiku Obolu',
+            title: 'Associate',
+            linkedin: 'https://www.linkedin.com/in/tobolu/',
+            image: require('../img/individuals/tsadi.png'),
+            sillyImage: require('../img/fun/tsadi.png')
+        },
+        {
+            name: 'Megha Jain',
+            title: 'Associate',
+            linkedin: 'https://www.linkedin.com/in/meghajainberkeley/',
+            image: require('../img/individuals/megha.png'),
+            sillyImage: require('../img/fun/megha.png')
+        },
+        {
+            name: 'Stuti Upadhyay',
+            title: 'Associate',
+            linkedin: 'https://www.linkedin.com/in/stuti-upadhyay/',
+            image: require('../img/individuals/stuti.png'),
+            sillyImage: require('../img/fun/stuti.png')
+        },
+        {
             name: 'Adhiv Dhar',
             title: 'Senior Advisor',
             year: 2020,
