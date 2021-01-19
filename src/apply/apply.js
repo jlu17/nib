@@ -35,6 +35,11 @@ class Apply extends React.Component {
     }
 
     getComponent = () => {
+        let tablingOption = {
+            title: "We are hanging out on Zoom from 10 am - 5 pm this week. Click the Zoom icon to meet us and ask any questions!",
+            link: this.virtualTablingLink
+        };
+
         let options = [
             {
                 title: "Our 1st infosession is happening right now - click the Zoom icon to join now learn more about our club!",
@@ -54,9 +59,9 @@ class Apply extends React.Component {
 
         let hour = now.getHours();
         let day = now.getDate();
-        if (day >= 1 && day <= 3) {
-            if (hour >= 20 && hour <= 21) {
-                var item = options[day - 1];
+        if (day >= 19 && day <= 23) {
+            if (hour >= 10 && hour <= 16) {
+                var item = tablingOption;
                 return (
                     <div className={this.state.exitedBanner?'fadeOut zoomBannerContainer hideOnMobile':'fadeIn zoomBannerContainer hideOnMobile'}>
                         <div className="zoomBanner">

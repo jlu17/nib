@@ -115,13 +115,6 @@ let memberInfo = {
             sillyImage: require('../img/fun/evan.png')
         },
         {
-            name: 'Mingjie Zhong',
-            title: 'Associate',
-            linkedin: 'https://www.linkedin.com/in/mingjiez/',
-            image: require('../img/individuals/mingjie.png'),
-            sillyImage: require('../img/fun/mingjie.png')
-        },
-        {
             name: 'Austin Sun',
             title: 'Associate',
             linkedin: 'https://www.linkedin.com/in/austinjsun/',
@@ -134,13 +127,6 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/makenabarkus/',
             image: require('../img/individuals/makena.png'),
             sillyImage: require('../img/fun/makena.png')
-        },
-        {
-            name: 'Quinn Guenther',
-            title: 'Senior Advisor',
-            linkedin: 'https://www.linkedin.com/in/quinn-guenther-861811194/',
-            image: require('../img/individuals/quinn.jpeg'),
-            sillyImage: require('../img/fun/quinn.png')
         },
         {
             name: 'Elisabeth Wing',
@@ -183,6 +169,20 @@ let memberInfo = {
             linkedin: 'https://www.linkedin.com/in/stuti-upadhyay/',
             image: require('../img/individuals/stuti.png'),
             sillyImage: require('../img/fun/stuti.png')
+        },
+        {
+            name: 'Mingjie Zhong',
+            title: 'Senior Advisor',
+            linkedin: 'https://www.linkedin.com/in/mingjiez/',
+            image: require('../img/individuals/mingjie.png'),
+            sillyImage: require('../img/fun/mingjie.png')
+        },
+        {
+            name: 'Quinn Guenther',
+            title: 'Senior Advisor',
+            linkedin: 'https://www.linkedin.com/in/quinn-guenther-861811194/',
+            image: require('../img/individuals/quinn.jpeg'),
+            sillyImage: require('../img/fun/quinn.png')
         },
         {
             name: 'Adhiv Dhar',
