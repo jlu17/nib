@@ -21,7 +21,7 @@ class Apply extends React.Component {
     virtualTablingLink = "https://berkeley.zoom.us/j/95663292195";
     coffeeChatSignUp = "https://airtable.com/shr5tNafnTL2VsY33";
     interestForm = "https://airtable.com/shrygabTd2yQDaYfc";
-    application = "https://airtable.com/shrhW4PzvxhFM6zEi";
+    application = "https://airtable.com/shrWJ8NytLr5XGWWQ";
     caseCoachingSignUp = "https://berkeley.zoom.us/meeting/register/tJEkdu-urjspGtA68NPJLepuKa-CBfMsTvm3";
     infosession1 = "https://berkeley.zoom.us/j/99404517995?pwd=Q1ljRTlwb3RBdG9TUFpUTzY0L0UvUT09";
     infosession2 = "https://berkeley.zoom.us/j/96961413275?pwd=TTJzVGhteFdVa2QzSjlDZk82MFlPZz09";
@@ -95,17 +95,17 @@ class Apply extends React.Component {
                     <div className="left">
                         <h3>APPLY</h3>
                         <h1>Join our Family</h1>
-                        <p>Interested in applying to Net Impact? Fill out our interest form to be notified on events coming up!</p>
-                        <Button
+                        <p>Interested in applying to Net Impact? Apply by 12pm (noon) on Friday, Jan 29!</p>
+                        {/* <Button
                             link={this.interestForm}
                             buttonText="Interest Form"
                             external
-                        />
-                        {/* <Button
+                        /> */}
+                        <Button
                             link={this.application}
                             buttonText="Application"
                             external
-                        /> */}
+                        />
                     </div>
                 </div>
                 <div className="right hideOnMobile">
