@@ -8,8 +8,7 @@ let Timeline = [
         date: "January 19th - 23rd, 10am - 5pm PST",
         title: "Virtual Sproul Tabling",
         description: "Drop by our virtual Sproul hours to learn more about our people, projects, and impact! 2 members will be online from 10am-5pm PST. Take this time to meet our incredible members and to ask any questions about consulting for Net Impact.",
-        link: "https://berkeley.zoom.us/j/95663292195",
-        linkText: "Zoom Link",
+        link: "#",
     },
     {
         date: "January 25th - 28th, 8am - 6pm PST",
@@ -22,8 +21,8 @@ let Timeline = [
         date: "Tuesday, January 26, 8-10 PM PST",
         title: "Info Session #1",
         description: "Join us at one of our info sessions to get a glimpse into what in means to be part of Net Impact Berkeley and to see what we offer to all majors, backgrounds, and interests. You'll have the opportunity to learn more about our upcoming projects, socials, trainings and external events and to connect with all of our members.",
-        link: "https://berkeley.zoom.us/j/99404517995?pwd=Q1ljRTlwb3RBdG9TUFpUTzY0L0UvUT09",
-        linkText: "Zoom Link",
+        link: "https://youtu.be/ZxDWQBd3XOc",
+        linkText: "Zoom Recording",
     },
     {
         date: "Wednesday, January 27, 8-10 PM PST",

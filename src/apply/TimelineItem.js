@@ -2,6 +2,7 @@ import React from 'react';
 import ZoomIcon from './img/zoom.png';
 import GCal from './img/gcal.png';
 import airtableIcon from './img/airtable.png';
+import YoutubeIcon from './img/youtube.png';
 
 function TimelineItem(props) {
     var descriptionStyling = props.description === "Invite Only" 
@@ -26,6 +27,9 @@ function TimelineItem(props) {
     }
     else if(props.link && props.link.includes("zoom.us")) {
         buttonIcon = <img src={ZoomIcon} alt="Zoom link icon" />;
+    } 
+    else if (props.link && props.link.includes("youtu.be")) {
+        buttonIcon = <img src={YoutubeIcon} alt="Youtube link icon" />;
     }
 
 
@@ -65,12 +69,8 @@ function TimelineItem(props) {
                     </a>
                 }
                 {
-                    props.buttonLink === "#" &&
-                    <p className="notAvailable">Sign ups full</p>
-                }
-                {
                     unavailableLink && 
-                    <p className="notAvailable">Link not available (yet!)</p>
+                    <p className="notAvailable">Event finished</p>
                 }
             </div>
         </li>
