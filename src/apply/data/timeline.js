@@ -28,8 +28,8 @@ let Timeline = [
         date: "Wednesday, January 27, 8-10 PM PST",
         title: "Info Session #2 + Case Workshop",
         description: "Info Session #2 is the same as Info Session #1 and will take place from 8-9pm. Feel free to take this opportunity to continue to meet more members of our organization, ask questions, and learn about what NIB can offer you. From 9-10pm we host a case workshop to help walk you through the case portion of our interview and what to expect from the overall interview process. This includes best practices, a sample case, and time to ask questions.",
-        link: "https://berkeley.zoom.us/j/96961413275?pwd=TTJzVGhteFdVa2QzSjlDZk82MFlPZz09",
-        linkText: "Zoom Link",
+        link: "https://youtu.be/PL09CWYrjsA",
+        linkText: "Zoom Recording",
     },
     {
         date: "Thursday, January 28, 8-10 PM PST",
