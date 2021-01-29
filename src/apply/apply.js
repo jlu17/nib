@@ -152,7 +152,7 @@ class Apply extends React.Component {
                             <h4>Applications and Interviews</h4>
                             <p>Friday 1/29 - Tuesday 2/2</p>
                             <ul>
-                                <li>Apps are due at NOON on January 29th. Application link coming soon!</li>
+                                <li>Apps are due at NOON on January 29th. Application link <a className="underline-magical" href="https://airtable.com/shrWJ8NytLr5XGWWQ" target="_blank" rel="noopener noreferrer">here</a>!</li>
                                 {/* Apply <a className="underline-magical" href="https://airtable.com/shrhW4PzvxhFM6zEi" target="_blank" rel="noopener noreferrer"> here. </a> */}
                                 <li>Check out our interview FAQ and tips <a className="underline-magical" href="/nib-app-checklist.pdf" target="_blank" rel="noopener noreferrer"> here! </a></li>
                             </ul>
