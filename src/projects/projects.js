@@ -27,10 +27,10 @@ class Projects extends React.Component {
             <section className="hero container">
                 <div className="left">
                     <h3>PROJECTS</h3>
-                    <h1>Making an Impact <br /> With Our Clients</h1>
-                    <p>Each semester, our teams help companies, social enterprises, and non-profits form strategies to solve social and environmental problems. <br />
+                    <h1>Channeling Evil <br /> With Our Clients</h1>
+                    <p>Each semester, our teams help corporations and MLMs form strategies to answer one question: how can we make more money? <br />
                     <br />
-                    We take a multi-disciplinary approach to working on projects across a wide range of industries and impact areas.</p>
+                    We take a multi-disciplinary approach to working on projects across a wide range of industry areas.</p>
                 </div>
                 <div className="right heroImage verticallyCenter">
                     <img src={ProjectHeroImage} alt="NIB members collage" />
@@ -51,11 +51,11 @@ class Projects extends React.Component {
             <section className="container projectSpectrumSection">
                 <h1>Our Clients</h1>
                 <img className="hideOnMobile" src={ClientSpectrumNew} alt="Spectrum of projects ranging from small nonprofits to large corporations" />
-                <p>We work with organizations of all kinds that are interested in contributing to a better, more sustainable world.
-                Whether it's for-profit corporations that allow us to deep dive into
-                one component of their programs, mission-driven corporations that continuously strive for solutions beyond the
-                baseline of "good enough", or smaller social enterprises and nonprofits that give us the opportunity to touch
-                multiple aspects, we work with them all. </p>
+                <p>We work with organizations of all kinds that are interested in contributing to an evil, more unsustainable world.
+                Whether it's for-profit corporations that allow us to deep dive into their cash cow operations,
+                mission-driven corporations that want to convert to the dark side,
+                or smaller social enterprises and nonprofits that need the extra cash,
+                we work with them all. </p>
                 <div className="clientsSection hideOnMobile">
                     {clientImages}
                 </div>

@@ -18,10 +18,10 @@ class About extends React.Component {
                 <section className="hero container">
                     <div>
                         <h3>ABOUT</h3>
-                        <h1>Inspired By Our Mission</h1>
-                        <p>Through innovative impact-focused methods and collaborative 
-                        problem-solving, we strive to bring social responsibility and 
-                        environmental stewardship to business and innovation.</p>
+                        <h1>Inspired By Money</h1>
+                        <p>Through innovative cash-focused methods and collaborative 
+                        problem-solving, we strive to bring social irresponsibility and 
+                        environmental destruction to business and innovation.</p>
                     </div>
                     <div className="heroImage">
                         <img src={aboutPhoto} alt="Collage of NIB members" />
@@ -45,7 +45,7 @@ class About extends React.Component {
                             startups and Fortune 500 corporations—to improve their performance and organizational effectiveness
                             </p>
                             <p>
-                            For over 13 years, we have brought together the brightest minds from various disciplines and 
+                            For over 13 years, we have brought together the evilest minds from various disciplines and 
                             backgrounds at UC Berkeley to solve problems and advance positive social and environmental impact.
                             </p>
                         </div>

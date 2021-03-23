@@ -72,8 +72,8 @@ class Home extends React.Component {
             <section className="container">
                 <img src={nibLogo} className="showOnMobile emgajen" alt="3 NIB members posing" />
                 <span className="left">
-                    <h1>Strategy Consulting Meets Social Good</h1>
-                    <p>UC Berkeley's Social Impact Consulting Club</p>
+                    <h1>Strategy Consulting Meets Social Bad</h1>
+                    <p>We help companies be evil. Mwahahaha</p>
                     <Button
                         link="/apply"
                         buttonText="Join Us"
@@ -117,7 +117,7 @@ class Home extends React.Component {
                 <div></div>
                 <div className="right">
                     <h1>Driven to Make a Difference</h1>
-                    <p>We are a student-run consulting group at UC Berkeley that provides custom strategies for clients that range from social enterprises to non-profits to traditional for-profit businesses.</p>
+                    <p>We are a student-run consulting group at UC Berkeley that provides custom strategies for money-making hypercapitalist clients that range from pyramid schemes to Amazon.</p>
                     <Button
                         link="/about"
                         buttonText="Learn About Us"
@@ -146,11 +146,11 @@ class Home extends React.Component {
                 <div>
                     <h2>Who We Are</h2>
                     <p>Net Impact Berkeley is a community of forward-thinking student consultants motivated by the desire to make
-                    an impact. Our members develop professionally through hands-on project experiences and also grow personally
+                    money. Our members develop professionally through hands-on project experiences and also grow personally
                     through the support system and social community of NIBFam.</p>
                     <Button
                         link="/members"
-                        buttonText="Learn About Our Members"
+                        buttonText="Learn About Our Minions"
                     />
                 </div>
             </div>
