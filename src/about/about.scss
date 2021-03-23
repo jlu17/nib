@@ -13,7 +13,7 @@
     }
 
     .aboutUsSection {
-        background-color: #F0FCFE;
+        background-color: var(--light-color);
 
         p {
             line-height: 26px;
@@ -34,7 +34,7 @@
             font-family: 'Open Sans', sans-serif;
             font-size: 36px;
             font-weight: bold;
-            color: #1579BC;
+            color: var(--dark-color);
             margin: 0 0;
             text-align: center;
         }
@@ -77,7 +77,7 @@
     }
 
     .globalSection {
-        background-color: #F0FCFE;
+        background-color: var(--light-color);
         padding: 30px 0 100px 0;
 
         p {

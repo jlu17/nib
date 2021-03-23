@@ -1,3 +1,13 @@
+
+:root {
+    /* Set the deafult values */
+    --medium-color: #91e9ff; // change to #c94444 ;)
+    --light-color: #F0FCFE; // change to #fef0f0
+    --dark-color: #1579BC;// change to #c94444
+    --button-color: #1579BC; // change to #c94444
+    --button-color-hover: #1D659C;
+}
+
 body {
     margin: 0;
     font-family: 'Lato', 'Segoe UI', 'Roboto', 'Oxygen', sans-serif;
@@ -74,10 +84,15 @@ section {
     top: 10px;
     z-index: -1;
     width: 100%;
+    fill: var(--light-color);
+}
+
+.blob {
+    fill: var(--medium-color);
 }
 
 .invertedWave {
-    background-color: #F0FCFE;
+    background-color: var(--light-color);
     width: 100%;
 }
 
@@ -106,7 +121,7 @@ section {
         display: flex;
         margin: 10px;
         padding: 10px 20px;
-        background-color: #F0FCFE;
+        background-color: var(--light-color);
         border-radius: 15px;
         flex-direction: row;
         transition: all 0.5s;

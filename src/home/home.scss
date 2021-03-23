@@ -62,7 +62,7 @@
     }
 
     .inspired {
-        background-color: #F0FCFE;
+        background-color: var(--light-color);
         position: relative;
         display: block;
 
@@ -177,7 +177,7 @@
 
     .partners {
         text-align:center;
-        background-color: #F0FCFE;
+        background-color: var(--light-color); // $light-blue;
 
         .container {
             padding: 50px 0 100px 0;

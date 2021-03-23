@@ -95,17 +95,17 @@ class Apply extends React.Component {
                     <div className="left">
                         <h3>APPLY</h3>
                         <h1>Join our Family</h1>
-                        <p>Interested in applying to Net Impact? Apply by 12pm (noon) on Friday, Jan 29!</p>
+                        <p>Interested in applying to Net Impact? Our application period is over for the semester, but feel free to look around to see what applying has looked like in the past!</p>
                         {/* <Button
                             link={this.interestForm}
                             buttonText="Interest Form"
                             external
                         /> */}
-                        <Button
+                        {/* <Button
                             link={this.application}
                             buttonText="Application"
                             external
-                        />
+                        /> */}
                     </div>
                 </div>
                 <div className="right hideOnMobile">
@@ -152,7 +152,7 @@ class Apply extends React.Component {
                             <h4>Applications and Interviews</h4>
                             <p>Friday 1/29 - Tuesday 2/2</p>
                             <ul>
-                                <li>Apps are due at NOON on January 29th. Application link <a className="underline-magical" href="https://airtable.com/shrWJ8NytLr5XGWWQ" target="_blank" rel="noopener noreferrer">here</a>!</li>
+                                <li>Apps are due at NOON on January 29th.</li>
                                 {/* Apply <a className="underline-magical" href="https://airtable.com/shrhW4PzvxhFM6zEi" target="_blank" rel="noopener noreferrer"> here. </a> */}
                                 <li>Check out our interview FAQ and tips <a className="underline-magical" href="/nib-app-checklist.pdf" target="_blank" rel="noopener noreferrer"> here! </a></li>
                             </ul>

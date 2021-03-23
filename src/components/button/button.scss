@@ -1,6 +1,6 @@
 .button {
   font-weight: 600;
-  background: #1579BC;
+  background: var(--button-color);
   border-radius: 5px;
   padding: 20px 25px;
   color: white;
@@ -10,5 +10,5 @@
 }
 
   .button:hover {
-    background: #1D659C;
+    background: var(--button-color-hover);
   }

@@ -14,7 +14,7 @@ let Timeline = [
         date: "January 25th - 28th, 8am - 6pm PST",
         title: "Virtual Chats",
         description: "Sign up for a 20 minute chat with one of our members anytime to meet someone from our community.",
-        link: "https://airtable.com/shr5tNafnTL2VsY33",
+        link: "#",
         linkText: "Sign up here",
     },
     {
@@ -35,14 +35,14 @@ let Timeline = [
         date: "Thursday, January 28, 8-10 PM PST",
         title: "Case Coaching Session",
         description: "Come learn about Net Impact's interview process and how to crush a case interview at our Case Coaching Session. You'll have the chance to work in small groups to solve a real world case and learn how to approach and solve case interview questions.",
-        link: "https://berkeley.zoom.us/meeting/register/tJEkdu-urjspGtA68NPJLepuKa-CBfMsTvm3",
+        link: "#",
         linkText: "Registration Link"
         },
     {
         date: "Friday, January 29, 12 PM PST (noon)",
         title: "Applications Due!",
         description: "Our application consists of a resume drop and a few short answer questions. Please submit your application by noon on Friday if you'd like to apply!",
-        link: "https://airtable.com/shrWJ8NytLr5XGWWQ",
+        link: "#",
         linkText: "Application"
     },
     {
