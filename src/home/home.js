@@ -116,7 +116,7 @@ class Home extends React.Component {
             <div className="container">
                 <div></div>
                 <div className="right">
-                    <h1>Driven to Make a Difference</h1>
+                    <h1>Driven to Make Ca$h Money 🤑</h1>
                     <p>We are a student-run consulting group at UC Berkeley that provides custom strategies for money-making hypercapitalist clients that range from pyramid schemes to Amazon.</p>
                     <Button
                         link="/about"
@@ -146,8 +146,8 @@ class Home extends React.Component {
                 <div>
                     <h2>Who We Are</h2>
                     <p>Net Impact Berkeley is a community of forward-thinking student consultants motivated by the desire to make
-                    money. Our members develop professionally through hands-on project experiences and also grow personally
-                    through the support system and social community of NIBFam.</p>
+                    money. Our members develop professionally through <s>hands-on project experiences and also grow personally
+                    through the support system and social community of NIBFam.</s> making money ✅ </p>
                     <Button
                         link="/members"
                         buttonText="Learn About Our Minions"

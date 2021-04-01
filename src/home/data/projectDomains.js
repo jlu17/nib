@@ -20,7 +20,7 @@ import youthservices from '../img/icons/YouthServices.png'
 
 let spectrums = [
     {
-        name: 'Accessible Banking',
+        name: 'Doge Coin',
         icon: banking
     },
     {
@@ -28,51 +28,51 @@ let spectrums = [
         icon: literacy
     },
     {
-        name: 'Crowdfunding',
+        name: 'Tax Evasion',
         icon: crowdfunding
     },
     {
-        name: 'Environment',
+        name: 'Bitcoin',
         icon: earth
     },
     {
-        name: 'Education',
+        name: '(increasing) Student Debt',
         icon: education
     },
     {
-        name: 'Fair Trade',
+        name: 'Money Laundering',
         icon: fairtrade
     },
     {
-        name: 'Female Empowerment',
+        name: 'Gerrymandering',
         icon: female
     },
     {
-        name: 'Food Security',
+        name: 'War on drugs',
         icon: foodsecurity
     },
     {
-        name: 'Food Waste',
+        name: 'Oil and Gas',
         icon: foodwaste
     },
     {
-        name: 'Health Technology',
+        name: 'Fast Food',
         icon: healthtech
     },
     {
-        name: 'Human Rights',
+        name: 'Voter Suppression',
         icon: humanrights
     },
     {
-        name: 'Impact Investment',
+        name: 'Ponzi Schemes',
         icon: impactinvestment
     },
     {
-        name: 'Sustainable Energy',
+        name: 'unSustainable Energy',
         icon: energy
     },
     {
-        name: 'Sustainable Retail',
+        name: 'unSustainable Retail',
         icon: retail
     },
     {
@@ -84,7 +84,7 @@ let spectrums = [
         icon: volunteering
     },
     {
-        name: 'Youth Services',
+        name: 'Capitalism',
         icon: youthservices
     },
     {

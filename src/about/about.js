@@ -53,28 +53,28 @@ class About extends React.Component {
                     <section className="statsSection container">
                         <div>
                             <h2>100+</h2>
-                            <p>Consulting Projects Completed</p>
+                            <p>Midterm deliverable revisions</p>
                         </div>
 
                         <div>
                             <h2>13+</h2>
-                            <p>Years of Experience</p>
+                            <p>Years of Profit</p>
                         </div>
 
                         <div>
                             <h2>160+</h2>
-                            <p>Net Impact Berkeley Alumni</p>
+                            <p>Highest we've counted</p>
                         </div>
 
                         <div>
                             <h2>100,000+</h2>
-                            <p>Net Impact Members Worldwide</p>
+                            <p>Ungrouped Figma layers</p>
                         </div>
                     </section>
                 </section>
 
                 <section className="container valuesSection">
-                    <h1>Driven By Our Core Values</h1> 
+                    <h1>Driven By Our Core Values </h1> 
                     <section className="grid">
                         <Values />
                         <div className="verticallyCenter right hideOnMobile">

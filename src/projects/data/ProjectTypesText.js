@@ -3,25 +3,25 @@ let projectTypeInfo = [
         img: require('../img/projectTypes/product.png'),
         alt: "Product design logo",
         title: "New Product Development",
-        description: "Investigating product need, design thinking & prototyping, conceptualizing key features, preparing go-to-market strategies"
+        description: "We ask ourselves.. will this new product make money? If not, we do not recommend developing the new product."
     },
     {
         img: require('../img/projectTypes/environment.png'),
         alt: "Cycle",
         title: "Environmental Strategy",
-        description: "Sustainability target planning, life cycle assessment, supply chain greening, carbon neutrality tactics, footprint & resource use reduction"
+        description: "We make a plan for how to harness the environment for money"
     },
     {
         img: require('../img/projectTypes/analysis.png'),
         alt: "Excel logo",
         title: "Target Market Research",
-        description: "Understanding customer needs, classifying user profiles, competitive landscape overviews, market data analysis, opportunity sizing & positioning"
+        description: "We target the market with the most money"
     },
     {
         img: require('../img/projectTypes/impact.png'),
         alt: "Money bags",
         title: "Impact Evaluation",
-        description: "Codifying metrics, measurement tactics, stakeholder engagement & communication, quantitative and qualitative analysis of outcomes"
+        description: "Sounds fancy but really we're just asking: 'Did we make enough money today?'"
     }
 ];
 

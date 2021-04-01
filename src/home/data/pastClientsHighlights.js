@@ -4,6 +4,7 @@ import kuli from '../../projects/img/pastClients/KuliKuli.png';
 import larkin from '../../projects/img/pastClients/Larkin.png';
 import marin from '../../projects/img/pastClients/MarinFoodBank.png';
 import sierra from '../../projects/img/pastClients/SierraNevada.png';
+import tacobell from './../img/taco_bell.png';
 
 let pastClients = [
     {
@@ -19,8 +20,8 @@ let pastClients = [
         alt: "GoDaddy logo",
     },
     {
-        img: imperfect,
-        alt: "Imperfect Produce logo",
+        img: tacobell,
+        alt: "Taco bell logo",
     },
     {
         img: kuli,

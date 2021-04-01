@@ -5,26 +5,26 @@ import nibfam from '../img/Nibfam.png';
 
 let values = [
     {
-        title: "Impact Across Many Domains",
-        description: "Our contributions to a more socially and environmentally sustainable world take many forms and come from diverse places. We pursue synergies and multi-disciplinary thinking to drive change for the broadest impact.",
+        title: "Impact Across a few Domains",
+        description: "Our contributions to a more evil and profit-driven world take many forms and come from diverse places. We pursue synergies and multi-disciplinary thinking to drive $$$ for the billionaires.",
         image: passion,
         alt: "Icon",
     },
     {
-        title: "Growth Mindset",
-        description: "We actively search for ways to develop and improve ourselves, those around us, our organization, and society at large. Feedback and learning are critical processes that continuously shape what we can do and who we are.",
+        title: "Static Mindset",
+        description: "We actively search for ways to stay the same, for those around us, our organization, and society at large. Feedback and learning are critical processes that can shape what we can do and who we are, but we don't buy that nonsense here.",
         image: growth,
         alt: "Growth Mindset Icon",
     },
     {
-        title: "Tenacious Problem Solving",
-        description: "In order to deliver outstanding results, we embrace challenges and push through difficult problems with perseverance and ingenuity. Dedication and intelligent effort are how we make a difference in our work.",
+        title: "Tenacious Problem Solvers",
+        description: "[ TODO: write description ]",
         image: tenacious,
         alt: "Tenacious Problem Solvers Icon",
     },
     {
-        title: "#NIBFam",
-        description: "Beyond consulting, we are a tight-knit social group committed to supporting our members in all endeavors. We take pride and joy in enriching each other’s lives and celebrating every individual as part of the Net Impact Berkeley family.",
+        title: "#NIBacquaintances",
+        description: "Beyond consulting, we like to keep our distance and respect the professional relationships we share with one another.",
         image: nibfam,
         alt: "NIBFam Icon",
     },
