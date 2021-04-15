@@ -28,6 +28,7 @@
             top: 0px;
             right: 0px;
             z-index: -1;
+            fill: var(--medium-color);
         }
 
         .button {
@@ -45,12 +46,14 @@
         left: 0px;
         z-index: -2;
         width: 100%;
+        fill: var(--light-color);
     }
 
     .endWave {
         position: absolute;
         z-index: -1;
         width: 100%;
+        fill: var(--light-color);
     }
 
     .atAGlance {
