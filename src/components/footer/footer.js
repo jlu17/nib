@@ -1,6 +1,6 @@
 import React from 'react';
 import './footer.scss';
-import logo from '../../img/nib-logo-new.png';
+import logo from '../../img/nib-logo-green.png';
 import { Link } from "react-router-dom";
 
 const FooterTitle = ({ text }) => {

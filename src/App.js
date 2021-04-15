@@ -13,6 +13,7 @@ import Footer from './components/footer';
 import NavBar from './components/navbar';
 import ScrollToTop from './components/ScrollToTop';
 import GA from './components/GoogleAnalytics';
+import FourTwenty from './420';
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
@@ -35,6 +36,7 @@ function App() {
           <Route path="/checkin" component={Redirecting} />
           <Route path="/check-in" component={Redirecting} />
           <Route path="/pm" component={RedirectingPM} />
+          <Route path="/420" component={FourTwenty} />
           <Route component={NotFound} />
         </Switch>
         <Footer />

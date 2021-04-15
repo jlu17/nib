@@ -3,7 +3,7 @@ import { NavLink, Link } from 'react-router-dom';
 import HamburgerMenu from 'react-hamburger-menu';
 import { CSSTransition } from 'react-transition-group';
 import './navbar.scss';
-import logo from '../../img/nib-logo-new.png';
+import logo from '../../img/nib-logo-green.png';
 
 class NavBar extends React.Component {
     constructor (props) {
