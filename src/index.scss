@@ -6,6 +6,7 @@
     --dark-color: #058d13;// change to #c94444
     --button-color: #058d13; // change to #c94444
     --button-color-hover: #058d13;
+    --h3-color: #058d13; // originnally 1B67B1
 }
 
 body {
@@ -40,7 +41,7 @@ h2 {
 h3 {
     font-size: 20px;
     letter-spacing: 0.1em;
-    color: #1B67B1;
+    color: var(--h3-color);
 }
 
 p {

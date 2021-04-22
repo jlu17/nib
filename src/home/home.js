@@ -4,7 +4,7 @@ import CallToAction from 'components/callToAction';
 import 'home/home.scss';
 import 'projects/projects.scss';
 
-import nibLogo from 'img/nib-logo-new.png';
+import nibLogo from 'img/nib-logo-green.png';
 import heroBlob1 from './img/shapes/blob1.png';
 import heroBlob2 from './img/shapes/blob2.png';
 import secondSection1 from './img/hillpic.png';
@@ -65,7 +65,7 @@ class Home extends React.Component {
 
     return (
       <section className="homePage">
-        {this.getComponent()}
+        {/* {this.getComponent()} */}
         <section className="splash">
             <section className="container">
                 <img src={nibLogo} className="showOnMobile emgajen" alt="3 NIB members posing" />
