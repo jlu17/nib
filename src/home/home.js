@@ -16,8 +16,6 @@ import zoom from 'img/zoom.png';
 
 
 class Home extends React.Component {
-    virtualTablingLink = "https://berkeley.zoom.us/j/95663292195";
-
     constructor(props) {
         super(props);
         this.state = ({
@@ -26,31 +24,20 @@ class Home extends React.Component {
     }
 
     getComponent = () => {
-        let tablingOption = {
-            title: "We are hanging out on Zoom from 10 am - 5 pm this week. Click the Zoom icon to meet us and ask any questions!",
-            link: this.virtualTablingLink
-        };
-
         let now = new Date(Date.now());
-
-        let hour = now.getHours();
-        let day = now.getDate();
-        if (day >= 19 && day <= 23) {
-            if (hour >= 10 && hour <= 16) {
-                var item = tablingOption;
-                return (
-                    <div className={this.state.exitedBanner?'fadeOut zoomBannerContainer hideOnMobile':'fadeIn zoomBannerContainer hideOnMobile'}>
-                        <div className="zoomBanner">
-                            <a href={item.link} target="_blank" rel="noopener noreferrer"><img src={zoom} alt="Zoom icon" /></a>
-                            <p>{item.title}</p>
-                            <svg className="exit" onClick={this.exitBanner} width="20" viewBox="0 0 194 194" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <rect x="129.527" y="33.3604" width="43" height="136" transform="rotate(45 129.527 33.3604)" fill="#1C68B2"/>
-                                <rect x="33.3604" y="64.4731" width="43" height="136" transform="rotate(-45 33.3604 64.4731)" fill="#1C68B2"/>
-                            </svg>
-                        </div>
+        let month = now.getMonth();
+        if (month == 4) {
+            return (
+                <div className={this.state.exitedBanner?'fadeOut zoomBannerContainer hideOnMobile':'fadeIn zoomBannerContainer hideOnMobile'}>
+                    <div className="zoomBanner">
+                        <p>This month, we’re matching donations to AAPI groups. <a href="https://www.notion.so/Net-Impact-Berkeley-AAPI-Organizations-Donation-Matching-Campaign-5f39440223f0439686daa8d5ab56f169" target="_blank" rel="noopener noreferrer">Click here to read more and make a donation!</a></p>
+                        <svg className="exit" onClick={this.exitBanner} width="20" viewBox="0 0 194 194" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="129.527" y="33.3604" width="43" height="136" transform="rotate(45 129.527 33.3604)" fill="#1C68B2"/>
+                            <rect x="33.3604" y="64.4731" width="43" height="136" transform="rotate(-45 33.3604 64.4731)" fill="#1C68B2"/>
+                        </svg>
                     </div>
-                );
-            }
+                </div>
+            );
         }
     }
 
