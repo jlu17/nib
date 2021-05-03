@@ -7,12 +7,13 @@ import Projects from './projects';
 import Members from './members';
 import NotFound from './404';
 import FAQ from './faq';
-import Redirecting from './redirecting';
-import RedirectingPM from './redirecting-pm';
-import Footer from './components/footer';
-import NavBar from './components/navbar';
-import ScrollToTop from './components/ScrollToTop';
-import GA from './components/GoogleAnalytics';
+import Redirecting from 'redirecting';
+import RedirectingPM from 'redirecting-pm';
+import Footer from 'components/footer';
+import NavBar from 'components/navbar';
+import ScrollToTop from 'components/ScrollToTop';
+import GA from 'components/GoogleAnalytics';
+import Banner from 'components/banner';
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
@@ -25,6 +26,7 @@ function App() {
       <div>
       { GA.init() && <GA.RouteTracker /> }
         <NavBar />
+        <Banner />
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
